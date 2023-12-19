@@ -78,7 +78,7 @@ class MaskedAutoencoderViT(nn.Module):
             feat_size = (102,12)
         else:
             window_size= (4,4)
-            feat_size = (64,8)                
+            feat_size = (64,8) # NOTE: 384 if input 60 seconds, 64 if input 10 seconds
         if self.decoder_mode == 1:
             decoder_modules = []
             for index in range(16):
@@ -367,7 +367,7 @@ class MaskedAutoencoderViT(nn.Module):
 
         # add pos embed
         x = x + self.decoder_pos_embed
-        
+
         if self.decoder_mode != 0:
             B,L,D=x.shape
             x = x[:,1:,:]

@@ -39,12 +39,33 @@ class VisionTransformer(timm.models.vision_transformer.VisionTransformer):
 
     def forward_features(self, x):
         B = x.shape[0]
+        # print("BEFORE: ", x.shape)
+        # x: B, 1, mel_bin, time_len
+        # x: B, 1, time_len, mel_bin
+        PRE_TRAINED_LENGTH = 1024
+        ONE_MINUTE_SET = False
+        # if x.shape[2] == 6144: # one-minute recordings of crs
+        #     ONE_MINUTE_SET = True
+        #     num_sam = int(x.shape[2]/PRE_TRAINED_LENGTH) # was pre-trained with shape==1024
+        #     # print("NUM_SAM: ", num_sam)
+        #     x = x.reshape(x.shape[0], x.shape[1], PRE_TRAINED_LENGTH, num_sam, x.shape[3])
+        #     x = x.transpose(2,3) # B, 1, num_sam, PRE_TRAINED_LENGTH, mel_bin
+        #     x = x.transpose(1,2) # B, num_sam, 1, PRE_TRAINED_LENGTH, mel_bin
+        #     x = x.reshape(x.shape[0]*num_sam, x.shape[2], x.shape[3], x.shape[4]) # B*num_sam, 1, 1000, mel_bin
+        #     # print("AFTER: ", x.shape)
+
+        # print(x.shape)
         x = self.patch_embed(x)
+        # print(x.shape, self.pos_embed.shape)
         x = x + self.pos_embed[:, 1:, :]
+        # print(x.shape)
         cls_token = self.cls_token + self.pos_embed[:, :1, :]
+        # if ONE_MINUTE_SET:
+        #     cls_tokens = cls_token.expand(B*num_sam, -1, -1)  # stole cls_tokens impl from Phil Wang, thanks   
+        # else:
         cls_tokens = cls_token.expand(B, -1, -1)  # stole cls_tokens impl from Phil Wang, thanks
         x = torch.cat((cls_tokens, x), dim=1)
-        x = self.pos_drop(x)        
+        x = self.pos_drop(x)
 
         for blk in self.blocks:
             x = blk(x)
@@ -55,6 +76,10 @@ class VisionTransformer(timm.models.vision_transformer.VisionTransformer):
         else:
             x = self.norm(x)
             outcome = x[:, 0]
+
+        # if ONE_MINUTE_SET:
+            # outcome = outcome.reshape(B,num_sam,-1)
+            # outcome = torch.mean(outcome, dim=1)
 
         return outcome
 

@@ -20,7 +20,8 @@ from timm.utils import accuracy
 
 import util.misc as misc
 import util.lr_sched as lr_sched
-
+import numpy as np
+from util.stat import calculate_stats
 
 def train_one_epoch(model: torch.nn.Module, criterion: torch.nn.Module,
                     data_loader: Iterable, optimizer: torch.optim.Optimizer,
@@ -40,7 +41,7 @@ def train_one_epoch(model: torch.nn.Module, criterion: torch.nn.Module,
     if log_writer is not None:
         print('log_dir: {}'.format(log_writer.log_dir))
 
-    for data_iter_step, (samples, targets) in enumerate(metric_logger.log_every(data_loader, print_freq, header)):
+    for data_iter_step, (samples, targets, _) in enumerate(metric_logger.log_every(data_loader, print_freq, header)):
 
         # we use a per iteration (instead of per epoch) lr scheduler
         if data_iter_step % accum_iter == 0:
@@ -104,10 +105,12 @@ def evaluate(data_loader, model, device):
 
     # switch to evaluation mode
     model.eval()
+    outputs=[]
+    targets=[]
 
     for batch in metric_logger.log_every(data_loader, 10, header):
         images = batch[0]
-        target = batch[-1]
+        target = batch[1]
         images = images.to(device, non_blocking=True)
         target = target.to(device, non_blocking=True)
 
@@ -115,16 +118,42 @@ def evaluate(data_loader, model, device):
         with torch.cuda.amp.autocast():
             output = model(images)
             loss = criterion(output, target)
+            outputs.append(output)
+            targets.append(target)
 
-        acc1, acc5 = accuracy(output, target, topk=(1, 5))
+        acc1, acc2 = accuracy(output, target, topk=(1, 2))
 
         batch_size = images.shape[0]
         metric_logger.update(loss=loss.item())
         metric_logger.meters['acc1'].update(acc1.item(), n=batch_size)
-        metric_logger.meters['acc5'].update(acc5.item(), n=batch_size)
+        metric_logger.meters['acc2'].update(acc2.item(), n=batch_size)
     # gather the stats from all processes
     metric_logger.synchronize_between_processes()
-    print('* Acc@1 {top1.global_avg:.3f} Acc@5 {top5.global_avg:.3f} loss {losses.global_avg:.3f}'
-          .format(top1=metric_logger.acc1, top5=metric_logger.acc5, losses=metric_logger.loss))
+    print('* Acc@1 {top1.global_avg:.3f} Acc@2 {top2.global_avg:.3f} loss {losses.global_avg:.3f}'
+          .format(top1=metric_logger.acc1, top2=metric_logger.acc2, losses=metric_logger.loss))
 
-    return {k: meter.global_avg for k, meter in metric_logger.meters.items()}
+    outputs=torch.cat(outputs).cpu().numpy()
+    targets=torch.cat(targets).cpu().numpy()
+    # map from class index to one-hot encoding
+    targets_one_hot = np.zeros((targets.shape[0], outputs.shape[1]))
+    targets_one_hot[np.arange(targets.shape[0]), targets] = 1
+    targets = targets_one_hot
+    stats = calculate_stats(outputs, targets)
+    AP = [stat['AP'] for stat in stats]
+    mAP = np.mean([stat['AP'] for stat in stats])
+    mAUC = np.mean([stat['auc'] for stat in stats])
+    f1 = np.mean([stat['f1'] for stat in stats])
+    middle_ps = [stat['precisions'][int(len(stat['precisions'])/2)] for stat in stats]
+    middle_rs = [stat['recalls'][int(len(stat['recalls'])/2)] for stat in stats]
+    average_precision = np.mean(middle_ps)
+    average_recall = np.mean(middle_rs)
+    print("mAP: {:.6f}, mAUC: {:.6f}, f1: {:.6f}, pre: {:.6f}, rec: {:.6f}".format(mAP, mAUC, f1, average_precision, average_recall))
+
+    dct= {k: meter.global_avg for k, meter in metric_logger.meters.items()}
+    dct['mAP'] = mAP
+    dct['mAUC'] = mAUC
+    dct['f1'] = f1
+    dct['precision'] = average_precision
+    dct['recall'] = average_recall
+
+    return dct

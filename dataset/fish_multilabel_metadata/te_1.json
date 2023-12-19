@@ -1,0 +1,152 @@
+{
+  "data": [
+    {
+      "wav": "/mnt/data/tungtran/data/data_CRS/BaF1.1055R.805322778.180827.1.13.wav",
+      "labels": "Scrape,Whoop"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/data_CRS/BaF2.1733H.1677983769.180828.4.28.wav",
+      "labels": "Raspberry"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/data_CRS/BaF2.1733R.671907872.180828.2.23.wav",
+      "labels": "Scrape"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/data_CRS/BaF2.2333H.1677983769.180828.4.48.wav",
+      "labels": "Raspberry,Purr,Laugh"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/data_CRS/BaF2.2333R.671907872.180828.2.15.wav",
+      "labels": "Scrape,Raspberry"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/data_CRS/BaF4.1040H.1677983769.180830.4.35.wav",
+      "labels": "Scrape"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/data_CRS/BaF4.1040R.805322778.180830.1.2.wav",
+      "labels": "Knock"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/data_CRS/BaF5.2332H.671907872.180831.1.10.wav",
+      "labels": "Raspberry,Purr"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/data_CRS/BaN12.0529R.1677983769.180907.4.44.wav",
+      "labels": "Knock"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/data_CRS/BaN12.0915H.805322778.180907.5.59.wav",
+      "labels": "Scrape"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/data_CRS/BoF1.1315R.805322778.180827.4.49.wav",
+      "labels": "Knock,Scrape,Raspberry"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/data_CRS/BoF1.1328H.1678278701.180827.4.28.wav",
+      "labels": "Knock"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/data_CRS/BoF2.0930D.1678278701.180828.2.27.wav",
+      "labels": "Growl,Grunt"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/data_CRS/BoF3.1205R.1677983769.180829.1.11.wav",
+      "labels": "Growl,Scrape"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/data_CRS/BoF4.1300R.805322778.180830.1.12.wav",
+      "labels": "Scrape,Raspberry,Purr"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/data_CRS/BoF4.1733D.671907872.180830.4.40.wav",
+      "labels": "Croak"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/data_CRS/BoF4.1733R.805322778.180830.3.20.wav",
+      "labels": "Growl,Grunt,Scrape"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/data_CRS/BoF4.1733R.805322778.180830.4.22.wav",
+      "labels": "Grunt,Scrape,Raspberry"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/data_CRS/BoF4.2333H.1677983769.180830.5.54.wav",
+      "labels": "Knock,Raspberry,Purr,Croak"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/data_CRS/BoF4.2333R.805322778.180830.2.6.wav",
+      "labels": "Knock,Raspberry,Purr,Croak"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/data_CRS/BoF4.2333R.805322778.180830.4.30.wav",
+      "labels": "Growl,Knock,Raspberry,Purr,Croak,Hum"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/data_CRS/BoF5.0532D.671907872.180831.3.14.wav",
+      "labels": "Growl"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/data_CRS/BoF5.0532H.1677983769.180831.4.42.wav",
+      "labels": "Growl,Grunt,Purr"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/data_CRS/BoF5.0532R.805322778.180831.5.36.wav",
+      "labels": "Growl,Raspberry"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/data_CRS/BoF5.0940D.1677983769.180831.2.30.wav",
+      "labels": "Growl"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/data_CRS/BoN10.2359D.805322778.180905.3.42.wav",
+      "labels": "Croak"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/data_CRS/BoN10.2359D.805322778.180905.5.58.wav",
+      "labels": "Croak"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/data_CRS/BoN10.2359R.1677983769.180905.1.12.wav",
+      "labels": "Grunt,Croak"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/data_CRS/BoN11.0529R.1677983769.180906.4.45.wav",
+      "labels": "Growl,Knock,Whoop"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/data_CRS/BoN11.1103R.1677983769.180906.3.34.wav",
+      "labels": "Growl,Knock,Purr,Hum,Laugh"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/data_CRS/BoN11.1103R.1677983769.180906.5.50.wav",
+      "labels": "Knock,Scrape,Purr,Croak"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/data_CRS/BoN11.1200D.1678278701.180906.4.15.wav",
+      "labels": "Scrape"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/data_CRS/BoN11.1200D.1678278701.180906.5.20.wav",
+      "labels": "Knock,Scrape"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/data_CRS/BoN12.1220D.1678278701.180907.1.9.wav",
+      "labels": "Scrape"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/data_CRS/BoN12.1220R.1677983769.180907.4.46.wav",
+      "labels": "Scrape,Raspberry"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/data_CRS/SaF1.2333R.805322778.180827.3.25.wav",
+      "labels": "Croak"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/data_CRS/SaF2.0534D.1677983769.180828.3.26.wav",
+      "labels": "Knock"
+    }
+  ]
+}

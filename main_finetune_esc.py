@@ -40,6 +40,8 @@ import models_vit
 from engine_finetune import train_one_epoch, evaluate
 from dataset import AudiosetDataset
 from timm.models.vision_transformer import PatchEmbed
+import ast
+
 
 def get_args_parser():
     parser = argparse.ArgumentParser('MAE fine-tuning for image classification', add_help=False)
@@ -149,7 +151,7 @@ def get_args_parser():
     # distributed training parameters
     parser.add_argument('--world_size', default=1, type=int,
                         help='number of distributed processes')
-    parser.add_argument('--local_rank', default=-1, type=int)
+    parser.add_argument('--local-rank', default=-1, type=int)
     parser.add_argument('--dist_on_itp', action='store_true')
     parser.add_argument('--dist_url', default='env://',
                         help='url used to set up distributed training')
@@ -162,10 +164,15 @@ def get_args_parser():
     parser.add_argument('--freqm', help='frequency mask max length', type=int, default=96)
     parser.add_argument('--timem', help='time mask max length', type=int, default=24)
     #parser.add_argument("--mixup", type=float, default=0, help="how many (0-1) samples need to be mixup during training")
-    parser.add_argument("--dataset", type=str, default="audioset", help="the dataset used", choices=["audioset", "esc50", "speechcommands"])
-    parser.add_argument("--use_fbank", type=bool, default=False)
+    parser.add_argument("--dataset", type=str, default="audioset", help="the dataset used")
+    parser.add_argument("--use_fbank", type=ast.literal_eval, default=False)
     parser.add_argument("--fbank_dir", type=str, default="/checkpoint/berniehuang/ast/egs/esc50/data/ESC-50-master/fbank", help="fbank dir") 
     parser.set_defaults(audio_exp=True)
+
+    parser.add_argument('--use_custom_patch', type=ast.literal_eval, default=False, help='use custom patch with overlapping and override timm PatchEmbed')
+    parser.add_argument('--source_custom_patch', type=ast.literal_eval, default=False, help='the pre-trained model already use custom patch')
+    parser.add_argument('--save_weight', type=ast.literal_eval, default=True, help='whether to save model weight or not.')
+    parser.add_argument('--freeze_base_model', type=ast.literal_eval, default=False, help='freeze pre-trained part or not.')
 
     return parser
 
@@ -189,9 +196,9 @@ def main(args):
         dataset_train = build_dataset(is_train=True, args=args)
         dataset_val = build_dataset(is_train=False, args=args)
     else:
-        norm_stats = {'audioset':[-4.2677393, 4.5689974], 'esc50':[-6.6268077, 5.358466], 'speechcommands':[-6.845978, 5.5654526]}
-        target_length = {'audioset':1024, 'esc50':512, 'speechcommands':128}
-        multilabel_dataset = {'audioset': True, 'esc50': False, 'k400': False, 'speechcommands': True}
+        norm_stats = {'audioset':[-4.2677393, 4.5689974], 'esc50':[-6.6268077, 5.358466], 'speechcommands':[-6.845978, 5.5654526], 'crs': [-9.517333, 4.306908], 'fish_crs': [-9.441656, 4.2926426], 'crs_coral_chorus': [-9.894564, 4.1962166], 'crs_indo': [-9.148823, 4.4092674]}
+        target_length = {'audioset':1024, 'esc50':512, 'speechcommands':128, 'crs': 1024, 'fish_crs': 6144, 'crs_coral_chorus': 1024, 'crs_indo': 1024}
+        multilabel_dataset = {'audioset': True, 'esc50': False, 'k400': False, 'speechcommands': True, 'crs': False, 'fish_crs': True, 'crs_coral_chorus': False, 'crs_indo': False}
         audio_conf_train = {'num_mel_bins': 128, 
                       'target_length': target_length[args.dataset], 
                       'freqm': args.freqm,
@@ -296,10 +303,6 @@ def main(args):
                 print(f"Removing key {k} from pretrained checkpoint")
                 del checkpoint_model[k]
 
-
-
-
-
         if 0: #not args.audio_exp:	
             interpolate_pos_embed(model, checkpoint_model)	
         else: # override for audio_exp for now	
@@ -313,8 +316,8 @@ def main(args):
                 # imgnet-pt	
                 #interpolate_pos_embed_audio(model, checkpoint_model, orig_size=(14,14), new_size=(12,101))	
                 if args.source_custom_patch:	
-                    pass	
-                else:	
+                    pass
+                else:
                     interpolate_pos_embed_audio(model, checkpoint_model, orig_size=(8,64), new_size=(12,101))	
             else:	
                 # imgnet-pt	
@@ -334,7 +337,10 @@ def main(args):
         msg = model.load_state_dict(checkpoint_model, strict=False)
         print(msg)
 
-
+        if args.freeze_base_model:
+            for param in model.parameters():
+                param.requires_grad = False
+            model.head.requires_grad_(True)
 
 
         #if args.global_pool:
@@ -351,7 +357,7 @@ def main(args):
     n_parameters = sum(p.numel() for p in model.parameters() if p.requires_grad)
 
     print("Model = %s" % str(model_without_ddp))
-    print('number of params (M): %.2f' % (n_parameters / 1.e6))
+    print('number of params: %.2f (M)' % (n_parameters / 1.e6), n_parameters)
 
     eff_batch_size = args.batch_size * args.accum_iter * misc.get_world_size()
     
@@ -384,6 +390,8 @@ def main(args):
         criterion = SoftTargetCrossEntropy()
     elif args.smoothing > 0.:
         criterion = LabelSmoothingCrossEntropy(smoothing=args.smoothing)
+    elif multilabel_dataset[args.dataset]:
+        criterion = nn.BCEWithLogitsLoss()
     else:
         criterion = torch.nn.CrossEntropyLoss()
 
@@ -409,7 +417,7 @@ def main(args):
             log_writer=log_writer,
             args=args
         )
-        if args.output_dir:
+        if args.save_weight:
             misc.save_model(
                 args=args, model=model, model_without_ddp=model_without_ddp, optimizer=optimizer,
                 loss_scaler=loss_scaler, epoch=epoch)
@@ -421,7 +429,12 @@ def main(args):
 
         if log_writer is not None:
             log_writer.add_scalar('perf/test_acc1', test_stats['acc1'], epoch)
-            log_writer.add_scalar('perf/test_acc5', test_stats['acc5'], epoch)
+            log_writer.add_scalar('perf/test_acc2', test_stats['acc2'], epoch)
+            log_writer.add_scalar('perf/test_mAP', test_stats['mAP'], epoch)
+            log_writer.add_scalar('perf/test_mAUC', test_stats['mAUC'], epoch)
+            log_writer.add_scalar('perf/test_f1', test_stats['f1'], epoch)
+            log_writer.add_scalar('perf/test_precision', test_stats['precision'], epoch)
+            log_writer.add_scalar('perf/test_recall', test_stats['recall'], epoch)
             log_writer.add_scalar('perf/test_loss', test_stats['loss'], epoch)
 
         log_stats = {**{f'train_{k}': v for k, v in train_stats.items()},

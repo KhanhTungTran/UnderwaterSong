@@ -43,6 +43,7 @@ from dataset import AudiosetDataset, DistributedWeightedSampler, DistributedSamp
 from timm.models.vision_transformer import PatchEmbed
 
 from torch.utils.data import WeightedRandomSampler
+import ast
 
 def get_args_parser():
     parser = argparse.ArgumentParser('MAE fine-tuning for image classification', add_help=False)
@@ -129,6 +130,7 @@ def get_args_parser():
 
     parser.add_argument('--output_dir', default='./output_dir',
                         help='path where to save, empty for no saving')
+    parser.add_argument('--save_weight', type=ast.literal_eval, default=True, help='whether to save model weight or not.')
     parser.add_argument('--log_dir', default='./output_dir',
                         help='path where to tensorboard log')
     parser.add_argument('--device', default='cuda',
@@ -152,7 +154,7 @@ def get_args_parser():
     # distributed training parameters
     parser.add_argument('--world_size', default=1, type=int,
                         help='number of distributed processes')
-    parser.add_argument('--local_rank', default=-1, type=int)
+    parser.add_argument('--local-rank', default=-1, type=int)
     parser.add_argument('--dist_on_itp', action='store_true')
     parser.add_argument('--dist_url', default='env://',
                         help='url used to set up distributed training')
@@ -167,29 +169,29 @@ def get_args_parser():
     parser.add_argument('--freqm', help='frequency mask max length', type=int, default=192)
     parser.add_argument('--timem', help='time mask max length', type=int, default=48)
     #parser.add_argument("--mixup", type=float, default=0, help="how many (0-1) samples need to be mixup during training")
-    parser.add_argument("--dataset", type=str, default="audioset", help="the dataset used", choices=["audioset", "esc50", "speechcommands", "k400"])
-    parser.add_argument("--use_fbank", type=bool, default=False)
-    parser.add_argument("--use_soft", type=bool, default=False)
+    parser.add_argument("--dataset", type=str, default="audioset", help="the dataset used")
+    parser.add_argument("--use_fbank", type=ast.literal_eval, default=False)
+    parser.add_argument("--use_soft", type=ast.literal_eval, default=False)
     parser.add_argument("--fbank_dir", type=str, default="/checkpoint/berniehuang/ast/egs/esc50/data/ESC-50-master/fbank", help="fbank dir") 
     parser.set_defaults(audio_exp=True)
-    #parser.add_argument("--distributed", type=bool, default=True)
+    #parser.add_argument("--distributed", type=ast.literal_eval, default=True)
     parser.add_argument('--first_eval_ep', default=0, type=int, help='do eval after first_eval_ep')
-    parser.add_argument('--use_custom_patch', type=bool, default=False, help='use custom patch with overlapping and override timm PatchEmbed')
-    parser.add_argument('--source_custom_patch', type=bool, default=False, help='the pre-trained model already use custom patch')
-    parser.add_argument('--roll_mag_aug', type=bool, default=False, help='use roll_mag_aug')
+    parser.add_argument('--use_custom_patch', type=ast.literal_eval, default=False, help='use custom patch with overlapping and override timm PatchEmbed')
+    parser.add_argument('--source_custom_patch', type=ast.literal_eval, default=False, help='the pre-trained model already use custom patch')
+    parser.add_argument('--roll_mag_aug', type=ast.literal_eval, default=False, help='use roll_mag_aug')
     parser.add_argument('--mask_t_prob', default=0.0, type=float, help='T masking ratio (percentage of removed patches).') #  
     parser.add_argument('--mask_f_prob', default=0.0, type=float, help='F masking ratio (percentage of removed patches).') #  
-    #parser.add_argument('--split_pos', type=bool, default=False, help='use splitted pos emb')
-    parser.add_argument('--weight_sampler', type=bool, default=False, help='use weight_sampler')
+    #parser.add_argument('--split_pos', type=ast.literal_eval, default=False, help='use splitted pos emb')
+    parser.add_argument('--weight_sampler', type=ast.literal_eval, default=False, help='use weight_sampler')
     parser.add_argument('--epoch_len', default=200000, type=int, help='num of samples/epoch with weight_sampler')
-    parser.add_argument('--distributed_wrapper', type=bool, default=False, help='use distributedwrapper for weighted sampler')
-    parser.add_argument('--replacement', type=bool, default=False, help='use weight_sampler')
-    parser.add_argument('--mask_2d', type=bool, default=True, help='use 2d masking')
-    parser.add_argument('--load_video', type=bool, default=False, help='load video')
-    parser.add_argument('--av_fusion', type=bool, default=False, help='load video')
+    parser.add_argument('--distributed_wrapper', type=ast.literal_eval, default=False, help='use distributedwrapper for weighted sampler')
+    parser.add_argument('--replacement', type=ast.literal_eval, default=False, help='use weight_sampler')
+    parser.add_argument('--mask_2d', type=ast.literal_eval, default=True, help='use 2d masking')
+    parser.add_argument('--load_video', type=ast.literal_eval, default=False, help='load video')
+    parser.add_argument('--av_fusion', type=ast.literal_eval, default=False, help='load video')
     parser.add_argument('--n_frm', default=6, type=int, help='num of frames for video')
-    parser.add_argument('--replace_with_mae', type=bool, default=False, help='replace_with_mae')
-    parser.add_argument('--load_imgnet_pt', type=bool, default=False, help='when img_pt_ckpt, if load_imgnet_pt, use img_pt_ckpt to initialize audio branch, if not, keep audio branch random')
+    parser.add_argument('--replace_with_mae', type=ast.literal_eval, default=False, help='replace_with_mae')
+    parser.add_argument('--load_imgnet_pt', type=ast.literal_eval, default=False, help='when img_pt_ckpt, if load_imgnet_pt, use img_pt_ckpt to initialize audio branch, if not, keep audio branch random')
     return parser
 
 
@@ -201,6 +203,8 @@ class PatchEmbed_new(nn.Module):
         img_size = to_2tuple(img_size)
         patch_size = to_2tuple(patch_size)
         stride = to_2tuple(stride)
+        # if img_size[0] == 6144:
+        #     img_size = (1024, img_size[1])
         
         self.img_size = img_size
         self.patch_size = patch_size
@@ -247,10 +251,9 @@ def main(args):
         dataset_train = build_dataset(is_train=True, args=args)
         dataset_val = build_dataset(is_train=False, args=args)
     else:
-        norm_stats = {'audioset':[-4.2677393, 4.5689974], 'k400':[-4.2677393, 4.5689974], 
-                      'esc50':[-6.6268077, 5.358466], 'speechcommands':[-6.845978, 5.5654526]}
-        target_length = {'audioset':1024, 'k400':1024, 'esc50':512, 'speechcommands':128}
-        multilabel_dataset = {'audioset': True, 'esc50': False, 'k400': False, 'speechcommands': True}
+        norm_stats = {'audioset':[-4.2677393, 4.5689974], 'esc50':[-6.6268077, 5.358466], 'speechcommands':[-6.845978, 5.5654526], 'crs': [-9.517333, 4.306908], 'fish_crs': [-9.441656, 4.2926426]}
+        target_length = {'audioset':1024, 'esc50':512, 'speechcommands':128, 'crs': 1024, 'fish_crs': 6144}
+        multilabel_dataset = {'audioset': True, 'esc50': False, 'k400': False, 'speechcommands': True, 'crs': False, 'fish_crs': True}
         audio_conf_train = {'num_mel_bins': 128, 
                       'target_length': target_length[args.dataset], 
                       'freqm': 48,
@@ -384,6 +387,7 @@ def main(args):
             num_patches = model.patch_embed.num_patches
             #num_patches = 512 # assume audioset, 1024//16=64, 128//16=8, 512=64x8
             model.pos_embed = nn.Parameter(torch.zeros(1, num_patches + 1, emb_dim), requires_grad=False)  # fixed sin-cos embedding
+            print("NUM PATCHES: ", num_patches)
 
     #if args.finetune and not args.eval:
     if args.finetune:
@@ -453,7 +457,7 @@ def main(args):
             aps=test_stats['AP']
             aps=[str(ap) for ap in aps]
             fp.write('\n'.join(aps))
-        print(f"Accuracy of the network on the {len(dataset_val)} test images: {test_stats['mAP']:.4f}")
+        print(f"Accuracy of the network on the {len(dataset_val)} test images: mAP={test_stats['mAP']:.4f}, mAUC={test_stats['mAUC']:.4f}, f1={test_stats['f1']:.4f}")
         exit(0)
 
     print(f"Start training for {args.epochs} epochs")
@@ -479,13 +483,14 @@ def main(args):
                 log_writer=log_writer,
                 args=args
             )
-        if args.output_dir:
+        if args.save_weight:
+            print("HERE", args.save_weight)
             misc.save_model(
                 args=args, model=model, model_without_ddp=model_without_ddp, optimizer=optimizer,
                 loss_scaler=loss_scaler, epoch=epoch)
         if epoch >= args.first_eval_ep:
             test_stats = evaluate(data_loader_val, model, device, args.dist_eval)
-            print(f"mAP of the network on the {len(dataset_val)} test images: {test_stats['mAP']:.4f}")
+            print(f"mAP of the network on the {len(dataset_val)} test images: mAP={test_stats['mAP']:.4f}, mAUC={test_stats['mAUC']:.4f}, f1={test_stats['f1']:.4f}")
             max_mAP = max(max_mAP, test_stats["mAP"])
             print(f'Max mAP: {max_mAP:.4f}')
         else:
@@ -494,6 +499,8 @@ def main(args):
 
         if log_writer is not None:
             log_writer.add_scalar('perf/mAP', test_stats['mAP'], epoch)
+            log_writer.add_scalar('perf/mAUC', test_stats['mAUC'], epoch)
+            log_writer.add_scalar('perf/f1', test_stats['f1'], epoch)
 
         log_stats = {**{f'train_{k}': v for k, v in train_stats.items()},
                         **{f'test_{k}': v for k, v in test_stats.items()},

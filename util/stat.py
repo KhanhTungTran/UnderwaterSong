@@ -46,7 +46,15 @@ def calculate_stats(output, target):
             target[:, k], output[:, k], average=None)
 
         # AUC
-        auc = metrics.roc_auc_score(target[:, k], output[:, k], average=None)
+        try:
+            auc = metrics.roc_auc_score(target[:, k], output[:, k], average=None)
+        except Exception as e:
+            auc = 0
+
+        # F1
+        target_i = np.argmax(target, axis=1)
+        output_i = np.argmax(output, axis=1)
+        f1 = metrics.f1_score(target_i, output_i, average=None)
 
         # Precisions, recalls
         (precisions, recalls, thresholds) = metrics.precision_recall_curve(
@@ -63,7 +71,8 @@ def calculate_stats(output, target):
                 'fnr': 1. - tpr[0::save_every_steps],
                 'auc': auc,
                 # note acc is not class-wise, this is just to keep consistent with other metrics
-                'acc': acc
+                'acc': acc,
+                'f1': f1
                 }
         stats.append(dict)
 

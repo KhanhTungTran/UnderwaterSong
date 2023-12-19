@@ -1,0 +1,724 @@
+{
+  "data": [
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF3.2333D.805322778.180829_chunk_347.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaN11.0940R.1677983769.180906_chunk_113.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF4.0533R.1677983769.180830_chunk_166.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF1.1733R.805322778.180827_chunk_148.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaN10.1345R.1678278701.180905_chunk_269.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF5.1202R.1678278701.180831_chunk_33.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF5.1125R.1678278701.180831_chunk_268.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF4.0533D.805322778.180830_chunk_59.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaN11.0940D.1678278701.180906_chunk_84.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF2.0534R.805322778.180828_chunk_116.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF3.1355D.805322778.180829_chunk_22.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF4.0902R.805322778.180830_chunk_314.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF2.0534R.805322778.180828_chunk_85.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF3.1733R.1677983769.180829_chunk_327.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF4.0533R.1677983769.180830_chunk_161.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF1.1733R.805322778.180827_chunk_49.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF4.0902R.805322778.180830_chunk_1.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF3.2333R.1677983769.180829_chunk_276.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF4.0902D.671907872.180830_chunk_97.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF1.1733R.805322778.180827_chunk_31.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF4.0902R.805322778.180830_chunk_98.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF5.1202R.1678278701.180831_chunk_143.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF3.1355D.805322778.180829_chunk_166.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF1.2333R.805322778.180827_chunk_121.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF1.1733R.805322778.180827_chunk_149.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF1.1733R.805322778.180827_chunk_91.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF5.1125R.1678278701.180831_chunk_299.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF4.0902R.805322778.180830_chunk_57.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF3.2333R.1677983769.180829_chunk_263.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF2.0534D.1677983769.180828_chunk_10.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF4.0902R.805322778.180830_chunk_80.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF1.2333R.805322778.180827_chunk_349.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF4.0902R.805322778.180830_chunk_151.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF2.0534R.805322778.180828_chunk_223.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF1.2333R.805322778.180827_chunk_148.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF3.1733R.1677983769.180829_chunk_100.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF5.1125D.1677983769.180831_chunk_49.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF2.1112R.671907872.180828_chunk_78.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaN11.0940R.1677983769.180906_chunk_83.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaN11.0940D.1678278701.180906_chunk_180.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF5.1202D.1677983769.180831_chunk_127.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaN10.1345R.1678278701.180905_chunk_120.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF4.0902D.671907872.180830_chunk_40.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF5.1202D.1677983769.180831_chunk_120.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF1.1733R.805322778.180827_chunk_1.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaN11.0940D.1678278701.180906_chunk_237.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF2.0534R.805322778.180828_chunk_93.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaN11.0940D.1678278701.180906_chunk_62.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF2.1112R.671907872.180828_chunk_325.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF3.1355D.805322778.180829_chunk_306.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF2.1203D.1678278701.180828_chunk_63.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF1.1733R.805322778.180827_chunk_130.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF1.1733R.805322778.180827_chunk_325.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF5.1125D.1677983769.180831_chunk_129.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF4.0902D.671907872.180830_chunk_305.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF4.0902R.805322778.180830_chunk_29.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF2.1203R.671907872.180828_chunk_161.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF2.0534R.805322778.180828_chunk_19.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF3.1733D.805322778.180829_chunk_244.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF5.1202R.1678278701.180831_chunk_63.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF3.1355D.805322778.180829_chunk_297.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF2.1203D.1678278701.180828_chunk_301.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF5.1202R.1678278701.180831_chunk_96.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF4.0533D.805322778.180830_chunk_125.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF2.1203R.671907872.180828_chunk_79.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF5.1202D.1677983769.180831_chunk_154.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF1.1733D.1677983769.180827_chunk_178.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF5.1125R.1678278701.180831_chunk_307.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF1.1733R.805322778.180827_chunk_118.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF1.1733D.1677983769.180827_chunk_134.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF1.2333R.805322778.180827_chunk_144.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF5.1125R.1678278701.180831_chunk_125.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF3.2333D.805322778.180829_chunk_121.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaN10.1345D.1677983769.180905_chunk_54.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF1.2333D.1677983769.180827_chunk_172.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF1.2333R.805322778.180827_chunk_11.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF3.1733R.1677983769.180829_chunk_179.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF5.1125R.1678278701.180831_chunk_128.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF4.0902R.805322778.180830_chunk_173.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF3.1733R.1677983769.180829_chunk_273.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF5.1125R.1678278701.180831_chunk_141.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaN11.0940R.1677983769.180906_chunk_247.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaN11.0940R.1677983769.180906_chunk_28.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaN10.1345R.1678278701.180905_chunk_151.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF3.2333D.805322778.180829_chunk_52.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF3.1355R.1677983769.180829_chunk_355.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF1.2333D.1677983769.180827_chunk_188.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF3.1733R.1677983769.180829_chunk_141.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF4.0902R.805322778.180830_chunk_288.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF2.0534D.1677983769.180828_chunk_207.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaN10.1345D.1677983769.180905_chunk_118.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF3.2333D.805322778.180829_chunk_181.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF2.0534D.1677983769.180828_chunk_35.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF3.1733D.805322778.180829_chunk_298.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF5.1125D.1677983769.180831_chunk_292.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF2.0534R.805322778.180828_chunk_238.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF3.1355R.1677983769.180829_chunk_73.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaN10.1345D.1677983769.180905_chunk_106.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF2.1112D.1678278701.180828_chunk_180.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaN11.0940R.1677983769.180906_chunk_123.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF3.2333R.1677983769.180829_chunk_21.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF5.1125R.1678278701.180831_chunk_6.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF2.1112D.1678278701.180828_chunk_264.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF4.0533D.805322778.180830_chunk_214.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF4.0533R.1677983769.180830_chunk_271.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF2.1203R.671907872.180828_chunk_322.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF2.1112R.671907872.180828_chunk_237.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF5.1125R.1678278701.180831_chunk_109.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF4.0902R.805322778.180830_chunk_262.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF3.1733D.805322778.180829_chunk_205.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF1.2333D.1677983769.180827_chunk_234.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF2.0534R.805322778.180828_chunk_157.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF2.0534R.805322778.180828_chunk_306.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF1.2333R.805322778.180827_chunk_157.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF1.1733D.1677983769.180827_chunk_321.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF2.1203D.1678278701.180828_chunk_80.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF2.0534R.805322778.180828_chunk_254.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaN11.0940R.1677983769.180906_chunk_139.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF5.1125D.1677983769.180831_chunk_164.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF3.1355R.1677983769.180829_chunk_221.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF3.2333R.1677983769.180829_chunk_145.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF3.1733R.1677983769.180829_chunk_19.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF3.1355R.1677983769.180829_chunk_317.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF2.1203R.671907872.180828_chunk_123.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaN11.0940D.1678278701.180906_chunk_48.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF4.0533D.805322778.180830_chunk_288.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF5.1125R.1678278701.180831_chunk_360.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaN11.0940R.1677983769.180906_chunk_348.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF4.0533R.1677983769.180830_chunk_344.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF3.1733R.1677983769.180829_chunk_105.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF3.2333D.805322778.180829_chunk_103.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF5.1202R.1678278701.180831_chunk_101.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF2.1112D.1678278701.180828_chunk_142.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF2.1203D.1678278701.180828_chunk_337.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF2.1203D.1678278701.180828_chunk_233.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF5.1125D.1677983769.180831_chunk_69.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF3.1355R.1677983769.180829_chunk_66.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF2.1112D.1678278701.180828_chunk_10.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF5.1202R.1678278701.180831_chunk_234.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF4.0902R.805322778.180830_chunk_208.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF4.0533R.1677983769.180830_chunk_61.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF1.2333R.805322778.180827_chunk_254.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF3.1733R.1677983769.180829_chunk_46.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF2.0534D.1677983769.180828_chunk_108.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF5.1202D.1677983769.180831_chunk_110.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF2.0534D.1677983769.180828_chunk_289.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF2.1112R.671907872.180828_chunk_261.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF2.1203R.671907872.180828_chunk_226.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF4.0533R.1677983769.180830_chunk_60.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF4.0902R.805322778.180830_chunk_218.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF4.0902R.805322778.180830_chunk_128.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF1.2333R.805322778.180827_chunk_9.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF2.1203D.1678278701.180828_chunk_251.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF4.0902R.805322778.180830_chunk_217.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF2.0534D.1677983769.180828_chunk_132.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF4.0902D.671907872.180830_chunk_264.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF5.1202R.1678278701.180831_chunk_76.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF4.0533R.1677983769.180830_chunk_194.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF3.2333R.1677983769.180829_chunk_309.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaN10.1345D.1677983769.180905_chunk_1.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF4.0533R.1677983769.180830_chunk_306.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF3.2333R.1677983769.180829_chunk_70.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF3.2333R.1677983769.180829_chunk_259.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF5.1125R.1678278701.180831_chunk_151.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF3.1733D.805322778.180829_chunk_255.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF3.2333D.805322778.180829_chunk_257.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaN10.1345R.1678278701.180905_chunk_220.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaN10.1345D.1677983769.180905_chunk_2.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF1.2333D.1677983769.180827_chunk_50.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF2.1112D.1678278701.180828_chunk_175.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF3.2333R.1677983769.180829_chunk_63.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF4.0902D.671907872.180830_chunk_93.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF4.0902D.671907872.180830_chunk_120.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF2.0534R.805322778.180828_chunk_137.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF1.2333R.805322778.180827_chunk_69.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF4.0902R.805322778.180830_chunk_184.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF1.1733R.805322778.180827_chunk_255.wav",
+      "labels": "R"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF5.1202D.1677983769.180831_chunk_117.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF1.2333D.1677983769.180827_chunk_65.wav",
+      "labels": "D"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/indonesia_hour_long_split/SaF4.0533R.1677983769.180830_chunk_313.wav",
+      "labels": "R"
+    }
+  ]
+}

@@ -89,7 +89,7 @@ def get_args_parser():
 
     parser.add_argument('--start_epoch', default=0, type=int, metavar='N',
                         help='start epoch')
-    parser.add_argument('--num_workers', default=10, type=int)
+    parser.add_argument('--num_workers', default=8, type=int)
     parser.add_argument('--pin_mem', action='store_true',
                         help='Pin CPU memory in DataLoader for more efficient (sometimes) transfer to GPU.')
     parser.add_argument('--no_pin_mem', action='store_false', dest='pin_mem')
@@ -98,7 +98,7 @@ def get_args_parser():
     # distributed training parameters
     parser.add_argument('--world_size', default=1, type=int,
                         help='number of distributed processes')
-    parser.add_argument('--local_rank', default=-1, type=int)
+    parser.add_argument('--local-rank', default=-1, type=int)
     parser.add_argument('--dist_on_itp', action='store_true')
     parser.add_argument('--dist_url', default='env://',
                         help='url used to set up distributed training')
@@ -114,7 +114,7 @@ def get_args_parser():
     parser.add_argument('--freqm', help='frequency mask max length', type=int, default=0) # pretraining 0
     parser.add_argument('--timem', help='time mask max length', type=int, default=0) # pretraining 0
     parser.add_argument("--mixup", type=float, default=0, help="how many (0-1) samples need to be mixup during training")
-    parser.add_argument("--dataset", type=str, default="audioset", help="dataset", choices=["audioset", "esc50", "speechcommands"])
+    parser.add_argument("--dataset", type=str, default="audioset", help="dataset")
     parser.add_argument("--use_fbank", type=bool, default=False)
     parser.add_argument("--fbank_dir", type=str, default="/checkpoint/berniehuang/ast/egs/esc50/data/ESC-50-master/fbank", help="fbank dir")
     parser.add_argument("--alpha", type=float, default=0.0, help="contrastive loss weight")
@@ -122,7 +122,7 @@ def get_args_parser():
     parser.add_argument('--mode', default=0, type=int,help='contrastive mode')
     parser.add_argument('--save_every_epoch', default=20, type=int,help='save_every_epoch')
     parser.add_argument('--use_custom_patch', type=bool, default=False, help='use custom patch and override timm PatchEmbed')
-    #parser.add_argument("--distributed", type=bool, default=True)
+    parser.add_argument("--distributed", type=bool, default=False)
     parser.add_argument('--roll_mag_aug', type=bool, default=False, help='use roll_mag_aug')	
     parser.add_argument('--split_pos', type=bool, default=False, help='use splitted pos emb')	
     parser.add_argument('--pos_trainable', type=bool, default=False, help='use trainable pos emb')	
@@ -171,9 +171,12 @@ def main(args):
             transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])])
         dataset_train = datasets.ImageFolder(os.path.join(args.data_path, 'train'), transform=transform_train)
     else:
-        norm_stats = {'audioset':[-4.2677393, 4.5689974], 'esc50':[-6.6268077, 5.358466], 'speechcommands':[-6.845978, 5.5654526]}
-        target_length = {'audioset':1024, 'esc50':512, 'speechcommands':128}
-        multilabel_dataset = {'audioset': True, 'esc50': False, 'k400': False, 'speechcommands': True}
+        # norm_stats = {'audioset':[-4.2677393, 4.5689974], 'esc50':[-6.6268077, 5.358466], 'speechcommands':[-6.845978, 5.5654526]}
+        # target_length = {'audioset':1024, 'esc50':512, 'speechcommands':128}
+        # multilabel_dataset = {'audioset': True, 'esc50': False, 'k400': False, 'speechcommands': True}
+        norm_stats = {'crs': [-9.517333, 4.306908], 'crs_60sec': [-9.524903, 4.316856], 'crs_coral_chorus': [-9.894564, 4.1962166], 'crs_indo': [-9.148823, 4.4092674]}
+        target_length = {'crs': 1024, 'crs_60sec': 6144, 'crs_coral_chorus': 1024, 'crs_indo': 1024}
+        multilabel_dataset = {'crs': False, 'crs_60sec': False, 'crs_coral_chorus': False, 'crs_indo': False}
         audio_conf = {'num_mel_bins': 128, 
                       'target_length': target_length[args.dataset], 
                       'freqm': args.freqm,
@@ -189,7 +192,8 @@ def main(args):
                                         load_video=args.load_video)
     #print(dataset_train)
 
-    if True:  # args.distributed:
+    # if True:  # args.distributed:
+    if args.distributed:
         num_tasks = misc.get_world_size()
         global_rank = misc.get_rank()
         sampler_train = torch.utils.data.DistributedSampler(
@@ -197,6 +201,7 @@ def main(args):
         )
         print("Sampler_train = %s" % str(sampler_train))
     else:
+        global_rank = 0
         sampler_train = torch.utils.data.RandomSampler(dataset_train)
 
     if global_rank == 0 and args.log_dir is not None:

@@ -1,0 +1,2872 @@
+{
+  "data": [
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170728013054_chunk_4.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170728055545_chunk_6.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726161815_chunk_1.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726170935_chunk_5.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727064651_chunk_6.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727105428_chunk_2.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170728054054_chunk_5.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726002926_chunk_1.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170728005154_chunk_3.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170728044621_chunk_5.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727093251_chunk_6.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727033431_chunk_1.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727063351_chunk_3.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170728050621_chunk_2.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726135935_chunk_3.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726140935_chunk_2.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727181826_chunk_6.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727075602_chunk_6.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726172415_chunk_4.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727182447_chunk_1.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170728034221_chunk_1.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726063438_chunk_6.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170728071219_chunk_3.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726075438_chunk_2.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727053453_chunk_4.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727204947_chunk_2.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727095528_chunk_2.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726020943_chunk_3.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727161726_chunk_1.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726012415_chunk_1.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726014626_chunk_4.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726185210_chunk_4.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726011843_chunk_1.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726072520_chunk_5.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727061931_chunk_4.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727181859_chunk_3.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726144715_chunk_6.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726174935_chunk_6.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726210533_chunk_5.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726193257_chunk_3.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726112038_chunk_3.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726020043_chunk_3.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170728051454_chunk_4.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726092738_chunk_3.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727012631_chunk_4.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726023815_chunk_2.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726234810_chunk_1.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726221633_chunk_6.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727183147_chunk_4.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726224910_chunk_3.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726114838_chunk_1.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170728001247_chunk_4.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726142535_chunk_4.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727155459_chunk_3.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727153926_chunk_3.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726052615_chunk_4.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727222823_chunk_4.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727222723_chunk_5.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727181449_chunk_2.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170728003021_chunk_4.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727092151_chunk_6.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726060426_chunk_2.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727225956_chunk_1.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727132459_chunk_5.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726000646_chunk_3.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726215757_chunk_6.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726001237_chunk_6.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727023753_chunk_6.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726203057_chunk_3.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726002515_chunk_5.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726221733_chunk_3.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726065238_chunk_5.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170728024745_chunk_6.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727195156_chunk_6.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726125835_chunk_4.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726010926_chunk_1.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727151526_chunk_5.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170728001147_chunk_2.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727053953_chunk_4.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727184147_chunk_5.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727104002_chunk_6.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727021606_chunk_1.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726044543_chunk_3.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726023715_chunk_4.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727020131_chunk_2.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170728012954_chunk_6.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170728003254_chunk_2.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726104238_chunk_3.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170728034345_chunk_4.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727144749_chunk_4.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170728004421_chunk_6.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170728013845_chunk_4.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726143500_chunk_2.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726224810_chunk_6.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170728050921_chunk_4.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727102828_chunk_1.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727203147_chunk_1.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727050231_chunk_2.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726024143_chunk_3.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727034153_chunk_2.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727175449_chunk_1.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727215723_chunk_2.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727210056_chunk_6.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727013953_chunk_5.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726134335_chunk_3.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727033631_chunk_5.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727092328_chunk_1.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726185033_chunk_4.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726091320_chunk_5.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726181957_chunk_6.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170728025921_chunk_6.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726141335_chunk_6.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727021931_chunk_1.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726183757_chunk_1.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170728072843_chunk_1.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727110028_chunk_5.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726211357_chunk_2.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170728025845_chunk_5.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727134959_chunk_5.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727052306_chunk_4.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727093702_chunk_4.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726222357_chunk_6.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726152335_chunk_1.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726215057_chunk_5.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727095002_chunk_4.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726192157_chunk_1.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727154349_chunk_6.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727043431_chunk_1.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727050006_chunk_2.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727203523_chunk_5.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726032115_chunk_6.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726072938_chunk_5.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727121949_chunk_1.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726195910_chunk_3.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726200010_chunk_4.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727163459_chunk_3.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727140926_chunk_5.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726202233_chunk_4.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726194257_chunk_2.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726154015_chunk_3.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170728031521_chunk_4.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727084351_chunk_2.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170728075543_chunk_3.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726123435_chunk_6.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726214357_chunk_6.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170728051945_chunk_2.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170728014954_chunk_1.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727004053_chunk_5.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726052426_chunk_5.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727101051_chunk_1.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726223133_chunk_5.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726185457_chunk_6.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726080706_chunk_6.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170728013554_chunk_2.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726131600_chunk_1.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727190356_chunk_6.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726113320_chunk_6.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727145649_chunk_3.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726111706_chunk_2.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726114520_chunk_5.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170728071343_chunk_6.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726103420_chunk_1.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727060206_chunk_3.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727054406_chunk_3.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726145800_chunk_4.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727220947_chunk_4.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726200057_chunk_6.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727033531_chunk_6.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727075102_chunk_5.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726144835_chunk_3.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726055243_chunk_3.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170728021054_chunk_6.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727225147_chunk_6.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727210856_chunk_1.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170728043321_chunk_6.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727195547_chunk_6.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726150215_chunk_3.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726105838_chunk_2.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170728075519_chunk_2.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727094828_chunk_4.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726020026_chunk_6.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727072902_chunk_4.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727051306_chunk_2.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726134715_chunk_4.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726211133_chunk_1.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726162515_chunk_6.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727121128_chunk_2.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727094002_chunk_1.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170728052445_chunk_1.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727222647_chunk_2.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726093938_chunk_5.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727171959_chunk_6.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727134359_chunk_4.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727200456_chunk_3.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727224247_chunk_2.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727013606_chunk_5.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170728002345_chunk_5.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170728055321_chunk_4.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726051326_chunk_5.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726144900_chunk_1.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170728053021_chunk_6.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726200710_chunk_5.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727070551_chunk_5.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726051426_chunk_3.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727113528_chunk_6.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170728071652_chunk_4.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727024406_chunk_5.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726134335_chunk_5.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726204410_chunk_3.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727082028_chunk_5.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727084902_chunk_5.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727010931_chunk_1.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727192556_chunk_1.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727082928_chunk_5.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170728005745_chunk_4.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726065120_chunk_1.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726231833_chunk_3.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727223356_chunk_5.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170728025821_chunk_2.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727130959_chunk_5.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726154400_chunk_6.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727130059_chunk_1.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727181249_chunk_6.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727232547_chunk_2.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170728080043_chunk_6.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170728065319_chunk_5.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727002853_chunk_3.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170728033954_chunk_5.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727024106_chunk_2.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727045631_chunk_2.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727203547_chunk_2.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727061706_chunk_6.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170728055221_chunk_6.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727124726_chunk_6.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727000957_chunk_5.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726150735_chunk_5.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726075620_chunk_5.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727055953_chunk_1.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726132535_chunk_2.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726130915_chunk_4.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727152826_chunk_3.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727162649_chunk_3.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170728041321_chunk_5.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727190123_chunk_6.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727094151_chunk_2.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727093628_chunk_4.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726231010_chunk_1.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726231010_chunk_5.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726215810_chunk_3.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727041353_chunk_3.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727014853_chunk_1.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170728023254_chunk_5.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727135749_chunk_5.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726183733_chunk_1.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726103306_chunk_1.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727203047_chunk_1.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726035343_chunk_3.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727081551_chunk_5.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170728065319_chunk_6.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727163559_chunk_2.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727000910_chunk_2.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727205323_chunk_1.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170728051245_chunk_6.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726055215_chunk_2.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726040015_chunk_1.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170728012254_chunk_3.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727054031_chunk_6.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726012315_chunk_4.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727090051_chunk_4.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727213756_chunk_3.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726183933_chunk_3.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726025415_chunk_2.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726121406_chunk_3.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726123915_chunk_5.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726135700_chunk_5.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170728063443_chunk_5.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727234356_chunk_4.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170728061345_chunk_3.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727100851_chunk_6.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727142149_chunk_4.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726120938_chunk_3.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727130226_chunk_2.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726154500_chunk_5.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170728022554_chunk_3.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726042543_chunk_2.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726105320_chunk_1.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727120302_chunk_4.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726212633_chunk_2.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170728051021_chunk_2.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726115520_chunk_4.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170728060745_chunk_5.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727062551_chunk_5.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727025131_chunk_2.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726225157_chunk_3.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726080406_chunk_4.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170728062519_chunk_2.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726183733_chunk_6.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727201656_chunk_4.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726021326_chunk_1.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726171735_chunk_3.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170728061045_chunk_1.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726011215_chunk_1.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170728041621_chunk_3.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727160026_chunk_2.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726033543_chunk_5.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727164759_chunk_1.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727073251_chunk_4.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726015343_chunk_5.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727102651_chunk_2.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726212557_chunk_1.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727233623_chunk_2.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727111528_chunk_3.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726110938_chunk_5.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726062538_chunk_4.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726175235_chunk_1.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726065538_chunk_5.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726224533_chunk_5.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170728033845_chunk_3.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726152615_chunk_4.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727215347_chunk_1.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727162459_chunk_4.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727195647_chunk_1.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726224257_chunk_1.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726173300_chunk_2.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727201456_chunk_6.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727204356_chunk_3.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726183757_chunk_3.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727072102_chunk_1.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726223257_chunk_6.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170728062852_chunk_6.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726022143_chunk_3.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726204357_chunk_6.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727120828_chunk_3.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726064106_chunk_6.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727154326_chunk_6.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170728031554_chunk_2.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726020943_chunk_1.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170728005245_chunk_4.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727084628_chunk_5.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726165035_chunk_3.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727093702_chunk_1.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727152049_chunk_1.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726062306_chunk_1.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726193833_chunk_1.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727123549_chunk_6.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170728032245_chunk_1.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727181559_chunk_6.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726162600_chunk_3.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170728045345_chunk_4.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170728073343_chunk_5.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727094902_chunk_5.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727093902_chunk_5.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727042931_chunk_5.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727203656_chunk_4.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726144915_chunk_4.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727093128_chunk_5.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726203033_chunk_6.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726151400_chunk_4.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726093320_chunk_6.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726120438_chunk_6.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726212010_chunk_4.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726182215_chunk_3.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726012426_chunk_4.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726194833_chunk_6.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727063728_chunk_5.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727143126_chunk_6.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727114328_chunk_4.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727175226_chunk_6.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727185723_chunk_6.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170728014054_chunk_2.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727071402_chunk_2.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726130035_chunk_1.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726051526_chunk_2.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727182756_chunk_6.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726195533_chunk_5.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170728004245_chunk_5.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727030231_chunk_3.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727235256_chunk_6.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726123500_chunk_4.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727193823_chunk_3.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727162149_chunk_2.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726034843_chunk_2.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727052753_chunk_1.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170728003854_chunk_6.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727233723_chunk_1.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727194356_chunk_4.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170728020645_chunk_4.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727033953_chunk_4.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170728050745_chunk_6.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727222556_chunk_1.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170728075343_chunk_6.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726191657_chunk_2.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727051631_chunk_5.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170728010954_chunk_5.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170728045854_chunk_4.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726023726_chunk_5.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727091751_chunk_4.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727074128_chunk_5.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726141000_chunk_5.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726085106_chunk_1.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726035343_chunk_5.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726134835_chunk_5.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726112438_chunk_6.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726151500_chunk_3.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727115128_chunk_2.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727203056_chunk_2.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726162935_chunk_5.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170728000847_chunk_5.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726164115_chunk_5.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726133400_chunk_5.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726221410_chunk_1.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727192256_chunk_3.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727024506_chunk_5.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727092702_chunk_4.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727015631_chunk_2.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726165235_chunk_5.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170728014421_chunk_3.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726231110_chunk_5.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170728014354_chunk_4.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726182315_chunk_2.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726014726_chunk_2.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726212410_chunk_6.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726034943_chunk_2.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727124149_chunk_6.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727171659_chunk_6.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726054915_chunk_3.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726173615_chunk_6.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726224457_chunk_6.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727124426_chunk_4.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727205256_chunk_5.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727182923_chunk_3.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727085902_chunk_3.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727220656_chunk_4.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170728004354_chunk_4.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726191257_chunk_3.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726192910_chunk_5.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170728053921_chunk_1.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726131735_chunk_4.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726015026_chunk_4.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170728032521_chunk_2.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726232910_chunk_6.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727072551_chunk_6.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170728031354_chunk_6.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727022306_chunk_2.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727094402_chunk_2.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726123100_chunk_4.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727132326_chunk_1.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727132659_chunk_2.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727191647_chunk_2.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727185223_chunk_5.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727013406_chunk_6.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727173049_chunk_6.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727052431_chunk_1.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726091306_chunk_5.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726174515_chunk_1.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726230357_chunk_2.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170728055954_chunk_1.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727193156_chunk_2.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726024426_chunk_2.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726004743_chunk_5.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727101502_chunk_1.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726140100_chunk_3.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170728023821_chunk_6.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727071451_chunk_1.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727192156_chunk_6.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726212057_chunk_3.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170728064443_chunk_4.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726151000_chunk_2.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726104506_chunk_3.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727221356_chunk_3.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727014406_chunk_2.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727135526_chunk_6.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726200257_chunk_6.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727181959_chunk_6.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726023426_chunk_5.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726024126_chunk_1.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726075738_chunk_2.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726162200_chunk_3.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726012615_chunk_6.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727205023_chunk_6.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726213333_chunk_1.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170728031754_chunk_3.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726031643_chunk_1.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726014943_chunk_3.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727063802_chunk_3.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727042653_chunk_3.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726173835_chunk_1.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726183010_chunk_5.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726072520_chunk_4.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726214310_chunk_6.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727092328_chunk_2.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727173849_chunk_6.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170728035354_chunk_2.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170728044954_chunk_3.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727193256_chunk_4.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726175500_chunk_3.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727063151_chunk_3.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726153315_chunk_4.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726004626_chunk_5.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726165200_chunk_1.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727130226_chunk_4.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726031843_chunk_5.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727043353_chunk_6.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727081451_chunk_2.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726151700_chunk_2.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726092238_chunk_1.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726023715_chunk_5.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727101951_chunk_1.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727010906_chunk_4.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727225947_chunk_5.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726150435_chunk_5.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727114202_chunk_1.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726120320_chunk_1.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726052315_chunk_1.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727025753_chunk_1.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726170535_chunk_6.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726001646_chunk_2.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727223547_chunk_3.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726024015_chunk_4.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726022915_chunk_4.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727050006_chunk_3.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726030615_chunk_3.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727211956_chunk_1.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727125526_chunk_2.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727211447_chunk_1.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727142826_chunk_2.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726111738_chunk_2.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727082251_chunk_3.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726181200_chunk_3.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170728012754_chunk_5.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727185523_chunk_2.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726144300_chunk_3.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726053826_chunk_6.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727130726_chunk_4.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170728033545_chunk_3.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170728045121_chunk_1.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727001233_chunk_2.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727102802_chunk_3.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727232523_chunk_5.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726025615_chunk_3.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726124200_chunk_5.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727220923_chunk_6.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727185256_chunk_2.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726062026_chunk_4.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727194556_chunk_4.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727220023_chunk_4.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726041243_chunk_2.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170728030254_chunk_5.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170728035645_chunk_3.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727215356_chunk_3.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726061643_chunk_3.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727042931_chunk_6.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727080602_chunk_2.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170728011721_chunk_6.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727235747_chunk_6.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727054453_chunk_4.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727084451_chunk_5.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727171726_chunk_5.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726013026_chunk_2.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726003415_chunk_6.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726100138_chunk_4.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727143026_chunk_4.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727113128_chunk_6.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726065238_chunk_2.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726225810_chunk_4.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727022006_chunk_6.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727210323_chunk_6.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170728030721_chunk_3.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727151526_chunk_6.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727175549_chunk_4.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726093720_chunk_6.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727091002_chunk_5.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727121502_chunk_1.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170728004854_chunk_4.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727064828_chunk_5.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726205710_chunk_3.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727033653_chunk_1.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170728040421_chunk_4.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727231623_chunk_1.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727163059_chunk_2.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726064238_chunk_1.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170728042454_chunk_1.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727153926_chunk_5.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726204257_chunk_6.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727022231_chunk_5.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726222633_chunk_2.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727111602_chunk_6.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727025931_chunk_6.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726132135_chunk_4.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726133215_chunk_3.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727020553_chunk_5.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726070320_chunk_6.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727195223_chunk_4.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726031926_chunk_5.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727021231_chunk_1.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726014243_chunk_5.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726010326_chunk_1.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170728010045_chunk_1.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726110506_chunk_4.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726184357_chunk_6.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727225056_chunk_1.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170728074652_chunk_4.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727170249_chunk_4.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727131826_chunk_1.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170728002145_chunk_2.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727070151_chunk_2.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727153949_chunk_2.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726174835_chunk_1.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726080006_chunk_1.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727042531_chunk_1.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726132500_chunk_4.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727202847_chunk_6.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727132459_chunk_3.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726165835_chunk_4.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170728032454_chunk_6.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727152049_chunk_6.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726230110_chunk_5.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170728055445_chunk_1.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727092028_chunk_5.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726131700_chunk_2.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726043115_chunk_1.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170728034021_chunk_2.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726115338_chunk_3.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727142726_chunk_5.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727110002_chunk_1.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170728064719_chunk_1.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170728014245_chunk_1.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726214610_chunk_6.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727111728_chunk_6.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727185923_chunk_6.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726080138_chunk_3.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170728064119_chunk_3.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726124135_chunk_5.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727053653_chunk_5.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726234157_chunk_6.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727113302_chunk_5.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726082838_chunk_3.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727031106_chunk_2.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727093002_chunk_1.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726152835_chunk_1.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727194823_chunk_4.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726231610_chunk_6.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726174600_chunk_5.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170728071443_chunk_6.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727211223_chunk_1.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727185047_chunk_5.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727224447_chunk_2.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726130215_chunk_5.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726113838_chunk_2.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727024306_chunk_1.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726024543_chunk_4.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727142849_chunk_1.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727002510_chunk_2.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726175500_chunk_6.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726005526_chunk_2.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727204847_chunk_3.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170728063119_chunk_1.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726184710_chunk_6.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726025643_chunk_4.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727001633_chunk_4.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727211723_chunk_3.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726164015_chunk_4.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727000410_chunk_1.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727092828_chunk_4.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727204856_chunk_2.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726081438_chunk_2.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170728010721_chunk_5.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726195257_chunk_1.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727104902_chunk_5.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726030426_chunk_4.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727065802_chunk_4.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726213857_chunk_4.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727213356_chunk_4.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170728065719_chunk_1.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727044406_chunk_5.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727203247_chunk_5.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726152435_chunk_1.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727153359_chunk_6.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727205047_chunk_6.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170728005154_chunk_2.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726024726_chunk_6.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170728050245_chunk_6.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727153926_chunk_4.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727215547_chunk_6.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727000057_chunk_6.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170728053054_chunk_1.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170728080043_chunk_2.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727083802_chunk_3.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727042153_chunk_5.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170728034921_chunk_4.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727184623_chunk_1.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726214757_chunk_4.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170728043721_chunk_3.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727015653_chunk_6.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726211157_chunk_3.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170728035121_chunk_2.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170728060721_chunk_2.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726210810_chunk_5.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727210423_chunk_3.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726144735_chunk_2.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727224556_chunk_1.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726145915_chunk_6.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170728040521_chunk_2.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727191723_chunk_1.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727152126_chunk_5.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170728002245_chunk_2.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727132849_chunk_5.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170726003815_chunk_5.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727171659_chunk_5.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170726040726_chunk_4.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727142449_chunk_6.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170728013345_chunk_6.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Tektite_rawaudio_split/67420170.170727192047_chunk_6.wav",
+      "labels": "Tektite"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727154559_chunk_1.wav",
+      "labels": "Cocoloba"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170727161626_chunk_1.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/OffReef_rawaudio_split/1677996071.170726025143_chunk_4.wav",
+      "labels": "OffReef"
+    },
+    {
+      "wav": "/mnt/data/tungtran/data/coral_chorus/Cocoloba_rawaudio_split/1678000154.170727075702_chunk_3.wav",
+      "labels": "Cocoloba"
+    }
+  ]
+}

@@ -135,7 +135,9 @@ def evaluate(data_loader, model, device, dist_eval=False):
 
     AP = [stat['AP'] for stat in stats]
     mAP = np.mean([stat['AP'] for stat in stats])
-    print("mAP: {:.6f}".format(mAP))
-    return {"mAP": mAP, "AP": AP}
+    mAUC = np.mean([stat['auc'] for stat in stats])
+    f1 = np.mean([stat['f1'] for stat in stats])
+    print("mAP: {:.6f}, mAUC: {:.6f}, f1: {:.6f}".format(mAP, mAUC, f1))
+    return {"mAP": mAP, "AP": AP, "mAUC": mAUC, "f1": f1}
 
 
