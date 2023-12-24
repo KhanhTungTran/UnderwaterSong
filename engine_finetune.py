@@ -57,6 +57,7 @@ def train_one_epoch(model: torch.nn.Module, criterion: torch.nn.Module,
             outputs = model(samples)
             loss = criterion(outputs, targets)
 
+        acc1, acc2 = accuracy(outputs, targets, topk=(1, 2))
         loss_value = loss.item()
 
         if not math.isfinite(loss_value):
@@ -82,6 +83,10 @@ def train_one_epoch(model: torch.nn.Module, criterion: torch.nn.Module,
         metric_logger.update(lr=max_lr)
 
         loss_value_reduce = misc.all_reduce_mean(loss_value)
+        # acc1 = torch.as_tensor(acc1, device=device)
+        # acc2 = torch.as_tensor(acc2, device=device)
+        acc1_reduce = misc.all_reduce_mean(acc1)
+        acc2_reduce = misc.all_reduce_mean(acc2)
         if log_writer is not None and (data_iter_step + 1) % accum_iter == 0:
             """ We use epoch_1000x as the x-axis in tensorboard.
             This calibrates different curves when batch size changes.
@@ -89,6 +94,8 @@ def train_one_epoch(model: torch.nn.Module, criterion: torch.nn.Module,
             epoch_1000x = int((data_iter_step / len(data_loader) + epoch) * 1000)
             log_writer.add_scalar('loss', loss_value_reduce, epoch_1000x)
             log_writer.add_scalar('lr', max_lr, epoch_1000x)
+            log_writer.add_scalar('acc1', acc1_reduce, epoch_1000x)
+            log_writer.add_scalar('acc2', acc2_reduce, epoch_1000x)
 
     # gather the stats from all processes
     metric_logger.synchronize_between_processes()

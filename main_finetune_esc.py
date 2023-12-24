@@ -319,7 +319,7 @@ def main(args):
                     pass
                 else:
                     interpolate_pos_embed_audio(model, checkpoint_model, orig_size=(8,64), new_size=(12,101))	
-            else:	
+            else:
                 # imgnet-pt	
                 #interpolate_pos_embed_audio(model, checkpoint_model, orig_size=(14,14), new_size=(8,64))	
                 if args.source_custom_patch:	
@@ -401,7 +401,21 @@ def main(args):
 
     if args.eval:
         test_stats = evaluate(data_loader_val, model, device)
-        print(f"Accuracy of the network on the {len(dataset_val)} test images: {test_stats['acc1']:.1f}%")
+        print(f"Accuracy of the network on the {len(dataset_val)} test images: {test_stats['acc1']:.2f}%")
+        print(f"mAP of the network on the {len(dataset_val)} test images: {test_stats['mAP']*100:.2f}%")
+        print(f"mAUC of the network on the {len(dataset_val)} test images: {test_stats['mAUC']*100:.2f}%")
+        print(f"f1 of the network on the {len(dataset_val)} test images: {test_stats['f1']*100:.2f}%")
+        print(f"precision of the network on the {len(dataset_val)} test images: {test_stats['precision']*100:.2f}%")
+        print(f"recall of the network on the {len(dataset_val)} test images: {test_stats['recall']*100:.2f}%")
+        print()
+
+        train_stats = evaluate(data_loader_train, model, device)
+        print(f"Accuracy of the network on the {len(dataset_train)} train images: {train_stats['acc1']:.2f}%")
+        print(f"mAP of the network on the {len(dataset_train)} train images: {train_stats['mAP']*100:.2f}%")
+        print(f"mAUC of the network on the {len(dataset_train)} train images: {train_stats['mAUC']*100:.2f}%")
+        print(f"f1 of the network on the {len(dataset_train)} train images: {train_stats['f1']*100:.2f}%")
+        print(f"precision of the network on the {len(dataset_train)} train images: {train_stats['precision']*100:.2f}%")
+        print(f"recall of the network on the {len(dataset_train)} train images: {train_stats['recall']*100:.2f}%")
         exit(0)
 
     print(f"Start training for {args.epochs} epochs")
