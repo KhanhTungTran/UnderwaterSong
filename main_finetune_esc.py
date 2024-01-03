@@ -38,7 +38,8 @@ from util.misc import NativeScalerWithGradNormCount as NativeScaler
 import models_vit
 
 from engine_finetune import train_one_epoch, evaluate
-from dataset import AudiosetDataset
+from dataset import AudiosetDataset, DistributedWeightedSampler, DistributedSamplerWrapper
+from torch.utils.data import WeightedRandomSampler
 from timm.models.vision_transformer import PatchEmbed
 import ast
 
@@ -174,6 +175,12 @@ def get_args_parser():
     parser.add_argument('--save_weight', type=ast.literal_eval, default=True, help='whether to save model weight or not.')
     parser.add_argument('--freeze_base_model', type=ast.literal_eval, default=False, help='freeze pre-trained part or not.')
 
+    parser.add_argument('--weight_sampler', type=ast.literal_eval, default=False, help='use weight_sampler')
+    parser.add_argument('--epoch_len', default=200000, type=int, help='num of samples/epoch with weight_sampler')
+    parser.add_argument('--distributed_wrapper', type=ast.literal_eval, default=False, help='use distributedwrapper for weighted sampler')
+    parser.add_argument('--replacement', type=ast.literal_eval, default=False, help='use weight_sampler')
+    parser.add_argument("--weight_csv", type=str, default='/checkpoint/berniehuang/mae/data/audioset/weight_train_all.csv', help="weight file")
+
     return parser
 
 
@@ -227,10 +234,36 @@ def main(args):
     if True: #args.distributed:
         num_tasks = misc.get_world_size()
         global_rank = misc.get_rank()
-        sampler_train = torch.utils.data.DistributedSampler(
-            dataset_train, num_replicas=num_tasks, rank=global_rank, shuffle=True
-        )
-        print("Sampler_train = %s" % str(sampler_train))
+        # sampler_train = torch.utils.data.DistributedSampler(
+        #     dataset_train, num_replicas=num_tasks, rank=global_rank, shuffle=True
+        # )
+        # print("Sampler_train = %s" % str(sampler_train))
+        num_nodes = int(os.environ.get('num_nodes', 1))
+        ddp = int(os.environ.get('DDP', 1))
+        num_nodes = max(ddp, num_nodes)
+        rank = int(os.environ.get('NODE_RANK', 0))
+        print(f"num_nodes:{num_nodes}, rank:{rank}, ddp:{ddp}, num_tasks:{num_tasks}, global_rank:{global_rank}")
+        # num_nodes:1, rank:0, ddp:1, num_tasks:8, global_rank:0 (sbatch)
+        if args.weight_sampler:
+            samples_weight = np.loadtxt(args.weight_csv, delimiter=',')
+            if args.distributed_wrapper:
+                print('use distributed_wrapper sampler')
+                epoch_len=args.epoch_len #200000 #=> 250000
+                #epoch_len=21000 # AS-20K
+                # replacement should be False
+                sampler_train = DistributedSamplerWrapper(
+                                    sampler=WeightedRandomSampler(samples_weight, num_samples=epoch_len, replacement=args.replacement),
+                                    dataset=range(epoch_len),
+                                    num_replicas=num_tasks, #num_nodes, #num_tasks?
+                                    rank=global_rank, #rank, # global_rank?
+                                    )
+            else:
+                #sampler_train = WeightedRandomSampler(samples_weight, len(samples_weight), replacement=True)
+                sampler_train = DistributedWeightedSampler(dataset_train, samples_weight,  num_replicas=num_tasks, rank=global_rank, replacement=args.replacement)
+        else:
+            sampler_train = torch.utils.data.DistributedSampler(
+                dataset_train, num_replicas=num_tasks, rank=global_rank, shuffle=True
+            )
         if args.dist_eval:
             if len(dataset_val) % num_tasks != 0:
                 print('Warning: Enabling distributed evaluation with an eval dataset not divisible by process number. '
@@ -281,16 +314,19 @@ def main(args):
         global_pool=args.global_pool,
     )
     if args.audio_exp:
-        img_size=(target_length[args.dataset],128) # 1024, 128
+        img_size=(target_length[args.dataset], 128) # 1024, 128
         in_chans=1
+        emb_dim = 768
+        if args.model == "vit_large_patch16":
+            emb_dim = 1024
         if args.use_custom_patch:
-            model.patch_embed = PatchEmbed_new(img_size=img_size, patch_size=16, in_chans=1, embed_dim=768, stride=10)
-            model.pos_embed = nn.Parameter(torch.zeros(1, 1212 + 1, 768), requires_grad=False)  # fixed sin-cos embedding
+            model.patch_embed = PatchEmbed_new(img_size=img_size, patch_size=16, in_chans=1, embed_dim=emb_dim, stride=10)
+            model.pos_embed = nn.Parameter(torch.zeros(1, 1212 + 1, emb_dim), requires_grad=False)  # fixed sin-cos embedding
         else:
-            model.patch_embed = PatchEmbed(img_size, 16, in_chans, 768) # no overlap. stride=img_size=16
+            model.patch_embed = PatchEmbed(img_size, 16, in_chans, emb_dim) # no overlap. stride=img_size=16
             num_patches = model.patch_embed.num_patches
             num_patches = 512 # assume audioset, 1024//16=64, 128//16=8, 512=64x8
-            model.pos_embed = nn.Parameter(torch.zeros(1, num_patches + 1, 768), requires_grad=False)  # fixed sin-cos embedding
+            model.pos_embed = nn.Parameter(torch.zeros(1, num_patches + 1, emb_dim), requires_grad=False)  # fixed sin-cos embedding
 
     if args.finetune and not args.eval:
         checkpoint = torch.load(args.finetune, map_location='cpu')
