@@ -2,3 +2,4 @@ logs/
 __pycache__/
 inf_output.npy
 plots/
+slurm-*

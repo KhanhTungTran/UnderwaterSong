@@ -35,6 +35,7 @@ import models_mae
 
 from engine_pretrain import train_one_epoch
 from dataset import AudiosetDataset
+from torch.distributed.elastic.multiprocessing.errors import record
 
 def get_args_parser():
     parser = argparse.ArgumentParser('MAE pre-training', add_help=False)
@@ -146,7 +147,7 @@ def get_args_parser():
     parser.set_defaults(norm_pix_loss=True)
     return parser
 
-
+@record
 def main(args):
     misc.init_distributed_mode(args)
     print('======================= starting pretrain =======================')
@@ -174,9 +175,9 @@ def main(args):
         # norm_stats = {'audioset':[-4.2677393, 4.5689974], 'esc50':[-6.6268077, 5.358466], 'speechcommands':[-6.845978, 5.5654526]}
         # target_length = {'audioset':1024, 'esc50':512, 'speechcommands':128}
         # multilabel_dataset = {'audioset': True, 'esc50': False, 'k400': False, 'speechcommands': True}
-        norm_stats = {'crs': [-9.517333, 4.306908], 'crs_60sec': [-9.524903, 4.316856], 'crs_coral_chorus': [-9.894564, 4.1962166], 'crs_indo': [-9.148823, 4.4092674]}
-        target_length = {'crs': 1024, 'crs_60sec': 6144, 'crs_coral_chorus': 1024, 'crs_indo': 1024}
-        multilabel_dataset = {'crs': False, 'crs_60sec': False, 'crs_coral_chorus': False, 'crs_indo': False}
+        norm_stats = {'crs': [-9.517333, 4.306908], 'crs_60sec': [-9.524903, 4.316856], 'crs_coral_chorus': [-9.894564, 4.1962166], 'crs_indo': [-9.148823, 4.4092674], 'australia': [-9.821708, 4.3084574]}
+        target_length = {'crs': 1024, 'crs_60sec': 6144, 'crs_coral_chorus': 1024, 'crs_indo': 1024, 'australia': 1024}
+        multilabel_dataset = {'crs': False, 'crs_60sec': False, 'crs_coral_chorus': False, 'crs_indo': False, 'australia': False}
         audio_conf = {'num_mel_bins': 128, 
                       'target_length': target_length[args.dataset], 
                       'freqm': args.freqm,
@@ -237,7 +238,10 @@ def main(args):
     model.to(device)
 
     model_without_ddp = model
+    n_parameters = sum(p.numel() for p in model.parameters() if p.requires_grad)
+
     print("Model = %s" % str(model_without_ddp))
+    print('number of params: %.2f (M)' % (n_parameters / 1.e6), n_parameters)
 
     eff_batch_size = args.batch_size * args.accum_iter * misc.get_world_size()
     
