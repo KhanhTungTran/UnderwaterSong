@@ -237,7 +237,10 @@ def main(args):
     model.to(device)
 
     model_without_ddp = model
+    n_parameters = sum(p.numel() for p in model.parameters() if p.requires_grad)
+
     print("Model = %s" % str(model_without_ddp))
+    print('number of params: %.2f (M)' % (n_parameters / 1.e6), n_parameters)
 
     eff_batch_size = args.batch_size * args.accum_iter * misc.get_world_size()
     
