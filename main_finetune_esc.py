@@ -32,7 +32,7 @@ from timm.loss import LabelSmoothingCrossEntropy, SoftTargetCrossEntropy
 import util.lr_decay as lrd
 import util.misc as misc
 from util.datasets import build_dataset
-from util.pos_embed import interpolate_pos_embed
+from util.pos_embed import interpolate_pos_embed, interpolate_pos_embed_audio
 from util.misc import NativeScalerWithGradNormCount as NativeScaler
 
 import models_vit
@@ -42,7 +42,7 @@ from dataset import AudiosetDataset, DistributedWeightedSampler, DistributedSamp
 from torch.utils.data import WeightedRandomSampler
 from timm.models.vision_transformer import PatchEmbed
 import ast
-
+import math
 
 def get_args_parser():
     parser = argparse.ArgumentParser('MAE fine-tuning for image classification', add_help=False)
@@ -158,7 +158,7 @@ def get_args_parser():
                         help='url used to set up distributed training')
 
     # For audioset
-    parser.add_argument('--audio_exp', action='store_true', help='audio exp')
+    parser.add_argument('--audio_exp',type=ast.literal_eval, default=True, help='audio exp')
     parser.add_argument("--data_train", type=str, default='/checkpoint/berniehuang/ast/egs/audioset/data/datafiles/train.json', help="training data json")
     parser.add_argument("--data_eval", type=str, default='/checkpoint/berniehuang/ast/egs/audioset/data/datafiles/train.json', help="validation data json")
     parser.add_argument("--label_csv", type=str, default='/checkpoint/berniehuang/ast/egs/audioset/data/class_labels_indices.csv', help="csv with class labels")
@@ -168,7 +168,7 @@ def get_args_parser():
     parser.add_argument("--dataset", type=str, default="audioset", help="the dataset used")
     parser.add_argument("--use_fbank", type=ast.literal_eval, default=False)
     parser.add_argument("--fbank_dir", type=str, default="/checkpoint/berniehuang/ast/egs/esc50/data/ESC-50-master/fbank", help="fbank dir") 
-    parser.set_defaults(audio_exp=True)
+    # parser.set_defaults(audio_exp=True)
 
     parser.add_argument('--use_custom_patch', type=ast.literal_eval, default=False, help='use custom patch with overlapping and override timm PatchEmbed')
     parser.add_argument('--source_custom_patch', type=ast.literal_eval, default=False, help='the pre-trained model already use custom patch')
@@ -199,13 +199,14 @@ def main(args):
 
     cudnn.benchmark = True
 
-    if not args.audio_exp:
+    # if not args.audio_exp:
+    if False: # NOTE: override for now
         dataset_train = build_dataset(is_train=True, args=args)
         dataset_val = build_dataset(is_train=False, args=args)
     else:
-        norm_stats = {'audioset':[-4.2677393, 4.5689974], 'esc50':[-6.6268077, 5.358466], 'speechcommands':[-6.845978, 5.5654526], 'crs': [-9.517333, 4.306908], 'fish_crs': [-9.441656, 4.2926426], 'crs_coral_chorus': [-9.894564, 4.1962166], 'crs_indo': [-9.148823, 4.4092674]}
-        target_length = {'audioset':1024, 'esc50':512, 'speechcommands':128, 'crs': 1024, 'fish_crs': 6144, 'crs_coral_chorus': 1024, 'crs_indo': 1024}
-        multilabel_dataset = {'audioset': True, 'esc50': False, 'k400': False, 'speechcommands': True, 'crs': False, 'fish_crs': True, 'crs_coral_chorus': False, 'crs_indo': False}
+        norm_stats = {'audioset':[-4.2677393, 4.5689974], 'esc50':[-6.6268077, 5.358466], 'speechcommands':[-6.845978, 5.5654526], 'crs': [-9.517333, 4.306908], 'fish_crs': [-9.441656, 4.2926426], 'crs_coral_chorus': [-9.894564, 4.1962166], 'crs_indo': [-9.148823, 4.4092674], 'watkins': [-3.0449798, 2.899524]}
+        target_length = {'audioset':1024, 'esc50':512, 'speechcommands':128, 'crs': 1024, 'fish_crs': 6144, 'crs_coral_chorus': 1024, 'crs_indo': 1024, 'watkins': 288}
+        multilabel_dataset = {'audioset': True, 'esc50': False, 'k400': False, 'speechcommands': True, 'crs': False, 'fish_crs': True, 'crs_coral_chorus': False, 'crs_indo': False, 'watkins': False}
         audio_conf_train = {'num_mel_bins': 128, 
                       'target_length': target_length[args.dataset], 
                       'freqm': args.freqm,
@@ -313,7 +314,8 @@ def main(args):
         drop_path_rate=args.drop_path,
         global_pool=args.global_pool,
     )
-    if args.audio_exp:
+    # if args.audio_exp:
+    if True: # NOTE: override for now
         img_size=(target_length[args.dataset], 128) # 1024, 128
         in_chans=1
         emb_dim = 768
@@ -325,7 +327,7 @@ def main(args):
         else:
             model.patch_embed = PatchEmbed(img_size, 16, in_chans, emb_dim) # no overlap. stride=img_size=16
             num_patches = model.patch_embed.num_patches
-            num_patches = 512 # assume audioset, 1024//16=64, 128//16=8, 512=64x8
+            num_patches = math.floor(target_length[args.dataset]/16) * 8 # assume audioset, 1024//16=64, 128//16=8, 512=64x8
             model.pos_embed = nn.Parameter(torch.zeros(1, num_patches + 1, emb_dim), requires_grad=False)  # fixed sin-cos embedding
 
     if args.finetune and not args.eval:
@@ -339,8 +341,8 @@ def main(args):
                 print(f"Removing key {k} from pretrained checkpoint")
                 del checkpoint_model[k]
 
-        if 0: #not args.audio_exp:	
-            interpolate_pos_embed(model, checkpoint_model)	
+        if not args.audio_exp:	
+            interpolate_pos_embed_audio(model, checkpoint_model, orig_size=(8,64), new_size=(8,18))	
         else: # override for audio_exp for now	
             # imgnet: 14,14	
             # audioset size: (8,64)	

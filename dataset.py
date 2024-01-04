@@ -17,6 +17,8 @@ from torch.utils.data import DistributedSampler, WeightedRandomSampler
 import torch.distributed as dist
 import random
 import math
+import numba # NOTE: lazy-loading problem with librosa
+import librosa
 
 class DistributedSamplerWrapper(DistributedSampler):
     def __init__(
@@ -175,7 +177,11 @@ class AudiosetDataset(Dataset):
 
     def _wav2fbank(self, filename, filename2=None):
         if filename2 == None:
-            waveform, sr = torchaudio.load(filename)
+            try:
+                waveform, sr = torchaudio.load(filename)
+            except RuntimeError as e:
+                waveform, sr = librosa.load(filename, sr=None)
+                waveform = torch.tensor(waveform).unsqueeze(0)
             waveform = waveform - waveform.mean()
             if self.roll_mag_aug:
                 waveform = self._roll_mag_aug(waveform)
@@ -280,14 +286,17 @@ class AudiosetDataset(Dataset):
                 fbank, mix_lambda = self._wav2fbank(datum['wav'])
             else:
                 fbank, mix_lambda = self._fbank(datum['wav'])
-            for label_str in datum['labels'].split(','):
-                label_indices[int(self.index_dict[label_str])] = 1.0
+            try:
+                for label_str in datum['labels'].split(','):
+                    label_indices[int(self.index_dict[label_str])] = 1.0
+            except:
+                label_indices[int(self.index_dict[datum['labels']])] = 1.0
 
             if self.multilabel:
                 label_indices = torch.FloatTensor(label_indices)
             else:
                 # remark : for ft cross-ent
-                label_indices = int(self.index_dict[label_str])
+                label_indices = int(self.index_dict[datum['labels']])
         # SpecAug for training (not for eval)
         freqm = torchaudio.transforms.FrequencyMasking(self.freqm)
         timem = torchaudio.transforms.TimeMasking(self.timem)
