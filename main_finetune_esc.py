@@ -38,7 +38,7 @@ from util.misc import NativeScalerWithGradNormCount as NativeScaler
 import models_vit
 
 from engine_finetune import train_one_epoch, evaluate
-from dataset import AudiosetDataset, DistributedWeightedSampler, DistributedSamplerWrapper
+from dataset import AudiosetDataset, DistributedWeightedSampler, DistributedSamplerWrapper, RecognitionDataset
 from torch.utils.data import WeightedRandomSampler
 from timm.models.vision_transformer import PatchEmbed
 import ast
@@ -204,9 +204,9 @@ def main(args):
         dataset_train = build_dataset(is_train=True, args=args)
         dataset_val = build_dataset(is_train=False, args=args)
     else:
-        norm_stats = {'audioset':[-4.2677393, 4.5689974], 'esc50':[-6.6268077, 5.358466], 'speechcommands':[-6.845978, 5.5654526], 'crs': [-9.517333, 4.306908], 'fish_crs': [-9.441656, 4.2926426], 'crs_coral_chorus': [-9.894564, 4.1962166], 'crs_indo': [-9.148823, 4.4092674], 'watkins': [-3.0449798, 2.899524]}
-        target_length = {'audioset':1024, 'esc50':512, 'speechcommands':128, 'crs': 1024, 'fish_crs': 6144, 'crs_coral_chorus': 1024, 'crs_indo': 1024, 'watkins': 288}
-        multilabel_dataset = {'audioset': True, 'esc50': False, 'k400': False, 'speechcommands': True, 'crs': False, 'fish_crs': True, 'crs_coral_chorus': False, 'crs_indo': False, 'watkins': False}
+        norm_stats = {'audioset':[-4.2677393, 4.5689974], 'esc50':[-6.6268077, 5.358466], 'speechcommands':[-6.845978, 5.5654526], 'crs': [-9.517333, 4.306908], 'fish_crs': [-9.441656, 4.2926426], 'crs_coral_chorus': [-9.894564, 4.1962166], 'crs_indo': [-9.148823, 4.4092674], 'watkins': [-3.0449798, 2.899524], 'dcase': [-10.242867, 2.4992578], 'hiceas': [-7.784932, 1.6649023]}
+        target_length = {'audioset':1024, 'esc50':512, 'speechcommands':128, 'crs': 1024, 'fish_crs': 6144, 'crs_coral_chorus': 1024, 'crs_indo': 1024, 'watkins': 288, 'dcase': 200, 'hiceas': 1000}
+        multilabel_dataset = {'audioset': True, 'esc50': False, 'k400': False, 'speechcommands': True, 'crs': False, 'fish_crs': True, 'crs_coral_chorus': False, 'crs_indo': False, 'watkins': False, 'dcase': True, 'hiceas': True}
         audio_conf_train = {'num_mel_bins': 128, 
                       'target_length': target_length[args.dataset], 
                       'freqm': args.freqm,
@@ -228,9 +228,22 @@ def main(args):
                       'mean':norm_stats[args.dataset][0],
                       'std':norm_stats[args.dataset][1],
                       'multilabel':multilabel_dataset[args.dataset],
-                      'noise':False}                      
-        dataset_train = AudiosetDataset(args.data_train, label_csv=args.label_csv, audio_conf=audio_conf_train, use_fbank=args.use_fbank, fbank_dir=args.fbank_dir)
-        dataset_val = AudiosetDataset(args.data_eval, label_csv=args.label_csv, audio_conf=audio_conf_val, use_fbank=args.use_fbank, fbank_dir=args.fbank_dir)
+                      'noise':False}
+        dataset_class = AudiosetDataset
+        if multilabel_dataset[args.dataset]:
+            window_widths = {'dcase': 2, 'hiceas': 10}
+            window_shifts = {'dcase': 1, 'hiceas': 5}
+            max_duration = 6000
+            audio_conf_train['window_width'] = window_widths[args.dataset]
+            audio_conf_train['window_shift'] = window_shifts[args.dataset]
+            audio_conf_val['window_width'] = window_widths[args.dataset]
+            audio_conf_val['window_shift'] = window_shifts[args.dataset]
+            audio_conf_train['max_duration'] = max_duration
+            audio_conf_val['max_duration'] = max_duration
+            dataset_class = RecognitionDataset
+
+        dataset_train = dataset_class(args.data_train, label_csv=args.label_csv, audio_conf=audio_conf_train, use_fbank=args.use_fbank, fbank_dir=args.fbank_dir)
+        dataset_val = dataset_class(args.data_eval, label_csv=args.label_csv, audio_conf=audio_conf_val, use_fbank=args.use_fbank, fbank_dir=args.fbank_dir)
 
     if True: #args.distributed:
         num_tasks = misc.get_world_size()
@@ -342,7 +355,7 @@ def main(args):
                 del checkpoint_model[k]
 
         if not args.audio_exp:	
-            interpolate_pos_embed_audio(model, checkpoint_model, orig_size=(8,64), new_size=(8,18))	
+            interpolate_pos_embed_audio(model, checkpoint_model, orig_size=(8,64), new_size=(8,math.floor(target_length[args.dataset]/16)))
         else: # override for audio_exp for now	
             # imgnet: 14,14	
             # audioset size: (8,64)	

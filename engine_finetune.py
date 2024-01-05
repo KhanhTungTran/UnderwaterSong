@@ -56,8 +56,10 @@ def train_one_epoch(model: torch.nn.Module, criterion: torch.nn.Module,
         with torch.cuda.amp.autocast():
             outputs = model(samples)
             loss = criterion(outputs, targets)
-
-        acc1, acc2 = accuracy(outputs, targets, topk=(1, 2))
+        if outputs.shape == targets.shape:
+            acc1, acc2 = torch.tensor(0.0), torch.tensor(0.0)
+        else:
+            acc1, acc2 = accuracy(outputs, targets, topk=(1, 2))
         loss_value = loss.item()
 
         if not math.isfinite(loss_value):
@@ -115,6 +117,8 @@ def evaluate(data_loader, model, device):
     outputs=[]
     targets=[]
 
+    multi_label = False
+
     for batch in metric_logger.log_every(data_loader, 10, header):
         images = batch[0]
         target = batch[1]
@@ -127,8 +131,12 @@ def evaluate(data_loader, model, device):
             loss = criterion(output, target)
             outputs.append(output)
             targets.append(target)
-
-        acc1, acc2 = accuracy(output, target, topk=(1, 2))
+        if output.shape == target.shape:
+            multi_label = True
+            acc1, acc2 = torch.tensor(0.0), torch.tensor(0.0)
+        else:
+            acc1, acc2 = accuracy(output, target, topk=(1, 2))
+        # acc1, acc2 = accuracy(output, target, topk=(1, 2))
 
         batch_size = images.shape[0]
         metric_logger.update(loss=loss.item())
@@ -141,10 +149,11 @@ def evaluate(data_loader, model, device):
 
     outputs=torch.cat(outputs).cpu().numpy()
     targets=torch.cat(targets).cpu().numpy()
-    # map from class index to one-hot encoding
-    targets_one_hot = np.zeros((targets.shape[0], outputs.shape[1]))
-    targets_one_hot[np.arange(targets.shape[0]), targets] = 1
-    targets = targets_one_hot
+    if not multi_label:
+        # map from class index to one-hot encoding
+        targets_one_hot = np.zeros((targets.shape[0], outputs.shape[1]))
+        targets_one_hot[np.arange(targets.shape[0]), targets] = 1
+        targets = targets_one_hot
     stats = calculate_stats(outputs, targets)
     AP = [stat['AP'] for stat in stats]
     mAP = np.mean([stat['AP'] for stat in stats])
