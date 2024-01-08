@@ -5,12 +5,12 @@ import os
 # setting_keywords = 'indo_health_30min_few_shot_lr4e-3_freezeTrue'
 # setting_keywords = 'indo_location_30min_few_shot_lr4e-3_freezeTrue'
 # second_keyword = '_chorus_pretrained'
-# second_keyword = 'scratch'
 # setting_keywords = 'coral_chorus_30min_few_shot_lr4e-3_freezeTrue'
-# second_keyword = '_indo_pretrained'
 # second_keyword = 'scratch'
+# second_keyword = '_indo_pretrained'
 setting_keywords = 'watkins_lr4e-3_freezeTrue'
-second_keyword = '_australia'
+second_keyword = 'audioset'
+# second_keyword = 'scratch'
 split = 'test'
 metrics = ['acc1', 'acc2', 'mAP', 'mAUC', 'f1', 'precision', 'recall']
 
