@@ -316,4 +316,179 @@ class AudiosetDataset(Dataset):
     def __len__(self):
         return len(self.data)
 
+FFT_SIZE_IN_SECS = 0.05
+HOP_LENGTH_IN_SECS = 0.01
+
+class RecognitionDataset(Dataset):
+    def __init__(self, dataset_json_file, audio_conf, label_csv=None, use_fbank=False, fbank_dir=None, roll_mag_aug=False, load_video=False, mode='train'):
+        """
+        Dataset that manages audio recordings
+        :param audio_conf: Dictionary containing the audio loading and preprocessing settings
+        :param dataset_json_file
+        """
+        self.use_fbank = use_fbank
+        self.fbank_dir = fbank_dir
+
+        self.audio_conf = audio_conf
+        print('---------------the {:s} dataloader---------------'.format(self.audio_conf.get('mode')))
+        if 'multilabel' in self.audio_conf.keys():
+            self.multilabel = self.audio_conf['multilabel']
+        else:
+            self.multilabel = False
+        print(f'multilabel: {self.multilabel}')
+        self.melbins = self.audio_conf.get('num_mel_bins')
+        self.freqm = self.audio_conf.get('freqm')
+        self.timem = self.audio_conf.get('timem')
+        print('using following mask: {:d} freq, {:d} time'.format(self.audio_conf.get('freqm'), self.audio_conf.get('timem')))
+        self.mixup = self.audio_conf.get('mixup')
+        print('using mix-up with rate {:f}'.format(self.mixup))
+        self.dataset = self.audio_conf.get('dataset')
+        self.norm_mean = self.audio_conf.get('mean')
+        self.norm_std = self.audio_conf.get('std')
+        print('Dataset: {}, mean {:.3f} and std {:.3f}'.format(self.dataset, self.norm_mean, self.norm_std))
+        self.noise = self.audio_conf.get('noise')
+        if self.noise == True:
+            print('now use noise augmentation')
+        self.index_dict = make_index_dict(label_csv)
+        self.label_num = len(self.index_dict)
+        self.roll_mag_aug=roll_mag_aug
+        print(f'number of classes: {self.label_num}')
+
+        # label_to_id = {lbl: i for i, lbl in enumerate(labels)}
+        # self.sample_rate = sample_rate
+        # self.max_duration = max_duration
+        # self.feature_type = feature_type
+
+        self.xs = []
+        self.ys = []
+
+        self.datapath = dataset_json_file
+        size_per_sec = int(1 / HOP_LENGTH_IN_SECS)
+        print("SIZE PER SEC: ", size_per_sec)
+        window_width = self.audio_conf.get('window_width')
+        window_shift = self.audio_conf.get('window_shift')
+
+        temp = 0
+        # self.data = data_json['data']
+        with open(dataset_json_file, 'r') as fp:
+            data_json = json.load(fp)
+            for sample in data_json['data']:
+                # data = json.loads(line)
+                wav_path = sample['wav']
+                length = sample['length']
+
+                num_windows = int((length - window_width) / window_shift) + 1
+
+                for window_id in range(num_windows):
+                    st, ed = window_id * window_shift, window_id * window_shift + window_width
+                    offset_st, offset_ed = st * size_per_sec, ed * size_per_sec
+                    self.xs.append((wav_path, offset_st, offset_ed))
+
+                    y = torch.zeros(self.label_num)
+
+                    curr_label = 0
+                    for anon in sample['annotations']:
+                        try:
+                            label_id = int(self.index_dict[anon['label']])
+                        except:
+                            label_id = int(self.index_dict[str(anon['label'])])
+
+                        if (st <= anon['st'] <= ed) or (st <= anon['ed'] <= ed):
+                            denom = min(ed - st, anon['ed'] - anon['st'])
+                            if denom == 0:
+                                continue
+                            overlap = (min(ed, anon['ed']) - max(st, anon['st'])) / denom
+                            if overlap > .2:
+                                y[label_id] = 1
+                                curr_label = label_id
+                        if anon['st'] <= st and ed <= anon['ed']:
+                            y[label_id] = 1
+                            curr_label = label_id
+
+                    temp += curr_label
+                    self.ys.append(y)
+        print("POS CLASS: ", temp)
+        print(f'size of dataset {self.__len__()}')
+
+    def _wav2fbank(self, filename, filename2=None):
+        if filename2 == None:
+            try:
+                waveform, sr = torchaudio.load(filename)
+            except RuntimeError as e:
+                waveform, sr = librosa.load(filename, sr=None)
+                waveform = torch.tensor(waveform).unsqueeze(0)
+            waveform = waveform - waveform.mean()
+            if self.roll_mag_aug:
+                waveform = self._roll_mag_aug(waveform)
+        # mixup
+        else:
+            waveform1, sr = torchaudio.load(filename)
+            waveform2, _ = torchaudio.load(filename2)
+
+            waveform1 = waveform1 - waveform1.mean()
+            waveform2 = waveform2 - waveform2.mean()
+
+            if self.roll_mag_aug:
+                waveform1 = self._roll_mag_aug(waveform1)
+                waveform2 = self._roll_mag_aug(waveform2)
+
+            if waveform1.shape[1] != waveform2.shape[1]:
+                if waveform1.shape[1] > waveform2.shape[1]:
+                    # padding
+                    temp_wav = torch.zeros(1, waveform1.shape[1])
+                    temp_wav[0, 0:waveform2.shape[1]] = waveform2
+                    waveform2 = temp_wav
+                else:
+                    # cutting
+                    waveform2 = waveform2[0, 0:waveform1.shape[1]]
+
+            # sample lambda from beta distribtion
+            mix_lambda = np.random.beta(10, 10)
+
+            mix_waveform = mix_lambda * waveform1 + (1 - mix_lambda) * waveform2
+            waveform = mix_waveform - mix_waveform.mean()
+        # 498 128, 998, 128
+        fbank = torchaudio.compliance.kaldi.fbank(waveform, htk_compat=True, sample_frequency=sr, use_energy=False,
+                                                  window_type='hanning', num_mel_bins=self.melbins, dither=0.0, frame_shift=10)
+        # 512
+        target_length = self.audio_conf.get('max_duration')
+        n_frames = fbank.shape[0]
+
+        p = target_length - n_frames
+
+        # cut and pad
+        if p > 0:
+            m = torch.nn.ZeroPad2d((0, 0, 0, p))
+            fbank = m(fbank)
+        elif p < 0:
+            fbank = fbank[0:target_length, :]
+
+        if filename2 == None:
+            return fbank, 0
+        else:
+            return fbank, mix_lambda
+
+    def _fbank(self, filename, filename2=None):
+        if filename2 == None:
+            fn1 = os.path.join(self.fbank_dir, os.path.basename(filename).replace('.wav','.npy'))
+            fbank = np.load(fn1)
+            return torch.from_numpy(fbank), 0
+        else:
+            fn1 = os.path.join(self.fbank_dir, os.path.basename(filename).replace('.wav','.npy'))
+            fn2 = os.path.join(self.fbank_dir, os.path.basename(filename2).replace('.wav','.npy'))
+            # sample lambda from beta distribtion
+            mix_lambda = np.random.beta(10, 10)
+            fbank = mix_lambda * np.load(fn1) + (1-mix_lambda) * np.load(fn2)  
+            return torch.from_numpy(fbank), mix_lambda
+
+    def __len__(self):
+        return len(self.xs)
+
+    def __getitem__(self, idx):
+        wav_path, offset_st, offset_ed = self.xs[idx]
+        x, _ = self._wav2fbank(
+            wav_path)
+        x = x[offset_st:offset_ed, :]
+
+        return x.unsqueeze(0), torch.FloatTensor(self.ys[idx]), wav_path
 

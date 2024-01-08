@@ -27,7 +27,10 @@ class VisionTransformer(timm.models.vision_transformer.VisionTransformer):
 
         self.global_pool = global_pool
         if self.global_pool:
-            norm_layer = kwargs['norm_layer']
+            if 'fc_norm_layer' in kwargs:
+                norm_layer = kwargs['fc_norm_layer']
+            else:
+                norm_layer = kwargs['norm_layer']
             embed_dim = kwargs['embed_dim']
             self.fc_norm = norm_layer(embed_dim)
         del self.norm  # remove the original norm
@@ -222,11 +225,24 @@ def vit_base_patch16(**kwargs):
         norm_layer=partial(nn.LayerNorm, eps=1e-6), **kwargs)
     return model
 
+def vit_base_patch16_no_norm(**kwargs):
+    model = VisionTransformer(
+        patch_size=16, embed_dim=768, depth=12, num_heads=12, mlp_ratio=4, qkv_bias=True,
+        norm_layer=partial(nn.LayerNorm, eps=1e-6), fc_norm_layer=partial(nn.Identity, eps=1e-6), **kwargs)
+    return model
+
 
 def vit_large_patch16(**kwargs):
     model = VisionTransformer(
         patch_size=16, embed_dim=1024, depth=24, num_heads=16, mlp_ratio=4, qkv_bias=True,
         norm_layer=partial(nn.LayerNorm, eps=1e-6), **kwargs)
+    return model
+
+
+def vit_large_patch16_no_norm(**kwargs):
+    model = VisionTransformer(
+        patch_size=16, embed_dim=1024, depth=24, num_heads=16, mlp_ratio=4, qkv_bias=True,
+        norm_layer=partial(nn.LayerNorm, eps=1e-6), fc_norm_layer=partial(nn.Identity, eps=1e-6), **kwargs)
     return model
 
 def vit_huge_patch14(**kwargs):
