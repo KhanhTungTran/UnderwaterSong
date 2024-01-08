@@ -5,16 +5,6 @@ import os
 # setting_keywords = 'indo_health_30min_few_shot_lr4e-3_freezeFalse'
 # setting_keywords = 'indo_location_30min_few_shot_lr4e-3_freezeFalse'
 # second_keyword = '_chorus_pretrained'
-<<<<<<< HEAD
-# setting_keywords = 'coral_chorus_30min_few_shot_lr4e-3_freezeTrue'
-# second_keyword = 'scratch'
-# second_keyword = '_indo_pretrained'
-setting_keywords = 'watkins_lr4e-3_freezeTrue'
-second_keyword = 'audioset'
-# second_keyword = 'scratch'
-split = 'test'
-metrics = ['acc1', 'acc2', 'mAP', 'mAUC', 'f1', 'precision', 'recall']
-=======
 # second_keyword = 'scratch'
 # setting_keywords = 'coral_chorus_30min_few_shot_lr4e-3_freezeFalse'
 # second_keyword = '_indo_pretrained'
@@ -32,7 +22,6 @@ second_keyword = '0_no_norm_audioset'
 split = 'real_test'
 # metrics = ['acc1', 'acc2', 'mAP', 'mAUC', 'f1', 'precision', 'recall', 'beans_mAP']
 metrics = ['beans_mAP']
->>>>>>> 2b0bdea8118f070159225a77ceb1ec7ea64c5e7e
 
 folder_list = [folder for folder in os.listdir('logs') if setting_keywords in folder and folder.endswith(second_keyword)]
 results = {folder: {} for folder in folder_list}
