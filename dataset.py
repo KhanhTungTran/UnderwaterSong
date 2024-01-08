@@ -364,9 +364,11 @@ class RecognitionDataset(Dataset):
 
         self.datapath = dataset_json_file
         size_per_sec = int(1 / HOP_LENGTH_IN_SECS)
+        print("SIZE PER SEC: ", size_per_sec)
         window_width = self.audio_conf.get('window_width')
         window_shift = self.audio_conf.get('window_shift')
 
+        temp = 0
         # self.data = data_json['data']
         with open(dataset_json_file, 'r') as fp:
             data_json = json.load(fp)
@@ -384,6 +386,7 @@ class RecognitionDataset(Dataset):
 
                     y = torch.zeros(self.label_num)
 
+                    curr_label = 0
                     for anon in sample['annotations']:
                         try:
                             label_id = int(self.index_dict[anon['label']])
@@ -397,10 +400,14 @@ class RecognitionDataset(Dataset):
                             overlap = (min(ed, anon['ed']) - max(st, anon['st'])) / denom
                             if overlap > .2:
                                 y[label_id] = 1
+                                curr_label = label_id
                         if anon['st'] <= st and ed <= anon['ed']:
                             y[label_id] = 1
+                            curr_label = label_id
 
+                    temp += curr_label
                     self.ys.append(y)
+        print("POS CLASS: ", temp)
         print(f'size of dataset {self.__len__()}')
 
     def _wav2fbank(self, filename, filename2=None):

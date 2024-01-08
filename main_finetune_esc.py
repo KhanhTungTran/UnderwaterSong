@@ -161,6 +161,7 @@ def get_args_parser():
     parser.add_argument('--audio_exp',type=ast.literal_eval, default=True, help='audio exp')
     parser.add_argument("--data_train", type=str, default='/checkpoint/berniehuang/ast/egs/audioset/data/datafiles/train.json', help="training data json")
     parser.add_argument("--data_eval", type=str, default='/checkpoint/berniehuang/ast/egs/audioset/data/datafiles/train.json', help="validation data json")
+    parser.add_argument("--data_test", type=str, default=None, help="test data json")
     parser.add_argument("--label_csv", type=str, default='/checkpoint/berniehuang/ast/egs/audioset/data/class_labels_indices.csv', help="csv with class labels")
     parser.add_argument('--freqm', help='frequency mask max length', type=int, default=96)
     parser.add_argument('--timem', help='time mask max length', type=int, default=24)
@@ -180,6 +181,7 @@ def get_args_parser():
     parser.add_argument('--distributed_wrapper', type=ast.literal_eval, default=False, help='use distributedwrapper for weighted sampler')
     parser.add_argument('--replacement', type=ast.literal_eval, default=False, help='use weight_sampler')
     parser.add_argument("--weight_csv", type=str, default='/checkpoint/berniehuang/mae/data/audioset/weight_train_all.csv', help="weight file")
+    parser.add_argument('--weight_balancer', type=ast.literal_eval, default=False, help='use weight_balancer')
 
     return parser
 
@@ -244,8 +246,10 @@ def main(args):
 
         dataset_train = dataset_class(args.data_train, label_csv=args.label_csv, audio_conf=audio_conf_train, use_fbank=args.use_fbank, fbank_dir=args.fbank_dir)
         dataset_val = dataset_class(args.data_eval, label_csv=args.label_csv, audio_conf=audio_conf_val, use_fbank=args.use_fbank, fbank_dir=args.fbank_dir)
+        if args.data_test:
+            dataset_test = dataset_class(args.data_test, label_csv=args.label_csv, audio_conf=audio_conf_val, use_fbank=args.use_fbank, fbank_dir=args.fbank_dir)
 
-    if True: #args.distributed:
+    if args.distributed:
         num_tasks = misc.get_world_size()
         global_rank = misc.get_rank()
         # sampler_train = torch.utils.data.DistributedSampler(
@@ -287,11 +291,14 @@ def main(args):
                 dataset_val, num_replicas=num_tasks, rank=global_rank, shuffle=True)  # shuffle=True to reduce monitor bias
         else:
             sampler_val = torch.utils.data.SequentialSampler(dataset_val)
+            if args.data_test: sampler_test = torch.utils.data.SequentialSampler(dataset_test)
     else:
+        print("HERE")
         sampler_train = torch.utils.data.RandomSampler(dataset_train)
         sampler_val = torch.utils.data.SequentialSampler(dataset_val)
+        if args.data_test: sampler_test = torch.utils.data.SequentialSampler(dataset_test)
 
-    if global_rank == 0 and args.log_dir is not None and not args.eval:
+    if args.distributed and global_rank == 0 and args.log_dir is not None and not args.eval:
         os.makedirs(args.log_dir, exist_ok=True)
         log_writer = SummaryWriter(log_dir=args.log_dir)
     else:
@@ -313,6 +320,15 @@ def main(args):
         drop_last=False
     )
 
+    if args.data_test:
+        data_loader_test = torch.utils.data.DataLoader(
+            dataset_test, sampler=sampler_test,
+            batch_size=args.batch_size,
+            num_workers=args.num_workers,
+            pin_memory=args.pin_mem,
+            drop_last=False
+        )
+
     mixup_fn = None
     mixup_active = args.mixup > 0 or args.cutmix > 0. or args.cutmix_minmax is not None
     if mixup_active:
@@ -332,7 +348,7 @@ def main(args):
         img_size=(target_length[args.dataset], 128) # 1024, 128
         in_chans=1
         emb_dim = 768
-        if args.model == "vit_large_patch16":
+        if args.model in ["vit_large_patch16", "vit_large_patch16_no_norm"]:
             emb_dim = 1024
         if args.use_custom_patch:
             model.patch_embed = PatchEmbed_new(img_size=img_size, patch_size=16, in_chans=1, embed_dim=emb_dim, stride=10)
@@ -442,7 +458,10 @@ def main(args):
     elif args.smoothing > 0.:
         criterion = LabelSmoothingCrossEntropy(smoothing=args.smoothing)
     elif multilabel_dataset[args.dataset]:
-        criterion = nn.BCEWithLogitsLoss()
+        if args.weight_balancer and args.dataset == 'hiceas':
+            criterion = nn.BCEWithLogitsLoss(pos_weight=torch.tensor(4457/158))
+        else:
+            criterion = nn.BCEWithLogitsLoss()
     else:
         criterion = torch.nn.CrossEntropyLoss()
 
@@ -454,6 +473,7 @@ def main(args):
         test_stats = evaluate(data_loader_val, model, device)
         print(f"Accuracy of the network on the {len(dataset_val)} test images: {test_stats['acc1']:.2f}%")
         print(f"mAP of the network on the {len(dataset_val)} test images: {test_stats['mAP']*100:.2f}%")
+        print(f"BEANS mAP of the network on the {len(dataset_val)} test images: {test_stats['beans_mAP']*100:.2f}%")
         print(f"mAUC of the network on the {len(dataset_val)} test images: {test_stats['mAUC']*100:.2f}%")
         print(f"f1 of the network on the {len(dataset_val)} test images: {test_stats['f1']*100:.2f}%")
         print(f"precision of the network on the {len(dataset_val)} test images: {test_stats['precision']*100:.2f}%")
@@ -463,6 +483,7 @@ def main(args):
         train_stats = evaluate(data_loader_train, model, device)
         print(f"Accuracy of the network on the {len(dataset_train)} train images: {train_stats['acc1']:.2f}%")
         print(f"mAP of the network on the {len(dataset_train)} train images: {train_stats['mAP']*100:.2f}%")
+        print(f"BEANS mAP of the network on the {len(dataset_train)} train images: {train_stats['beans_mAP']*100:.2f}%")
         print(f"mAUC of the network on the {len(dataset_train)} train images: {train_stats['mAUC']*100:.2f}%")
         print(f"f1 of the network on the {len(dataset_train)} train images: {train_stats['f1']*100:.2f}%")
         print(f"precision of the network on the {len(dataset_train)} train images: {train_stats['precision']*100:.2f}%")
@@ -496,14 +517,30 @@ def main(args):
             log_writer.add_scalar('perf/test_acc1', test_stats['acc1'], epoch)
             log_writer.add_scalar('perf/test_acc2', test_stats['acc2'], epoch)
             log_writer.add_scalar('perf/test_mAP', test_stats['mAP'], epoch)
+            log_writer.add_scalar('perf/test_beans_mAP', test_stats['beans_mAP'], epoch)
             log_writer.add_scalar('perf/test_mAUC', test_stats['mAUC'], epoch)
             log_writer.add_scalar('perf/test_f1', test_stats['f1'], epoch)
             log_writer.add_scalar('perf/test_precision', test_stats['precision'], epoch)
             log_writer.add_scalar('perf/test_recall', test_stats['recall'], epoch)
             log_writer.add_scalar('perf/test_loss', test_stats['loss'], epoch)
 
+        real_test_stats = {}
+        if args.data_test:
+            real_test_stats = evaluate(data_loader_test, model, device)
+            if log_writer is not None:
+                log_writer.add_scalar('perf/real_test_acc1', real_test_stats['acc1'], epoch)
+                log_writer.add_scalar('perf/real_test_acc2', real_test_stats['acc2'], epoch)
+                log_writer.add_scalar('perf/real_test_mAP', real_test_stats['mAP'], epoch)
+                log_writer.add_scalar('perf/real_test_beans_mAP', real_test_stats['beans_mAP'], epoch)
+                log_writer.add_scalar('perf/real_test_mAUC', real_test_stats['mAUC'], epoch)
+                log_writer.add_scalar('perf/real_test_f1', real_test_stats['f1'], epoch)
+                log_writer.add_scalar('perf/real_test_precision', real_test_stats['precision'], epoch)
+                log_writer.add_scalar('perf/real_test_recall', real_test_stats['recall'], epoch)
+                log_writer.add_scalar('perf/real_test_loss', real_test_stats['loss'], epoch)
+
         log_stats = {**{f'train_{k}': v for k, v in train_stats.items()},
                         **{f'test_{k}': v for k, v in test_stats.items()},
+                        **{f'real_test_{k}': v for k, v in real_test_stats.items()},
                         'epoch': epoch,
                         'n_parameters': n_parameters}
 
