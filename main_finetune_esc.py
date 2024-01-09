@@ -404,12 +404,6 @@ def main(args):
         msg = model.load_state_dict(checkpoint_model, strict=False)
         print(msg)
 
-        if args.freeze_base_model:
-            for param in model.parameters():
-                param.requires_grad = False
-            model.head.requires_grad_(True)
-
-
         #if args.global_pool:
         #    assert set(msg.missing_keys) == {'head.weight', 'head.bias', 'fc_norm.weight', 'fc_norm.bias'}
         #else:
@@ -418,6 +412,10 @@ def main(args):
         # manually initialize fc layer
         trunc_normal_(model.head.weight, std=2e-5)
 
+    if args.freeze_base_model:
+        for param in model.parameters():
+            param.requires_grad = False
+        model.head.requires_grad_(True)
     model.to(device)
 
     model_without_ddp = model
