@@ -472,7 +472,10 @@ def main(args):
         test_stats = evaluate(data_loader_val, model, device)
         print(f"Accuracy of the network on the {len(dataset_val)} test images: {test_stats['acc1']:.2f}%")
         print(f"mAP of the network on the {len(dataset_val)} test images: {test_stats['mAP']*100:.2f}%")
-        print(f"BEANS mAP of the network on the {len(dataset_val)} test images: {test_stats['beans_mAP']*100:.2f}%")
+        try:
+            print(f"BEANS mAP of the network on the {len(dataset_val)} test images: {test_stats['beans_mAP']*100:.2f}%")
+        except:
+            pass
         print(f"mAUC of the network on the {len(dataset_val)} test images: {test_stats['mAUC']*100:.2f}%")
         print(f"f1 of the network on the {len(dataset_val)} test images: {test_stats['f1']*100:.2f}%")
         print(f"precision of the network on the {len(dataset_val)} test images: {test_stats['precision']*100:.2f}%")
@@ -482,7 +485,10 @@ def main(args):
         train_stats = evaluate(data_loader_train, model, device)
         print(f"Accuracy of the network on the {len(dataset_train)} train images: {train_stats['acc1']:.2f}%")
         print(f"mAP of the network on the {len(dataset_train)} train images: {train_stats['mAP']*100:.2f}%")
-        print(f"BEANS mAP of the network on the {len(dataset_train)} train images: {train_stats['beans_mAP']*100:.2f}%")
+        try:
+            print(f"BEANS mAP of the network on the {len(dataset_train)} train images: {train_stats['beans_mAP']*100:.2f}%")
+        except:
+            pass
         print(f"mAUC of the network on the {len(dataset_train)} train images: {train_stats['mAUC']*100:.2f}%")
         print(f"f1 of the network on the {len(dataset_train)} train images: {train_stats['f1']*100:.2f}%")
         print(f"precision of the network on the {len(dataset_train)} train images: {train_stats['precision']*100:.2f}%")
@@ -516,7 +522,7 @@ def main(args):
             log_writer.add_scalar('perf/test_acc1', test_stats['acc1'], epoch)
             log_writer.add_scalar('perf/test_acc2', test_stats['acc2'], epoch)
             log_writer.add_scalar('perf/test_mAP', test_stats['mAP'], epoch)
-            log_writer.add_scalar('perf/test_beans_mAP', test_stats['beans_mAP'], epoch)
+            if 'beans_mAP' in test_stats: log_writer.add_scalar('perf/test_beans_mAP', test_stats['beans_mAP'], epoch)
             log_writer.add_scalar('perf/test_mAUC', test_stats['mAUC'], epoch)
             log_writer.add_scalar('perf/test_f1', test_stats['f1'], epoch)
             log_writer.add_scalar('perf/test_precision', test_stats['precision'], epoch)
@@ -530,7 +536,7 @@ def main(args):
                 log_writer.add_scalar('perf/real_test_acc1', real_test_stats['acc1'], epoch)
                 log_writer.add_scalar('perf/real_test_acc2', real_test_stats['acc2'], epoch)
                 log_writer.add_scalar('perf/real_test_mAP', real_test_stats['mAP'], epoch)
-                log_writer.add_scalar('perf/real_test_beans_mAP', real_test_stats['beans_mAP'], epoch)
+                if 'beans_mAP' in real_test_stats: log_writer.add_scalar('perf/real_test_beans_mAP', real_test_stats['beans_mAP'], epoch)
                 log_writer.add_scalar('perf/real_test_mAUC', real_test_stats['mAUC'], epoch)
                 log_writer.add_scalar('perf/real_test_f1', real_test_stats['f1'], epoch)
                 log_writer.add_scalar('perf/real_test_precision', real_test_stats['precision'], epoch)
