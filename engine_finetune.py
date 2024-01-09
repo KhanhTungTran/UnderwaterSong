@@ -243,7 +243,6 @@ def train_one_epoch(model: torch.nn.Module, criterion: torch.nn.Module,
     model.train(True)
     metric_logger = misc.MetricLogger(delimiter="  ")
     metric_logger.add_meter('lr', misc.SmoothedValue(window_size=1, fmt='{value:.6f}'))
-    beans_map = MeanAveragePrecision()
     header = 'Epoch: [{}]'.format(epoch)
     print_freq = 20
 
@@ -289,7 +288,6 @@ def train_one_epoch(model: torch.nn.Module, criterion: torch.nn.Module,
         torch.cuda.synchronize()
 
         metric_logger.update(loss=loss_value)
-        beans_map.update(outputs, targets)
         min_lr = 10.
         max_lr = 0.
         for group in optimizer.param_groups:
@@ -316,7 +314,6 @@ def train_one_epoch(model: torch.nn.Module, criterion: torch.nn.Module,
     # gather the stats from all processes
     metric_logger.synchronize_between_processes()
     print("Averaged stats:", metric_logger)
-    print("BEANS mAP: {:.6f}".format(beans_map.get_primary_metric()))
     return {k: meter.global_avg for k, meter in metric_logger.meters.items()}
 
 
@@ -324,7 +321,6 @@ def train_one_epoch(model: torch.nn.Module, criterion: torch.nn.Module,
 def evaluate(data_loader, model, device):
     criterion = torch.nn.CrossEntropyLoss()
 
-    beans_map = MeanAveragePrecision()
     metric_logger = misc.MetricLogger(delimiter="  ")
     header = 'Test:'
 
@@ -358,7 +354,6 @@ def evaluate(data_loader, model, device):
         metric_logger.update(loss=loss.item())
         metric_logger.meters['acc1'].update(acc1.item(), n=batch_size)
         metric_logger.meters['acc2'].update(acc2.item(), n=batch_size)
-        beans_map.update(output, target)
     # gather the stats from all processes
     metric_logger.synchronize_between_processes()
     print('* Acc@1 {top1.global_avg:.3f} Acc@2 {top2.global_avg:.3f} loss {losses.global_avg:.3f}'
@@ -382,7 +377,7 @@ def evaluate(data_loader, model, device):
     middle_rs = [stat['recalls'][int(len(stat['recalls'])/2)] for stat in stats]
     average_precision = np.mean(middle_ps)
     average_recall = np.mean(middle_rs)
-    print("beans_mAP: {:.6f}, mAP: {:.6f}, mAUC: {:.6f}, f1: {:.6f}, pre: {:.6f}, rec: {:.6f}".format(beans_map.get_primary_metric(), mAP, mAUC, f1, average_precision, average_recall))
+    print("mAP: {:.6f}, mAUC: {:.6f}, f1: {:.6f}, pre: {:.6f}, rec: {:.6f}".format(mAP, mAUC, f1, average_precision, average_recall))
 
     dct= {k: meter.global_avg for k, meter in metric_logger.meters.items()}
     dct['mAP'] = mAP
@@ -390,6 +385,5 @@ def evaluate(data_loader, model, device):
     dct['f1'] = f1
     dct['precision'] = average_precision
     dct['recall'] = average_recall
-    dct['beans_mAP'] = beans_map.get_primary_metric()
 
     return dct
