@@ -40,4 +40,4 @@ CUDA_VISIBLE_DEVICES="0" python main_finetune_esc.py --model vit_base_patch16 --
 ```
 
 ### Checkpoints:
-2. UnderwaterSong pretrained + [finetuned on hiceas (sound detection task)](https://drive.google.com/file/d/18EsFOyZYvBYHkJ7_n7JFFWbj6crz01gq/view?usp=share_link)
+2. UnderwaterSong pretrained + [finetuned on hiceas (sound detection task)](https://uccireland-my.sharepoint.com/:u:/g/personal/123128577_umail_ucc_ie/EYwtV-wOKkBHo2Lc1HuRs1AB5vw0mjcHy3TYJUvwKQ0rng?e=4gJzss)
