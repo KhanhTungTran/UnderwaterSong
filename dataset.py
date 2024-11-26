@@ -254,6 +254,7 @@ class AudiosetDataset(Dataset):
         audio is a FloatTensor of size (N_freq, N_frames) for spectrogram, or (N_frames) for waveform
         nframes is an integer
         """
+        index = index % len(self.data)
         # do mix-up for this sample (controlled by the given mixup rate)
         if random.random() < self.mixup: # for audio_exp, when using mixup, assume multilabel
             datum = self.data[index]
@@ -314,7 +315,7 @@ class AudiosetDataset(Dataset):
         return fbank.unsqueeze(0), label_indices, datum['wav']
 
     def __len__(self):
-        return len(self.data)
+        return max(len(self.data), 64) # 64 is the batch size
 
 FFT_SIZE_IN_SECS = 0.05
 HOP_LENGTH_IN_SECS = 0.01

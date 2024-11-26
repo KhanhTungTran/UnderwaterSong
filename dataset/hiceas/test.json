@@ -1,0 +1,1743 @@
+{
+  "data": [
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171118_033936_019.wav",
+      "length": 60,
+      "annotations": [
+        {
+          "st": 0,
+          "ed": 7,
+          "label": 1
+        }
+      ]
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171118_034136_019.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171118_034236_019.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171120_170548_322.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171120_171048_322.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171120_171448_322.wav",
+      "length": 60,
+      "annotations": [
+        {
+          "st": 0,
+          "ed": 24,
+          "label": 1
+        },
+        {
+          "st": 0,
+          "ed": 18,
+          "label": 1
+        }
+      ]
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171120_171948_322.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171120_174648_322.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171120_181148_322.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171120_181548_322.wav",
+      "length": 60,
+      "annotations": [
+        {
+          "st": 24,
+          "ed": 44,
+          "label": 1
+        }
+      ]
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171120_182048_322.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171120_195348_322.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171120_203548_322.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171120_220348_322.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171120_220948_322.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171120_221748_322.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171120_221848_322.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171120_223648_322.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171120_230948_322.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171121_012248_322.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171121_015748_322.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171121_021048_322.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171121_021348_322.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171121_021748_322.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171121_021948_322.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171121_023248_322.wav",
+      "length": 60,
+      "annotations": [
+        {
+          "st": 0,
+          "ed": 14,
+          "label": 1
+        }
+      ]
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171121_024148_322.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171121_024948_322.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171121_165902_999.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171121_171202_998.wav",
+      "length": 60,
+      "annotations": [
+        {
+          "st": 30,
+          "ed": 53,
+          "label": 1
+        }
+      ]
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171121_172202_998.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171121_172602_998.wav",
+      "length": 60,
+      "annotations": [
+        {
+          "st": 15,
+          "ed": 31,
+          "label": 1
+        },
+        {
+          "st": 30,
+          "ed": 48,
+          "label": 1
+        },
+        {
+          "st": 39,
+          "ed": 60,
+          "label": 1
+        }
+      ]
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171121_175902_999.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171121_180102_998.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171121_180902_998.wav",
+      "length": 60,
+      "annotations": [
+        {
+          "st": 23,
+          "ed": 47,
+          "label": 1
+        },
+        {
+          "st": 33,
+          "ed": 47,
+          "label": 1
+        }
+      ]
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171121_182602_999.wav",
+      "length": 60,
+      "annotations": [
+        {
+          "st": 55,
+          "ed": 60,
+          "label": 1
+        }
+      ]
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171121_182702_998.wav",
+      "length": 60,
+      "annotations": [
+        {
+          "st": 0,
+          "ed": 20,
+          "label": 1
+        }
+      ]
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171121_185002_999.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171121_201102_998.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171121_202802_999.wav",
+      "length": 60,
+      "annotations": [
+        {
+          "st": 8,
+          "ed": 24,
+          "label": 1
+        },
+        {
+          "st": 9,
+          "ed": 25,
+          "label": 1
+        },
+        {
+          "st": 56,
+          "ed": 60,
+          "label": 1
+        }
+      ]
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171121_204502_999.wav",
+      "length": 60,
+      "annotations": [
+        {
+          "st": 32,
+          "ed": 56,
+          "label": 1
+        }
+      ]
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171121_210802_998.wav",
+      "length": 60,
+      "annotations": [
+        {
+          "st": 13,
+          "ed": 47,
+          "label": 1
+        }
+      ]
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171121_211002_999.wav",
+      "length": 60,
+      "annotations": [
+        {
+          "st": 29,
+          "ed": 46,
+          "label": 1
+        },
+        {
+          "st": 31,
+          "ed": 48,
+          "label": 1
+        }
+      ]
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171121_211802_998.wav",
+      "length": 60,
+      "annotations": [
+        {
+          "st": 41,
+          "ed": 60,
+          "label": 1
+        },
+        {
+          "st": 58,
+          "ed": 60,
+          "label": 1
+        },
+        {
+          "st": 59,
+          "ed": 60,
+          "label": 1
+        }
+      ]
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171121_220002_999.wav",
+      "length": 60,
+      "annotations": [
+        {
+          "st": 0,
+          "ed": 6,
+          "label": 1
+        },
+        {
+          "st": 4,
+          "ed": 15,
+          "label": 1
+        },
+        {
+          "st": 5,
+          "ed": 31,
+          "label": 1
+        },
+        {
+          "st": 14,
+          "ed": 28,
+          "label": 1
+        },
+        {
+          "st": 16,
+          "ed": 29,
+          "label": 1
+        },
+        {
+          "st": 39,
+          "ed": 60,
+          "label": 1
+        },
+        {
+          "st": 42,
+          "ed": 60,
+          "label": 1
+        }
+      ]
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171121_223402_998.wav",
+      "length": 60,
+      "annotations": [
+        {
+          "st": 0,
+          "ed": 15,
+          "label": 1
+        },
+        {
+          "st": 5,
+          "ed": 60,
+          "label": 1
+        },
+        {
+          "st": 7,
+          "ed": 32,
+          "label": 1
+        },
+        {
+          "st": 14,
+          "ed": 40,
+          "label": 1
+        },
+        {
+          "st": 27,
+          "ed": 42,
+          "label": 1
+        },
+        {
+          "st": 40,
+          "ed": 57,
+          "label": 1
+        },
+        {
+          "st": 41,
+          "ed": 60,
+          "label": 1
+        },
+        {
+          "st": 42,
+          "ed": 56,
+          "label": 1
+        },
+        {
+          "st": 57,
+          "ed": 60,
+          "label": 1
+        }
+      ]
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171121_225002_998.wav",
+      "length": 60,
+      "annotations": [
+        {
+          "st": 0,
+          "ed": 15,
+          "label": 1
+        },
+        {
+          "st": 0,
+          "ed": 8,
+          "label": 1
+        },
+        {
+          "st": 0,
+          "ed": 21,
+          "label": 1
+        },
+        {
+          "st": 2,
+          "ed": 16,
+          "label": 1
+        },
+        {
+          "st": 19,
+          "ed": 42,
+          "label": 1
+        },
+        {
+          "st": 38,
+          "ed": 50,
+          "label": 1
+        },
+        {
+          "st": 47,
+          "ed": 60,
+          "label": 1
+        },
+        {
+          "st": 48,
+          "ed": 60,
+          "label": 1
+        },
+        {
+          "st": 56,
+          "ed": 60,
+          "label": 1
+        }
+      ]
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171121_230602_999.wav",
+      "length": 60,
+      "annotations": [
+        {
+          "st": 0,
+          "ed": 2,
+          "label": 1
+        },
+        {
+          "st": 0,
+          "ed": 2,
+          "label": 1
+        },
+        {
+          "st": 0,
+          "ed": 23,
+          "label": 1
+        },
+        {
+          "st": 0,
+          "ed": 14,
+          "label": 1
+        },
+        {
+          "st": 6,
+          "ed": 24,
+          "label": 1
+        },
+        {
+          "st": 7,
+          "ed": 22,
+          "label": 1
+        },
+        {
+          "st": 20,
+          "ed": 42,
+          "label": 1
+        },
+        {
+          "st": 48,
+          "ed": 60,
+          "label": 1
+        }
+      ]
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171121_234302_999.wav",
+      "length": 60,
+      "annotations": [
+        {
+          "st": 18,
+          "ed": 33,
+          "label": 1
+        },
+        {
+          "st": 25,
+          "ed": 37,
+          "label": 1
+        },
+        {
+          "st": 30,
+          "ed": 43,
+          "label": 1
+        },
+        {
+          "st": 44,
+          "ed": 60,
+          "label": 1
+        },
+        {
+          "st": 47,
+          "ed": 58,
+          "label": 1
+        },
+        {
+          "st": 59,
+          "ed": 60,
+          "label": 1
+        }
+      ]
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171121_234602_998.wav",
+      "length": 60,
+      "annotations": [
+        {
+          "st": 11,
+          "ed": 26,
+          "label": 1
+        },
+        {
+          "st": 20,
+          "ed": 37,
+          "label": 1
+        },
+        {
+          "st": 51,
+          "ed": 60,
+          "label": 1
+        }
+      ]
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171122_003902_999.wav",
+      "length": 60,
+      "annotations": [
+        {
+          "st": 0,
+          "ed": 10,
+          "label": 1
+        },
+        {
+          "st": 0,
+          "ed": 16,
+          "label": 1
+        },
+        {
+          "st": 0,
+          "ed": 12,
+          "label": 1
+        },
+        {
+          "st": 0,
+          "ed": 21,
+          "label": 1
+        },
+        {
+          "st": 2,
+          "ed": 29,
+          "label": 1
+        },
+        {
+          "st": 11,
+          "ed": 40,
+          "label": 1
+        },
+        {
+          "st": 29,
+          "ed": 58,
+          "label": 1
+        },
+        {
+          "st": 32,
+          "ed": 58,
+          "label": 1
+        },
+        {
+          "st": 56,
+          "ed": 60,
+          "label": 1
+        },
+        {
+          "st": 59,
+          "ed": 60,
+          "label": 1
+        }
+      ]
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171122_010502_999.wav",
+      "length": 60,
+      "annotations": [
+        {
+          "st": 0,
+          "ed": 17,
+          "label": 1
+        },
+        {
+          "st": 16,
+          "ed": 45,
+          "label": 1
+        },
+        {
+          "st": 36,
+          "ed": 60,
+          "label": 1
+        },
+        {
+          "st": 47,
+          "ed": 60,
+          "label": 1
+        },
+        {
+          "st": 48,
+          "ed": 60,
+          "label": 1
+        }
+      ]
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171122_021302_999.wav",
+      "length": 60,
+      "annotations": [
+        {
+          "st": 0,
+          "ed": 1,
+          "label": 1
+        },
+        {
+          "st": 0,
+          "ed": 13,
+          "label": 1
+        },
+        {
+          "st": 0,
+          "ed": 13,
+          "label": 1
+        },
+        {
+          "st": 2,
+          "ed": 20,
+          "label": 1
+        },
+        {
+          "st": 10,
+          "ed": 28,
+          "label": 1
+        },
+        {
+          "st": 18,
+          "ed": 31,
+          "label": 1
+        },
+        {
+          "st": 24,
+          "ed": 46,
+          "label": 1
+        },
+        {
+          "st": 33,
+          "ed": 52,
+          "label": 1
+        },
+        {
+          "st": 43,
+          "ed": 56,
+          "label": 1
+        },
+        {
+          "st": 58,
+          "ed": 60,
+          "label": 1
+        }
+      ]
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171122_022302_998.wav",
+      "length": 60,
+      "annotations": [
+        {
+          "st": 0,
+          "ed": 2,
+          "label": 1
+        },
+        {
+          "st": 0,
+          "ed": 12,
+          "label": 1
+        },
+        {
+          "st": 0,
+          "ed": 14,
+          "label": 1
+        },
+        {
+          "st": 4,
+          "ed": 19,
+          "label": 1
+        },
+        {
+          "st": 17,
+          "ed": 42,
+          "label": 1
+        },
+        {
+          "st": 40,
+          "ed": 53,
+          "label": 1
+        },
+        {
+          "st": 58,
+          "ed": 60,
+          "label": 1
+        }
+      ]
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171122_024602_999.wav",
+      "length": 60,
+      "annotations": [
+        {
+          "st": 0,
+          "ed": 5,
+          "label": 1
+        },
+        {
+          "st": 2,
+          "ed": 16,
+          "label": 1
+        },
+        {
+          "st": 26,
+          "ed": 45,
+          "label": 1
+        },
+        {
+          "st": 34,
+          "ed": 48,
+          "label": 1
+        },
+        {
+          "st": 35,
+          "ed": 56,
+          "label": 1
+        },
+        {
+          "st": 49,
+          "ed": 60,
+          "label": 1
+        },
+        {
+          "st": 52,
+          "ed": 60,
+          "label": 1
+        }
+      ]
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171122_031402_999.wav",
+      "length": 60,
+      "annotations": [
+        {
+          "st": 0,
+          "ed": 18,
+          "label": 1
+        },
+        {
+          "st": 0,
+          "ed": 27,
+          "label": 1
+        },
+        {
+          "st": 5,
+          "ed": 17,
+          "label": 1
+        },
+        {
+          "st": 13,
+          "ed": 28,
+          "label": 1
+        },
+        {
+          "st": 25,
+          "ed": 43,
+          "label": 1
+        },
+        {
+          "st": 28,
+          "ed": 60,
+          "label": 1
+        },
+        {
+          "st": 29,
+          "ed": 51,
+          "label": 1
+        },
+        {
+          "st": 32,
+          "ed": 51,
+          "label": 1
+        },
+        {
+          "st": 33,
+          "ed": 50,
+          "label": 1
+        },
+        {
+          "st": 46,
+          "ed": 60,
+          "label": 1
+        },
+        {
+          "st": 57,
+          "ed": 60,
+          "label": 1
+        }
+      ]
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171123_164005_984.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171123_170105_984.wav",
+      "length": 60,
+      "annotations": [
+        {
+          "st": 35,
+          "ed": 58,
+          "label": 1
+        },
+        {
+          "st": 36,
+          "ed": 50,
+          "label": 1
+        },
+        {
+          "st": 59,
+          "ed": 60,
+          "label": 1
+        }
+      ]
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171123_180705_984.wav",
+      "length": 60,
+      "annotations": [
+        {
+          "st": 6,
+          "ed": 29,
+          "label": 1
+        }
+      ]
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171123_181305_984.wav",
+      "length": 60,
+      "annotations": [
+        {
+          "st": 0,
+          "ed": 15,
+          "label": 1
+        },
+        {
+          "st": 24,
+          "ed": 41,
+          "label": 1
+        },
+        {
+          "st": 47,
+          "ed": 60,
+          "label": 1
+        }
+      ]
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171123_182505_984.wav",
+      "length": 60,
+      "annotations": [
+        {
+          "st": 0,
+          "ed": 9,
+          "label": 1
+        }
+      ]
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171123_183105_984.wav",
+      "length": 60,
+      "annotations": [
+        {
+          "st": 0,
+          "ed": 12,
+          "label": 1
+        },
+        {
+          "st": 0,
+          "ed": 28,
+          "label": 1
+        }
+      ]
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171123_184205_984.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171123_184905_984.wav",
+      "length": 60,
+      "annotations": [
+        {
+          "st": 23,
+          "ed": 41,
+          "label": 1
+        },
+        {
+          "st": 27,
+          "ed": 42,
+          "label": 1
+        },
+        {
+          "st": 28,
+          "ed": 43,
+          "label": 1
+        }
+      ]
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171123_190905_984.wav",
+      "length": 60,
+      "annotations": [
+        {
+          "st": 0,
+          "ed": 20,
+          "label": 1
+        },
+        {
+          "st": 0,
+          "ed": 19,
+          "label": 1
+        },
+        {
+          "st": 44,
+          "ed": 60,
+          "label": 1
+        }
+      ]
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171123_191505_984.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171123_192505_984.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171123_193905_984.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171123_195005_984.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171123_200605_984.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171123_210005_984.wav",
+      "length": 60,
+      "annotations": [
+        {
+          "st": 0,
+          "ed": 6,
+          "label": 1
+        },
+        {
+          "st": 51,
+          "ed": 60,
+          "label": 1
+        }
+      ]
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171123_210605_984.wav",
+      "length": 60,
+      "annotations": [
+        {
+          "st": 2,
+          "ed": 24,
+          "label": 1
+        },
+        {
+          "st": 30,
+          "ed": 50,
+          "label": 1
+        },
+        {
+          "st": 59,
+          "ed": 60,
+          "label": 1
+        }
+      ]
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171123_213705_984.wav",
+      "length": 60,
+      "annotations": [
+        {
+          "st": 13,
+          "ed": 27,
+          "label": 1
+        },
+        {
+          "st": 36,
+          "ed": 52,
+          "label": 1
+        }
+      ]
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171123_215205_984.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171123_225105_984.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171123_230105_984.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171123_230505_984.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171123_231105_984.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171123_232205_984.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171123_232505_984.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171123_233205_984.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171123_233705_984.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171123_234005_984.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171123_235505_984.wav",
+      "length": 60,
+      "annotations": [
+        {
+          "st": 10,
+          "ed": 27,
+          "label": 1
+        },
+        {
+          "st": 12,
+          "ed": 23,
+          "label": 1
+        }
+      ]
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171125_000301_853.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171125_001001_853.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171125_001501_853.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171125_013644_577.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171125_014844_577.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171126_181019_132.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171126_182148_607.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171126_192348_607.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171126_193648_607.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171126_193848_607.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171126_200048_607.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171126_201048_607.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171126_201448_607.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171130_163634_114.wav",
+      "length": 60,
+      "annotations": [
+        {
+          "st": 19,
+          "ed": 48,
+          "label": 1
+        }
+      ]
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171130_164034_114.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171130_172334_114.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171130_172534_114.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171130_174234_114.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171130_175134_114.wav",
+      "length": 60,
+      "annotations": [
+        {
+          "st": 41,
+          "ed": 60,
+          "label": 1
+        }
+      ]
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171130_180634_114.wav",
+      "length": 60,
+      "annotations": [
+        {
+          "st": 0,
+          "ed": 28,
+          "label": 1
+        }
+      ]
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171130_183734_114.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171130_183934_114.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171130_185234_114.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171130_185834_114.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171130_194545_428.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171130_195845_428.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171130_201245_428.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171130_204045_428.wav",
+      "length": 60,
+      "annotations": [
+        {
+          "st": 0,
+          "ed": 10,
+          "label": 1
+        }
+      ]
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171130_212045_428.wav",
+      "length": 60,
+      "annotations": [
+        {
+          "st": 10,
+          "ed": 23,
+          "label": 1
+        }
+      ]
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171130_212145_428.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171130_212545_428.wav",
+      "length": 60,
+      "annotations": [
+        {
+          "st": 38,
+          "ed": 49,
+          "label": 1
+        }
+      ]
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171130_215545_428.wav",
+      "length": 60,
+      "annotations": [
+        {
+          "st": 22,
+          "ed": 54,
+          "label": 1
+        }
+      ]
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171130_220845_428.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171130_223945_428.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171130_225845_429.wav",
+      "length": 60,
+      "annotations": [
+        {
+          "st": 0,
+          "ed": 4,
+          "label": 1
+        },
+        {
+          "st": 38,
+          "ed": 60,
+          "label": 1
+        }
+      ]
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171130_231545_428.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171130_235445_428.wav",
+      "length": 60,
+      "annotations": [
+        {
+          "st": 3,
+          "ed": 26,
+          "label": 1
+        },
+        {
+          "st": 29,
+          "ed": 46,
+          "label": 1
+        },
+        {
+          "st": 41,
+          "ed": 60,
+          "label": 1
+        },
+        {
+          "st": 53,
+          "ed": 60,
+          "label": 1
+        }
+      ]
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171201_002045_428.wav",
+      "length": 60,
+      "annotations": [
+        {
+          "st": 44,
+          "ed": 60,
+          "label": 1
+        }
+      ]
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171201_005145_428.wav",
+      "length": 60,
+      "annotations": [
+        {
+          "st": 43,
+          "ed": 60,
+          "label": 1
+        }
+      ]
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171201_005545_428.wav",
+      "length": 60,
+      "annotations": []
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171201_010445_428.wav",
+      "length": 60,
+      "annotations": [
+        {
+          "st": 0,
+          "ed": 12,
+          "label": 1
+        }
+      ]
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171201_012045_428.wav",
+      "length": 60,
+      "annotations": [
+        {
+          "st": 10,
+          "ed": 22,
+          "label": 1
+        },
+        {
+          "st": 13,
+          "ed": 32,
+          "label": 1
+        }
+      ]
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171201_014045_428.wav",
+      "length": 60,
+      "annotations": [
+        {
+          "st": 0,
+          "ed": 7,
+          "label": 1
+        },
+        {
+          "st": 0,
+          "ed": 4,
+          "label": 1
+        },
+        {
+          "st": 24,
+          "ed": 52,
+          "label": 1
+        },
+        {
+          "st": 25,
+          "ed": 40,
+          "label": 1
+        }
+      ]
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171201_020145_428.wav",
+      "length": 60,
+      "annotations": [
+        {
+          "st": 0,
+          "ed": 16,
+          "label": 1
+        },
+        {
+          "st": 0,
+          "ed": 15,
+          "label": 1
+        },
+        {
+          "st": 32,
+          "ed": 60,
+          "label": 1
+        },
+        {
+          "st": 37,
+          "ed": 50,
+          "label": 1
+        }
+      ]
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171201_020445_428.wav",
+      "length": 60,
+      "annotations": [
+        {
+          "st": 10,
+          "ed": 35,
+          "label": 1
+        },
+        {
+          "st": 40,
+          "ed": 57,
+          "label": 1
+        },
+        {
+          "st": 42,
+          "ed": 53,
+          "label": 1
+        }
+      ]
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171201_020645_428.wav",
+      "length": 60,
+      "annotations": [
+        {
+          "st": 6,
+          "ed": 29,
+          "label": 1
+        },
+        {
+          "st": 7,
+          "ed": 22,
+          "label": 1
+        }
+      ]
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171201_023045_428.wav",
+      "length": 60,
+      "annotations": [
+        {
+          "st": 1,
+          "ed": 17,
+          "label": 1
+        },
+        {
+          "st": 5,
+          "ed": 26,
+          "label": 1
+        },
+        {
+          "st": 42,
+          "ed": 57,
+          "label": 1
+        },
+        {
+          "st": 56,
+          "ed": 60,
+          "label": 1
+        },
+        {
+          "st": 59,
+          "ed": 60,
+          "label": 1
+        }
+      ]
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171201_023145_428.wav",
+      "length": 60,
+      "annotations": [
+        {
+          "st": 0,
+          "ed": 15,
+          "label": 1
+        },
+        {
+          "st": 0,
+          "ed": 37,
+          "label": 1
+        },
+        {
+          "st": 0,
+          "ed": 12,
+          "label": 1
+        },
+        {
+          "st": 2,
+          "ed": 27,
+          "label": 1
+        },
+        {
+          "st": 3,
+          "ed": 18,
+          "label": 1
+        },
+        {
+          "st": 13,
+          "ed": 24,
+          "label": 1
+        }
+      ]
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171201_023245_428.wav",
+      "length": 60,
+      "annotations": [
+        {
+          "st": 22,
+          "ed": 42,
+          "label": 1
+        },
+        {
+          "st": 31,
+          "ed": 42,
+          "label": 1
+        },
+        {
+          "st": 44,
+          "ed": 59,
+          "label": 1
+        }
+      ]
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171201_023545_428.wav",
+      "length": 60,
+      "annotations": [
+        {
+          "st": 0,
+          "ed": 12,
+          "label": 1
+        },
+        {
+          "st": 0,
+          "ed": 12,
+          "label": 1
+        },
+        {
+          "st": 19,
+          "ed": 35,
+          "label": 1
+        },
+        {
+          "st": 30,
+          "ed": 49,
+          "label": 1
+        },
+        {
+          "st": 31,
+          "ed": 47,
+          "label": 1
+        },
+        {
+          "st": 39,
+          "ed": 60,
+          "label": 1
+        },
+        {
+          "st": 40,
+          "ed": 57,
+          "label": 1
+        },
+        {
+          "st": 48,
+          "ed": 60,
+          "label": 1
+        },
+        {
+          "st": 53,
+          "ed": 60,
+          "label": 1
+        }
+      ]
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/hiceas/wav/1705_20171201_025245_428.wav",
+      "length": 60,
+      "annotations": [
+        {
+          "st": 0,
+          "ed": 3,
+          "label": 1
+        },
+        {
+          "st": 0,
+          "ed": 6,
+          "label": 1
+        },
+        {
+          "st": 0,
+          "ed": 4,
+          "label": 1
+        },
+        {
+          "st": 22,
+          "ed": 37,
+          "label": 1
+        },
+        {
+          "st": 33,
+          "ed": 60,
+          "label": 1
+        },
+        {
+          "st": 46,
+          "ed": 60,
+          "label": 1
+        },
+        {
+          "st": 56,
+          "ed": 60,
+          "label": 1
+        }
+      ]
+    }
+  ]
+}

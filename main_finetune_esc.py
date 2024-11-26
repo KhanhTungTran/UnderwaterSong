@@ -513,6 +513,13 @@ def main(args):
                 loss_scaler=loss_scaler, epoch=epoch)
 
         test_stats = evaluate(data_loader_val, model, device)
+        # import pandas as pd
+        # df = pd.DataFrame()
+        # df['file'] = test_stats['file']
+        # df['pred'] = np.argmax(test_stats['pred'], axis=1)
+        # df.to_csv(f'./demo/predictions/pred_{epoch}.csv', index=False)
+        # test_stats.pop('file')
+        # test_stats.pop('pred')
         print(f"Accuracy of the network on the {len(dataset_val)} test images: {test_stats['acc1']:.1f}%")
         max_accuracy = max(max_accuracy, test_stats["acc1"])
         print(f'Max accuracy: {max_accuracy:.2f}%')

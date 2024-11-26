@@ -328,6 +328,7 @@ def evaluate(data_loader, model, device):
     model.eval()
     outputs=[]
     targets=[]
+    file_names=[]
 
     multi_label = False
 
@@ -336,6 +337,7 @@ def evaluate(data_loader, model, device):
         target = batch[1]
         images = images.to(device, non_blocking=True)
         target = target.to(device, non_blocking=True)
+        file_names.extend(batch[2])
 
         # compute output
         with torch.cuda.amp.autocast():
@@ -386,4 +388,6 @@ def evaluate(data_loader, model, device):
     dct['precision'] = average_precision
     dct['recall'] = average_recall
 
+    # dct['file'] = file_names
+    # dct['pred'] = outputs
     return dct
