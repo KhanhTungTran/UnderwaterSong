@@ -1,0 +1,4072 @@
+{
+  "data": [
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Clymene_Dolphin/83006002.wav",
+      "labels": "Clymene_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Clymene_Dolphin/8300602E.wav",
+      "labels": "Clymene_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Clymene_Dolphin/83035002.wav",
+      "labels": "Clymene_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Clymene_Dolphin/8300604G.wav",
+      "labels": "Clymene_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Clymene_Dolphin/8303503S.wav",
+      "labels": "Clymene_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Clymene_Dolphin/83035003.wav",
+      "labels": "Clymene_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Clymene_Dolphin/8300604E.wav",
+      "labels": "Clymene_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Clymene_Dolphin/8300603S.wav",
+      "labels": "Clymene_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Clymene_Dolphin/8300604O.wav",
+      "labels": "Clymene_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Clymene_Dolphin/8300602Q.wav",
+      "labels": "Clymene_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Clymene_Dolphin/83006008.wav",
+      "labels": "Clymene_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Clymene_Dolphin/83035007.wav",
+      "labels": "Clymene_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Clymene_Dolphin/8300600N.wav",
+      "labels": "Clymene_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Clymene_Dolphin/8303503R.wav",
+      "labels": "Clymene_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Clymene_Dolphin/8300600A.wav",
+      "labels": "Clymene_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Clymene_Dolphin/8300604N.wav",
+      "labels": "Clymene_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Clymene_Dolphin/8300600E.wav",
+      "labels": "Clymene_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Clymene_Dolphin/8303501L.wav",
+      "labels": "Clymene_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Clymene_Dolphin/83006047.wav",
+      "labels": "Clymene_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Clymene_Dolphin/8303503P.wav",
+      "labels": "Clymene_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Clymene_Dolphin/8300604D.wav",
+      "labels": "Clymene_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Clymene_Dolphin/8303503N.wav",
+      "labels": "Clymene_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Clymene_Dolphin/83006009.wav",
+      "labels": "Clymene_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Clymene_Dolphin/8300602M.wav",
+      "labels": "Clymene_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Clymene_Dolphin/8300603U.wav",
+      "labels": "Clymene_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Clymene_Dolphin/8303501W.wav",
+      "labels": "Clymene_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Clymene_Dolphin/8300604K.wav",
+      "labels": "Clymene_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Clymene_Dolphin/8300604H.wav",
+      "labels": "Clymene_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Clymene_Dolphin/8300604Q.wav",
+      "labels": "Clymene_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Clymene_Dolphin/8303503Q.wav",
+      "labels": "Clymene_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Clymene_Dolphin/83035006.wav",
+      "labels": "Clymene_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Clymene_Dolphin/8300601V.wav",
+      "labels": "Clymene_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Clymene_Dolphin/8300602B.wav",
+      "labels": "Clymene_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Clymene_Dolphin/8300604J.wav",
+      "labels": "Clymene_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Clymene_Dolphin/8300602T.wav",
+      "labels": "Clymene_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Clymene_Dolphin/8300604S.wav",
+      "labels": "Clymene_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Clymene_Dolphin/8300604F.wav",
+      "labels": "Clymene_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Clymene_Dolphin/8300601G.wav",
+      "labels": "Clymene_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bottlenose_Dolphin/89514017.wav",
+      "labels": "Bottlenose_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bottlenose_Dolphin/5600600A.wav",
+      "labels": "Bottlenose_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bottlenose_Dolphin/89514011.wav",
+      "labels": "Bottlenose_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bottlenose_Dolphin/89514005.wav",
+      "labels": "Bottlenose_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bottlenose_Dolphin/89514012.wav",
+      "labels": "Bottlenose_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bottlenose_Dolphin/5600600E.wav",
+      "labels": "Bottlenose_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bottlenose_Dolphin/89514002.wav",
+      "labels": "Bottlenose_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bottlenose_Dolphin/89514004.wav",
+      "labels": "Bottlenose_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bottlenose_Dolphin/56006004.wav",
+      "labels": "Bottlenose_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bottlenose_Dolphin/89514014.wav",
+      "labels": "Bottlenose_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bottlenose_Dolphin/56006001.wav",
+      "labels": "Bottlenose_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bottlenose_Dolphin/56006002.wav",
+      "labels": "Bottlenose_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bottlenose_Dolphin/5600600D.wav",
+      "labels": "Bottlenose_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bottlenose_Dolphin/5600600B.wav",
+      "labels": "Bottlenose_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bottlenose_Dolphin/89514013.wav",
+      "labels": "Bottlenose_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/7100800Z.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/71001010.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/7100300L.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/7100801J.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/71003009.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/71003005.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/71008002.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/71008009.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/7100801I.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/7100801E.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/7100300A.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/7100300O.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/71004015.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/7100801M.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/71001024.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/71004009.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/71001038.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/7100101K.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/71004017.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/7100801L.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/7100101R.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/7100102S.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/7100300E.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/7100800D.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/7100300I.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/7100103C.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/7100102W.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/7101001C.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/7100100X.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/7100300H.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/7100103G.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/7100101J.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/71001039.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/7100300D.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/7100401H.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/7100300T.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/7100103E.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/7100401C.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/7100300W.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/71001032.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/7100300N.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/7100101V.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/7100101I.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/71003007.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/7100103A.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/7100801O.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/7100300G.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/7100101A.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/7100300J.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/71010007.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/7100300Q.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/71008001.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/71003006.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/7100100N.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/7100901A.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/71001022.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/7100401E.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/71001034.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/7100300B.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/7100101O.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/7100800L.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/7100100Z.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/71003002.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/7100300S.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/71010018.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/71003008.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/71004019.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/7101001E.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Spinner_Dolphin/7100103D.wav",
+      "labels": "Spinner_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Beluga,_White_Whale/6202200E.wav",
+      "labels": "Beluga,_White_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Beluga,_White_Whale/6503300C.wav",
+      "labels": "Beluga,_White_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Beluga,_White_Whale/6503000F.wav",
+      "labels": "Beluga,_White_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Beluga,_White_Whale/62019007.wav",
+      "labels": "Beluga,_White_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Beluga,_White_Whale/6503000H.wav",
+      "labels": "Beluga,_White_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Beluga,_White_Whale/6202600D.wav",
+      "labels": "Beluga,_White_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Beluga,_White_Whale/65033004.wav",
+      "labels": "Beluga,_White_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Beluga,_White_Whale/6503300D.wav",
+      "labels": "Beluga,_White_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Beluga,_White_Whale/6503300K.wav",
+      "labels": "Beluga,_White_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Beluga,_White_Whale/62022018.wav",
+      "labels": "Beluga,_White_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Beluga,_White_Whale/6202200Q.wav",
+      "labels": "Beluga,_White_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Beluga,_White_Whale/6202200W.wav",
+      "labels": "Beluga,_White_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Beluga,_White_Whale/62022014.wav",
+      "labels": "Beluga,_White_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Beluga,_White_Whale/6503300E.wav",
+      "labels": "Beluga,_White_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Beluga,_White_Whale/65033003.wav",
+      "labels": "Beluga,_White_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Beluga,_White_Whale/62026001.wav",
+      "labels": "Beluga,_White_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Beluga,_White_Whale/62019001.wav",
+      "labels": "Beluga,_White_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Beluga,_White_Whale/6503300J.wav",
+      "labels": "Beluga,_White_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Beluga,_White_Whale/63015006.wav",
+      "labels": "Beluga,_White_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Beluga,_White_Whale/63015002.wav",
+      "labels": "Beluga,_White_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Beluga,_White_Whale/62022013.wav",
+      "labels": "Beluga,_White_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Beluga,_White_Whale/62026002.wav",
+      "labels": "Beluga,_White_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Beluga,_White_Whale/62022017.wav",
+      "labels": "Beluga,_White_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Beluga,_White_Whale/65033002.wav",
+      "labels": "Beluga,_White_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Beluga,_White_Whale/6202200T.wav",
+      "labels": "Beluga,_White_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Beluga,_White_Whale/65033007.wav",
+      "labels": "Beluga,_White_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Beluga,_White_Whale/63015001.wav",
+      "labels": "Beluga,_White_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Beluga,_White_Whale/6503000G.wav",
+      "labels": "Beluga,_White_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Beluga,_White_Whale/62026009.wav",
+      "labels": "Beluga,_White_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Beluga,_White_Whale/62026006.wav",
+      "labels": "Beluga,_White_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bearded_Seal/66038004.wav",
+      "labels": "Bearded_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bearded_Seal/66038001.wav",
+      "labels": "Bearded_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bearded_Seal/66038003.wav",
+      "labels": "Bearded_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bearded_Seal/71012007.wav",
+      "labels": "Bearded_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bearded_Seal/71012009.wav",
+      "labels": "Bearded_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bearded_Seal/71012006.wav",
+      "labels": "Bearded_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bearded_Seal/70025003.wav",
+      "labels": "Bearded_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bearded_Seal/7801800J.wav",
+      "labels": "Bearded_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bearded_Seal/71012004.wav",
+      "labels": "Bearded_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bearded_Seal/7801800B.wav",
+      "labels": "Bearded_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bearded_Seal/66038005.wav",
+      "labels": "Bearded_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bearded_Seal/70025008.wav",
+      "labels": "Bearded_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bearded_Seal/7801800H.wav",
+      "labels": "Bearded_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bearded_Seal/71012002.wav",
+      "labels": "Bearded_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bearded_Seal/71012005.wav",
+      "labels": "Bearded_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bearded_Seal/71012001.wav",
+      "labels": "Bearded_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bearded_Seal/70025001.wav",
+      "labels": "Bearded_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bearded_Seal/78018002.wav",
+      "labels": "Bearded_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bearded_Seal/70025004.wav",
+      "labels": "Bearded_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bearded_Seal/70025009.wav",
+      "labels": "Bearded_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bearded_Seal/7801800D.wav",
+      "labels": "Bearded_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bearded_Seal/7202100T.wav",
+      "labels": "Bearded_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Minke_Whale/64103004.wav",
+      "labels": "Minke_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Minke_Whale/64104003.wav",
+      "labels": "Minke_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Minke_Whale/6410300B.wav",
+      "labels": "Minke_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Minke_Whale/64104005.wav",
+      "labels": "Minke_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Minke_Whale/64103005.wav",
+      "labels": "Minke_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Minke_Whale/64103009.wav",
+      "labels": "Minke_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Minke_Whale/64104004.wav",
+      "labels": "Minke_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Minke_Whale/64103006.wav",
+      "labels": "Minke_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Minke_Whale/64104001.wav",
+      "labels": "Minke_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Minke_Whale/64103001.wav",
+      "labels": "Minke_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Humpback_Whale/63019018.wav",
+      "labels": "Humpback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Humpback_Whale/6301901U.wav",
+      "labels": "Humpback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Humpback_Whale/6304300N.wav",
+      "labels": "Humpback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Humpback_Whale/6301901A.wav",
+      "labels": "Humpback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Humpback_Whale/6304300F.wav",
+      "labels": "Humpback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Humpback_Whale/63019007.wav",
+      "labels": "Humpback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Humpback_Whale/55113002.wav",
+      "labels": "Humpback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Humpback_Whale/55113004.wav",
+      "labels": "Humpback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Humpback_Whale/63019001.wav",
+      "labels": "Humpback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Humpback_Whale/63019005.wav",
+      "labels": "Humpback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Humpback_Whale/55113003.wav",
+      "labels": "Humpback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Humpback_Whale/6301901T.wav",
+      "labels": "Humpback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Humpback_Whale/9220100D.wav",
+      "labels": "Humpback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Humpback_Whale/55113007.wav",
+      "labels": "Humpback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Humpback_Whale/9220100Z.wav",
+      "labels": "Humpback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Humpback_Whale/6301901E.wav",
+      "labels": "Humpback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Humpback_Whale/6301901C.wav",
+      "labels": "Humpback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Humpback_Whale/63019002.wav",
+      "labels": "Humpback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Humpback_Whale/63019014.wav",
+      "labels": "Humpback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Humpback_Whale/92201002.wav",
+      "labels": "Humpback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Humpback_Whale/63019004.wav",
+      "labels": "Humpback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Humpback_Whale/6301901H.wav",
+      "labels": "Humpback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Humpback_Whale/63019017.wav",
+      "labels": "Humpback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Humpback_Whale/9220100B.wav",
+      "labels": "Humpback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Humpback_Whale/9220100Q.wav",
+      "labels": "Humpback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Humpback_Whale/9220100V.wav",
+      "labels": "Humpback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Humpback_Whale/9220100W.wav",
+      "labels": "Humpback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Humpback_Whale/6304300K.wav",
+      "labels": "Humpback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Humpback_Whale/6301900Z.wav",
+      "labels": "Humpback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Humpback_Whale/6301900Y.wav",
+      "labels": "Humpback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Humpback_Whale/63019019.wav",
+      "labels": "Humpback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Humpback_Whale/6304300O.wav",
+      "labels": "Humpback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Humpback_Whale/6301900W.wav",
+      "labels": "Humpback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Humpback_Whale/5511300F.wav",
+      "labels": "Humpback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Humpback_Whale/6301901B.wav",
+      "labels": "Humpback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Humpback_Whale/9220100F.wav",
+      "labels": "Humpback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Humpback_Whale/92201001.wav",
+      "labels": "Humpback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Humpback_Whale/63019010.wav",
+      "labels": "Humpback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Southern_Right_Whale/7900200R.wav",
+      "labels": "Southern_Right_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Southern_Right_Whale/8300200C.wav",
+      "labels": "Southern_Right_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Southern_Right_Whale/79002010.wav",
+      "labels": "Southern_Right_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Southern_Right_Whale/7900200K.wav",
+      "labels": "Southern_Right_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Southern_Right_Whale/7900200X.wav",
+      "labels": "Southern_Right_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Southern_Right_Whale/8300200A.wav",
+      "labels": "Southern_Right_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Southern_Right_Whale/7900200L.wav",
+      "labels": "Southern_Right_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Southern_Right_Whale/7900200S.wav",
+      "labels": "Southern_Right_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Southern_Right_Whale/7900200Z.wav",
+      "labels": "Southern_Right_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Southern_Right_Whale/83002002.wav",
+      "labels": "Southern_Right_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Southern_Right_Whale/79002007.wav",
+      "labels": "Southern_Right_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Southern_Right_Whale/79002011.wav",
+      "labels": "Southern_Right_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Southern_Right_Whale/83002004.wav",
+      "labels": "Southern_Right_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Southern_Right_Whale/79002004.wav",
+      "labels": "Southern_Right_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Southern_Right_Whale/7900200T.wav",
+      "labels": "Southern_Right_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-sided_Dolphin/6107200O.wav",
+      "labels": "White-sided_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-sided_Dolphin/6107200T.wav",
+      "labels": "White-sided_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-sided_Dolphin/6107202O.wav",
+      "labels": "White-sided_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-sided_Dolphin/7500103V.wav",
+      "labels": "White-sided_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-sided_Dolphin/61072013.wav",
+      "labels": "White-sided_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-sided_Dolphin/79004007.wav",
+      "labels": "White-sided_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-sided_Dolphin/79006017.wav",
+      "labels": "White-sided_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-sided_Dolphin/6107200E.wav",
+      "labels": "White-sided_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-sided_Dolphin/7500102G.wav",
+      "labels": "White-sided_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-sided_Dolphin/61072004.wav",
+      "labels": "White-sided_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-sided_Dolphin/6107202K.wav",
+      "labels": "White-sided_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-sided_Dolphin/6107200H.wav",
+      "labels": "White-sided_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-sided_Dolphin/6107200R.wav",
+      "labels": "White-sided_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-sided_Dolphin/7500102R.wav",
+      "labels": "White-sided_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-sided_Dolphin/6107202L.wav",
+      "labels": "White-sided_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-sided_Dolphin/7500101P.wav",
+      "labels": "White-sided_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-sided_Dolphin/75001021.wav",
+      "labels": "White-sided_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-sided_Dolphin/6107201P.wav",
+      "labels": "White-sided_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-sided_Dolphin/7500101N.wav",
+      "labels": "White-sided_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-sided_Dolphin/61072020.wav",
+      "labels": "White-sided_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-sided_Dolphin/7500103D.wav",
+      "labels": "White-sided_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-sided_Dolphin/6107200Z.wav",
+      "labels": "White-sided_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-sided_Dolphin/6107202N.wav",
+      "labels": "White-sided_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-sided_Dolphin/75001019.wav",
+      "labels": "White-sided_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-sided_Dolphin/7500102H.wav",
+      "labels": "White-sided_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-sided_Dolphin/6107200M.wav",
+      "labels": "White-sided_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-sided_Dolphin/6107201X.wav",
+      "labels": "White-sided_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-sided_Dolphin/79006015.wav",
+      "labels": "White-sided_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-sided_Dolphin/61072032.wav",
+      "labels": "White-sided_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-sided_Dolphin/79006018.wav",
+      "labels": "White-sided_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-sided_Dolphin/6107202R.wav",
+      "labels": "White-sided_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-sided_Dolphin/7500100Y.wav",
+      "labels": "White-sided_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-sided_Dolphin/61072006.wav",
+      "labels": "White-sided_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Narwhal/75014014.wav",
+      "labels": "Narwhal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Narwhal/6804000D.wav",
+      "labels": "Narwhal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Narwhal/75014015.wav",
+      "labels": "Narwhal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Narwhal/75014016.wav",
+      "labels": "Narwhal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Narwhal/7501400T.wav",
+      "labels": "Narwhal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Narwhal/6804000S.wav",
+      "labels": "Narwhal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Narwhal/75014010.wav",
+      "labels": "Narwhal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Narwhal/75014003.wav",
+      "labels": "Narwhal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Narwhal/75014011.wav",
+      "labels": "Narwhal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Narwhal/7501400W.wav",
+      "labels": "Narwhal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Narwhal/6800200A.wav",
+      "labels": "Narwhal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Narwhal/7501400M.wav",
+      "labels": "Narwhal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Narwhal/7501400U.wav",
+      "labels": "Narwhal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Narwhal/75014006.wav",
+      "labels": "Narwhal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Narwhal/7501400N.wav",
+      "labels": "Narwhal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Narwhal/6804000Q.wav",
+      "labels": "Narwhal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Narwhal/6800200C.wav",
+      "labels": "Narwhal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Narwhal/7501400F.wav",
+      "labels": "Narwhal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Narwhal/6800200G.wav",
+      "labels": "Narwhal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Narwhal/7501400V.wav",
+      "labels": "Narwhal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Narwhal/7501400Y.wav",
+      "labels": "Narwhal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Narwhal/7501400S.wav",
+      "labels": "Narwhal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Narwhal/7501400I.wav",
+      "labels": "Narwhal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Narwhal/7501400A.wav",
+      "labels": "Narwhal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Narwhal/6800200B.wav",
+      "labels": "Narwhal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Narwhal/6800200F.wav",
+      "labels": "Narwhal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Narwhal/7501400L.wav",
+      "labels": "Narwhal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Narwhal/7501400K.wav",
+      "labels": "Narwhal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Narwhal/7501400Z.wav",
+      "labels": "Narwhal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Narwhal/7501400R.wav",
+      "labels": "Narwhal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-beaked_Dolphin/59037012.wav",
+      "labels": "White-beaked_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-beaked_Dolphin/7200500V.wav",
+      "labels": "White-beaked_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-beaked_Dolphin/5903700Q.wav",
+      "labels": "White-beaked_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-beaked_Dolphin/5903700J.wav",
+      "labels": "White-beaked_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-beaked_Dolphin/7001400V.wav",
+      "labels": "White-beaked_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-beaked_Dolphin/59037016.wav",
+      "labels": "White-beaked_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-beaked_Dolphin/7001300G.wav",
+      "labels": "White-beaked_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-beaked_Dolphin/59037005.wav",
+      "labels": "White-beaked_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-beaked_Dolphin/59037013.wav",
+      "labels": "White-beaked_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-beaked_Dolphin/7200500E.wav",
+      "labels": "White-beaked_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-beaked_Dolphin/5903700G.wav",
+      "labels": "White-beaked_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-beaked_Dolphin/7200500H.wav",
+      "labels": "White-beaked_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-beaked_Dolphin/70014014.wav",
+      "labels": "White-beaked_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-beaked_Dolphin/7001400T.wav",
+      "labels": "White-beaked_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-beaked_Dolphin/7200500W.wav",
+      "labels": "White-beaked_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-beaked_Dolphin/7001300E.wav",
+      "labels": "White-beaked_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-beaked_Dolphin/70005002.wav",
+      "labels": "White-beaked_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-beaked_Dolphin/70014011.wav",
+      "labels": "White-beaked_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-beaked_Dolphin/7001300B.wav",
+      "labels": "White-beaked_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-beaked_Dolphin/59037014.wav",
+      "labels": "White-beaked_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-beaked_Dolphin/7200500F.wav",
+      "labels": "White-beaked_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-beaked_Dolphin/70006003.wav",
+      "labels": "White-beaked_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-beaked_Dolphin/7001400X.wav",
+      "labels": "White-beaked_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-beaked_Dolphin/72005004.wav",
+      "labels": "White-beaked_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-beaked_Dolphin/7200500U.wav",
+      "labels": "White-beaked_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-beaked_Dolphin/72005005.wav",
+      "labels": "White-beaked_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-beaked_Dolphin/7200500M.wav",
+      "labels": "White-beaked_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-beaked_Dolphin/7200500N.wav",
+      "labels": "White-beaked_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-beaked_Dolphin/7200500Y.wav",
+      "labels": "White-beaked_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-beaked_Dolphin/7200500G.wav",
+      "labels": "White-beaked_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-beaked_Dolphin/5903700S.wav",
+      "labels": "White-beaked_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-beaked_Dolphin/5903700N.wav",
+      "labels": "White-beaked_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-beaked_Dolphin/7001400Z.wav",
+      "labels": "White-beaked_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/White-beaked_Dolphin/5903700K.wav",
+      "labels": "White-beaked_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Northern_Right_Whale/56028001.wav",
+      "labels": "Northern_Right_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Northern_Right_Whale/81014034.wav",
+      "labels": "Northern_Right_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Northern_Right_Whale/7001800H.wav",
+      "labels": "Northern_Right_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Northern_Right_Whale/56017018.wav",
+      "labels": "Northern_Right_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Northern_Right_Whale/8101402I.wav",
+      "labels": "Northern_Right_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Northern_Right_Whale/8101402F.wav",
+      "labels": "Northern_Right_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Northern_Right_Whale/56017010.wav",
+      "labels": "Northern_Right_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Northern_Right_Whale/7001800U.wav",
+      "labels": "Northern_Right_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Northern_Right_Whale/81013007.wav",
+      "labels": "Northern_Right_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Northern_Right_Whale/5602600A.wav",
+      "labels": "Northern_Right_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Northern_Right_Whale/74003004.wav",
+      "labels": "Northern_Right_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Northern_Right_Whale/74003001.wav",
+      "labels": "Northern_Right_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Northern_Right_Whale/56018004.wav",
+      "labels": "Northern_Right_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Northern_Right_Whale/8101403Z.wav",
+      "labels": "Northern_Right_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Northern_Right_Whale/5601700B.wav",
+      "labels": "Northern_Right_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Northern_Right_Whale/56018002.wav",
+      "labels": "Northern_Right_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Northern_Right_Whale/56018001.wav",
+      "labels": "Northern_Right_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Northern_Right_Whale/8101403B.wav",
+      "labels": "Northern_Right_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Northern_Right_Whale/70014002.wav",
+      "labels": "Northern_Right_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Northern_Right_Whale/56017007.wav",
+      "labels": "Northern_Right_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Northern_Right_Whale/56025006.wav",
+      "labels": "Northern_Right_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Northern_Right_Whale/81014029.wav",
+      "labels": "Northern_Right_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Northern_Right_Whale/5900300A.wav",
+      "labels": "Northern_Right_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Northern_Right_Whale/5900300J.wav",
+      "labels": "Northern_Right_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Northern_Right_Whale/5601700F.wav",
+      "labels": "Northern_Right_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Northern_Right_Whale/56026002.wav",
+      "labels": "Northern_Right_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Northern_Right_Whale/59004002.wav",
+      "labels": "Northern_Right_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Northern_Right_Whale/5900300O.wav",
+      "labels": "Northern_Right_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Northern_Right_Whale/81015005.wav",
+      "labels": "Northern_Right_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Northern_Right_Whale/56017008.wav",
+      "labels": "Northern_Right_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Northern_Right_Whale/59005004.wav",
+      "labels": "Northern_Right_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Northern_Right_Whale/5900300M.wav",
+      "labels": "Northern_Right_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Frasers_Dolphin/9101301D.wav",
+      "labels": "Frasers_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Frasers_Dolphin/9101301B.wav",
+      "labels": "Frasers_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Frasers_Dolphin/91010014.wav",
+      "labels": "Frasers_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Frasers_Dolphin/9101001Q.wav",
+      "labels": "Frasers_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Frasers_Dolphin/9101001X.wav",
+      "labels": "Frasers_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Frasers_Dolphin/91010010.wav",
+      "labels": "Frasers_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Frasers_Dolphin/91008005.wav",
+      "labels": "Frasers_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Frasers_Dolphin/9101000W.wav",
+      "labels": "Frasers_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Frasers_Dolphin/9101300X.wav",
+      "labels": "Frasers_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Frasers_Dolphin/9101301I.wav",
+      "labels": "Frasers_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Frasers_Dolphin/9101002B.wav",
+      "labels": "Frasers_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Frasers_Dolphin/9101300U.wav",
+      "labels": "Frasers_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Frasers_Dolphin/9101001Z.wav",
+      "labels": "Frasers_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Frasers_Dolphin/9100800B.wav",
+      "labels": "Frasers_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Frasers_Dolphin/9101301G.wav",
+      "labels": "Frasers_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Frasers_Dolphin/91010004.wav",
+      "labels": "Frasers_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Frasers_Dolphin/9101301O.wav",
+      "labels": "Frasers_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Frasers_Dolphin/91010022.wav",
+      "labels": "Frasers_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Frasers_Dolphin/9101001T.wav",
+      "labels": "Frasers_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Frasers_Dolphin/9101301K.wav",
+      "labels": "Frasers_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Frasers_Dolphin/91008009.wav",
+      "labels": "Frasers_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Frasers_Dolphin/9101000K.wav",
+      "labels": "Frasers_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Frasers_Dolphin/9101300I.wav",
+      "labels": "Frasers_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Frasers_Dolphin/9101300D.wav",
+      "labels": "Frasers_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Frasers_Dolphin/9101000X.wav",
+      "labels": "Frasers_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Frasers_Dolphin/9101300H.wav",
+      "labels": "Frasers_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Frasers_Dolphin/9101300Y.wav",
+      "labels": "Frasers_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Frasers_Dolphin/91013005.wav",
+      "labels": "Frasers_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Frasers_Dolphin/91013004.wav",
+      "labels": "Frasers_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Frasers_Dolphin/91010027.wav",
+      "labels": "Frasers_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Frasers_Dolphin/9101300N.wav",
+      "labels": "Frasers_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Frasers_Dolphin/91010025.wav",
+      "labels": "Frasers_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Frasers_Dolphin/9101001V.wav",
+      "labels": "Frasers_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Frasers_Dolphin/91010020.wav",
+      "labels": "Frasers_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Frasers_Dolphin/9101301C.wav",
+      "labels": "Frasers_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Frasers_Dolphin/9101000F.wav",
+      "labels": "Frasers_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Frasers_Dolphin/91013001.wav",
+      "labels": "Frasers_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Frasers_Dolphin/9100800E.wav",
+      "labels": "Frasers_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Frasers_Dolphin/9101001O.wav",
+      "labels": "Frasers_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Frasers_Dolphin/9100800A.wav",
+      "labels": "Frasers_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Frasers_Dolphin/9101001R.wav",
+      "labels": "Frasers_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Frasers_Dolphin/91013003.wav",
+      "labels": "Frasers_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Frasers_Dolphin/9101000Y.wav",
+      "labels": "Frasers_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Frasers_Dolphin/91010029.wav",
+      "labels": "Frasers_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Frasers_Dolphin/9101002C.wav",
+      "labels": "Frasers_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Frasers_Dolphin/9101001P.wav",
+      "labels": "Frasers_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Frasers_Dolphin/9101301L.wav",
+      "labels": "Frasers_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Frasers_Dolphin/9101000H.wav",
+      "labels": "Frasers_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Frasers_Dolphin/9101001W.wav",
+      "labels": "Frasers_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Frasers_Dolphin/9101300B.wav",
+      "labels": "Frasers_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Frasers_Dolphin/9100800F.wav",
+      "labels": "Frasers_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Frasers_Dolphin/9101300K.wav",
+      "labels": "Frasers_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Grampus,_Rissos_Dolphin/59030033.wav",
+      "labels": "Grampus,_Rissos_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Grampus,_Rissos_Dolphin/59029003.wav",
+      "labels": "Grampus,_Rissos_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Grampus,_Rissos_Dolphin/5903002D.wav",
+      "labels": "Grampus,_Rissos_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Grampus,_Rissos_Dolphin/59030024.wav",
+      "labels": "Grampus,_Rissos_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Grampus,_Rissos_Dolphin/5903001Y.wav",
+      "labels": "Grampus,_Rissos_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Grampus,_Rissos_Dolphin/59030026.wav",
+      "labels": "Grampus,_Rissos_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Grampus,_Rissos_Dolphin/5903002T.wav",
+      "labels": "Grampus,_Rissos_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Grampus,_Rissos_Dolphin/5902900M.wav",
+      "labels": "Grampus,_Rissos_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Grampus,_Rissos_Dolphin/59030036.wav",
+      "labels": "Grampus,_Rissos_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Grampus,_Rissos_Dolphin/5903002G.wav",
+      "labels": "Grampus,_Rissos_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Grampus,_Rissos_Dolphin/85009008.wav",
+      "labels": "Grampus,_Rissos_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Grampus,_Rissos_Dolphin/59030001.wav",
+      "labels": "Grampus,_Rissos_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Grampus,_Rissos_Dolphin/5903000W.wav",
+      "labels": "Grampus,_Rissos_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Grampus,_Rissos_Dolphin/8700400E.wav",
+      "labels": "Grampus,_Rissos_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Grampus,_Rissos_Dolphin/8500900T.wav",
+      "labels": "Grampus,_Rissos_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Grampus,_Rissos_Dolphin/85009009.wav",
+      "labels": "Grampus,_Rissos_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Grampus,_Rissos_Dolphin/5903000Z.wav",
+      "labels": "Grampus,_Rissos_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Grampus,_Rissos_Dolphin/8500900N.wav",
+      "labels": "Grampus,_Rissos_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Grampus,_Rissos_Dolphin/8500900I.wav",
+      "labels": "Grampus,_Rissos_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Grampus,_Rissos_Dolphin/8500900U.wav",
+      "labels": "Grampus,_Rissos_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Grampus,_Rissos_Dolphin/59029014.wav",
+      "labels": "Grampus,_Rissos_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Grampus,_Rissos_Dolphin/5902900U.wav",
+      "labels": "Grampus,_Rissos_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Grampus,_Rissos_Dolphin/85009002.wav",
+      "labels": "Grampus,_Rissos_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Grampus,_Rissos_Dolphin/59029010.wav",
+      "labels": "Grampus,_Rissos_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Grampus,_Rissos_Dolphin/5903000C.wav",
+      "labels": "Grampus,_Rissos_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Grampus,_Rissos_Dolphin/59029002.wav",
+      "labels": "Grampus,_Rissos_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Grampus,_Rissos_Dolphin/5902900Y.wav",
+      "labels": "Grampus,_Rissos_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Grampus,_Rissos_Dolphin/8500900L.wav",
+      "labels": "Grampus,_Rissos_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Grampus,_Rissos_Dolphin/85009005.wav",
+      "labels": "Grampus,_Rissos_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Grampus,_Rissos_Dolphin/59030032.wav",
+      "labels": "Grampus,_Rissos_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Grampus,_Rissos_Dolphin/85009001.wav",
+      "labels": "Grampus,_Rissos_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Grampus,_Rissos_Dolphin/59030035.wav",
+      "labels": "Grampus,_Rissos_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Grampus,_Rissos_Dolphin/5903002Q.wav",
+      "labels": "Grampus,_Rissos_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Grampus,_Rissos_Dolphin/8500900R.wav",
+      "labels": "Grampus,_Rissos_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Grampus,_Rissos_Dolphin/8500900S.wav",
+      "labels": "Grampus,_Rissos_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Grampus,_Rissos_Dolphin/59030023.wav",
+      "labels": "Grampus,_Rissos_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Grampus,_Rissos_Dolphin/59030003.wav",
+      "labels": "Grampus,_Rissos_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Grampus,_Rissos_Dolphin/59029016.wav",
+      "labels": "Grampus,_Rissos_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Grampus,_Rissos_Dolphin/8500900Q.wav",
+      "labels": "Grampus,_Rissos_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Grampus,_Rissos_Dolphin/5902900W.wav",
+      "labels": "Grampus,_Rissos_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Harp_Seal/6701000H.wav",
+      "labels": "Harp_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Harp_Seal/67009004.wav",
+      "labels": "Harp_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Harp_Seal/67010002.wav",
+      "labels": "Harp_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Harp_Seal/67010008.wav",
+      "labels": "Harp_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Harp_Seal/6700900K.wav",
+      "labels": "Harp_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Harp_Seal/67010007.wav",
+      "labels": "Harp_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Harp_Seal/6701000D.wav",
+      "labels": "Harp_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Harp_Seal/6700900I.wav",
+      "labels": "Harp_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Harp_Seal/67010003.wav",
+      "labels": "Harp_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Harp_Seal/67009007.wav",
+      "labels": "Harp_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Harp_Seal/67009008.wav",
+      "labels": "Harp_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Harp_Seal/67009005.wav",
+      "labels": "Harp_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Harp_Seal/67009002.wav",
+      "labels": "Harp_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Harp_Seal/6701000A.wav",
+      "labels": "Harp_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Harp_Seal/6701000G.wav",
+      "labels": "Harp_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Harp_Seal/67009009.wav",
+      "labels": "Harp_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Harp_Seal/67009001.wav",
+      "labels": "Harp_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Harp_Seal/6700900W.wav",
+      "labels": "Harp_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Harp_Seal/67010006.wav",
+      "labels": "Harp_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Harp_Seal/6700900U.wav",
+      "labels": "Harp_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Harp_Seal/6700900M.wav",
+      "labels": "Harp_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Harp_Seal/67008008.wav",
+      "labels": "Harp_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Harp_Seal/67010009.wav",
+      "labels": "Harp_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Harp_Seal/6700900R.wav",
+      "labels": "Harp_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Harp_Seal/6700900L.wav",
+      "labels": "Harp_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Harp_Seal/67010004.wav",
+      "labels": "Harp_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Harp_Seal/6701000B.wav",
+      "labels": "Harp_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Harp_Seal/6701000E.wav",
+      "labels": "Harp_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Atlantic_Spotted_Dolphin/61025001.wav",
+      "labels": "Atlantic_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Atlantic_Spotted_Dolphin/61025008.wav",
+      "labels": "Atlantic_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Atlantic_Spotted_Dolphin/6102500N.wav",
+      "labels": "Atlantic_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Atlantic_Spotted_Dolphin/6102600G.wav",
+      "labels": "Atlantic_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Atlantic_Spotted_Dolphin/61026001.wav",
+      "labels": "Atlantic_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Atlantic_Spotted_Dolphin/6102603L.wav",
+      "labels": "Atlantic_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Atlantic_Spotted_Dolphin/6102500H.wav",
+      "labels": "Atlantic_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Atlantic_Spotted_Dolphin/61025004.wav",
+      "labels": "Atlantic_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Atlantic_Spotted_Dolphin/6102500B.wav",
+      "labels": "Atlantic_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Atlantic_Spotted_Dolphin/6102603Z.wav",
+      "labels": "Atlantic_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Atlantic_Spotted_Dolphin/61025003.wav",
+      "labels": "Atlantic_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Atlantic_Spotted_Dolphin/6102500M.wav",
+      "labels": "Atlantic_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Atlantic_Spotted_Dolphin/61026020.wav",
+      "labels": "Atlantic_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Atlantic_Spotted_Dolphin/6102603O.wav",
+      "labels": "Atlantic_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Atlantic_Spotted_Dolphin/61025007.wav",
+      "labels": "Atlantic_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Atlantic_Spotted_Dolphin/6102603W.wav",
+      "labels": "Atlantic_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Atlantic_Spotted_Dolphin/6102603F.wav",
+      "labels": "Atlantic_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Atlantic_Spotted_Dolphin/61026021.wav",
+      "labels": "Atlantic_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Atlantic_Spotted_Dolphin/6102500F.wav",
+      "labels": "Atlantic_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Atlantic_Spotted_Dolphin/6102600F.wav",
+      "labels": "Atlantic_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Atlantic_Spotted_Dolphin/6102602W.wav",
+      "labels": "Atlantic_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Atlantic_Spotted_Dolphin/61026002.wav",
+      "labels": "Atlantic_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Atlantic_Spotted_Dolphin/61025006.wav",
+      "labels": "Atlantic_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Atlantic_Spotted_Dolphin/6102500P.wav",
+      "labels": "Atlantic_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Atlantic_Spotted_Dolphin/6102500K.wav",
+      "labels": "Atlantic_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Atlantic_Spotted_Dolphin/61025002.wav",
+      "labels": "Atlantic_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Atlantic_Spotted_Dolphin/6102604K.wav",
+      "labels": "Atlantic_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Atlantic_Spotted_Dolphin/6102603X.wav",
+      "labels": "Atlantic_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Atlantic_Spotted_Dolphin/6102500Q.wav",
+      "labels": "Atlantic_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Atlantic_Spotted_Dolphin/6102500G.wav",
+      "labels": "Atlantic_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Atlantic_Spotted_Dolphin/6102602V.wav",
+      "labels": "Atlantic_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Atlantic_Spotted_Dolphin/6102602K.wav",
+      "labels": "Atlantic_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Atlantic_Spotted_Dolphin/6102500I.wav",
+      "labels": "Atlantic_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Atlantic_Spotted_Dolphin/6102500D.wav",
+      "labels": "Atlantic_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Atlantic_Spotted_Dolphin/61025009.wav",
+      "labels": "Atlantic_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Fin,_Finback_Whale/6107900M.wav",
+      "labels": "Fin,_Finback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Fin,_Finback_Whale/61079009.wav",
+      "labels": "Fin,_Finback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Fin,_Finback_Whale/6107900G.wav",
+      "labels": "Fin,_Finback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Fin,_Finback_Whale/7801400A.wav",
+      "labels": "Fin,_Finback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Fin,_Finback_Whale/6106400O.wav",
+      "labels": "Fin,_Finback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Fin,_Finback_Whale/61048007.wav",
+      "labels": "Fin,_Finback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Fin,_Finback_Whale/6000900M.wav",
+      "labels": "Fin,_Finback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Fin,_Finback_Whale/6107900C.wav",
+      "labels": "Fin,_Finback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Fin,_Finback_Whale/61079005.wav",
+      "labels": "Fin,_Finback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Fin,_Finback_Whale/61064008.wav",
+      "labels": "Fin,_Finback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Fin,_Finback_Whale/6104700E.wav",
+      "labels": "Fin,_Finback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Fin,_Finback_Whale/6107900J.wav",
+      "labels": "Fin,_Finback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Fin,_Finback_Whale/6107900A.wav",
+      "labels": "Fin,_Finback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Fin,_Finback_Whale/61048004.wav",
+      "labels": "Fin,_Finback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Fin,_Finback_Whale/6106400F.wav",
+      "labels": "Fin,_Finback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Fin,_Finback_Whale/6107900F.wav",
+      "labels": "Fin,_Finback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Fin,_Finback_Whale/61064009.wav",
+      "labels": "Fin,_Finback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Fin,_Finback_Whale/6106400L.wav",
+      "labels": "Fin,_Finback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Fin,_Finback_Whale/78014008.wav",
+      "labels": "Fin,_Finback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Fin,_Finback_Whale/6106400D.wav",
+      "labels": "Fin,_Finback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Fin,_Finback_Whale/6107900B.wav",
+      "labels": "Fin,_Finback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Fin,_Finback_Whale/6106400B.wav",
+      "labels": "Fin,_Finback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Fin,_Finback_Whale/78014005.wav",
+      "labels": "Fin,_Finback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Fin,_Finback_Whale/60009005.wav",
+      "labels": "Fin,_Finback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Fin,_Finback_Whale/78014007.wav",
+      "labels": "Fin,_Finback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Fin,_Finback_Whale/6107900E.wav",
+      "labels": "Fin,_Finback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Fin,_Finback_Whale/61064006.wav",
+      "labels": "Fin,_Finback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Fin,_Finback_Whale/6106400A.wav",
+      "labels": "Fin,_Finback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Fin,_Finback_Whale/61039001.wav",
+      "labels": "Fin,_Finback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Fin,_Finback_Whale/6107900N.wav",
+      "labels": "Fin,_Finback_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Ross_Seal/66084004.wav",
+      "labels": "Ross_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Ross_Seal/6608500I.wav",
+      "labels": "Ross_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Ross_Seal/6608500E.wav",
+      "labels": "Ross_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Ross_Seal/6608500Q.wav",
+      "labels": "Ross_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Ross_Seal/66084003.wav",
+      "labels": "Ross_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Ross_Seal/66002A03.wav",
+      "labels": "Ross_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Ross_Seal/66084009.wav",
+      "labels": "Ross_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Ross_Seal/6608500L.wav",
+      "labels": "Ross_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Ross_Seal/6608500N.wav",
+      "labels": "Ross_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Ross_Seal/6608400E.wav",
+      "labels": "Ross_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Ross_Seal/6608500O.wav",
+      "labels": "Ross_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Ross_Seal/6608400B.wav",
+      "labels": "Ross_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Ross_Seal/66002A04.wav",
+      "labels": "Ross_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Ross_Seal/66084008.wav",
+      "labels": "Ross_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Ross_Seal/6608900G.wav",
+      "labels": "Ross_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Ross_Seal/66084001.wav",
+      "labels": "Ross_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Ross_Seal/6608500H.wav",
+      "labels": "Ross_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Ross_Seal/6608500M.wav",
+      "labels": "Ross_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Ross_Seal/6608500J.wav",
+      "labels": "Ross_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Ross_Seal/66002A01.wav",
+      "labels": "Ross_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Ross_Seal/6608500P.wav",
+      "labels": "Ross_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Ross_Seal/6608400C.wav",
+      "labels": "Ross_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Ross_Seal/66002A05.wav",
+      "labels": "Ross_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Ross_Seal/66084007.wav",
+      "labels": "Ross_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Ross_Seal/6608900A.wav",
+      "labels": "Ross_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Ross_Seal/6608500R.wav",
+      "labels": "Ross_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Ross_Seal/66034002.wav",
+      "labels": "Ross_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Ross_Seal/6608900H.wav",
+      "labels": "Ross_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Ross_Seal/6608500C.wav",
+      "labels": "Ross_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Ross_Seal/6608900E.wav",
+      "labels": "Ross_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Rough-Toothed_Dolphin/8501400M.wav",
+      "labels": "Rough-Toothed_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Rough-Toothed_Dolphin/8501300R.wav",
+      "labels": "Rough-Toothed_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Rough-Toothed_Dolphin/8501301J.wav",
+      "labels": "Rough-Toothed_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Rough-Toothed_Dolphin/85013014.wav",
+      "labels": "Rough-Toothed_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Rough-Toothed_Dolphin/8501300M.wav",
+      "labels": "Rough-Toothed_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Rough-Toothed_Dolphin/8501400U.wav",
+      "labels": "Rough-Toothed_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Rough-Toothed_Dolphin/8501300N.wav",
+      "labels": "Rough-Toothed_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Rough-Toothed_Dolphin/8501400R.wav",
+      "labels": "Rough-Toothed_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Rough-Toothed_Dolphin/8501300K.wav",
+      "labels": "Rough-Toothed_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Rough-Toothed_Dolphin/85013009.wav",
+      "labels": "Rough-Toothed_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Rough-Toothed_Dolphin/8501301C.wav",
+      "labels": "Rough-Toothed_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Rough-Toothed_Dolphin/8501400N.wav",
+      "labels": "Rough-Toothed_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Rough-Toothed_Dolphin/8501300T.wav",
+      "labels": "Rough-Toothed_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Rough-Toothed_Dolphin/8501400L.wav",
+      "labels": "Rough-Toothed_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Rough-Toothed_Dolphin/85013007.wav",
+      "labels": "Rough-Toothed_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Rough-Toothed_Dolphin/8501400B.wav",
+      "labels": "Rough-Toothed_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Rough-Toothed_Dolphin/8501400Y.wav",
+      "labels": "Rough-Toothed_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Rough-Toothed_Dolphin/85013011.wav",
+      "labels": "Rough-Toothed_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Rough-Toothed_Dolphin/85014006.wav",
+      "labels": "Rough-Toothed_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Rough-Toothed_Dolphin/85014003.wav",
+      "labels": "Rough-Toothed_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Rough-Toothed_Dolphin/8501300E.wav",
+      "labels": "Rough-Toothed_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Rough-Toothed_Dolphin/8501400V.wav",
+      "labels": "Rough-Toothed_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Rough-Toothed_Dolphin/85013019.wav",
+      "labels": "Rough-Toothed_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Rough-Toothed_Dolphin/85014001.wav",
+      "labels": "Rough-Toothed_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Rough-Toothed_Dolphin/8501301F.wav",
+      "labels": "Rough-Toothed_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Rough-Toothed_Dolphin/85014007.wav",
+      "labels": "Rough-Toothed_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Rough-Toothed_Dolphin/8501300H.wav",
+      "labels": "Rough-Toothed_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Rough-Toothed_Dolphin/8501400T.wav",
+      "labels": "Rough-Toothed_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Rough-Toothed_Dolphin/8501301D.wav",
+      "labels": "Rough-Toothed_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Rough-Toothed_Dolphin/8501300Y.wav",
+      "labels": "Rough-Toothed_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Killer_Whale/9761900T.wav",
+      "labels": "Killer_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Killer_Whale/92304008.wav",
+      "labels": "Killer_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Killer_Whale/97501009.wav",
+      "labels": "Killer_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Killer_Whale/9750000S.wav",
+      "labels": "Killer_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Killer_Whale/97503018.wav",
+      "labels": "Killer_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Killer_Whale/64020003.wav",
+      "labels": "Killer_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Killer_Whale/9230400D.wav",
+      "labels": "Killer_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Killer_Whale/60026005.wav",
+      "labels": "Killer_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Killer_Whale/60026001.wav",
+      "labels": "Killer_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Killer_Whale/60026006.wav",
+      "labels": "Killer_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Killer_Whale/6002600A.wav",
+      "labels": "Killer_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Killer_Whale/97619015.wav",
+      "labels": "Killer_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Killer_Whale/9750300Z.wav",
+      "labels": "Killer_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Killer_Whale/9750300I.wav",
+      "labels": "Killer_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Killer_Whale/9750301O.wav",
+      "labels": "Killer_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Killer_Whale/92300013.wav",
+      "labels": "Killer_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Killer_Whale/60026002.wav",
+      "labels": "Killer_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Killer_Whale/64020001.wav",
+      "labels": "Killer_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Killer_Whale/9230000L.wav",
+      "labels": "Killer_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Killer_Whale/9769201Q.wav",
+      "labels": "Killer_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Killer_Whale/9750300N.wav",
+      "labels": "Killer_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Pantropical_Spotted_Dolphin/9005807P.wav",
+      "labels": "Pantropical_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Pantropical_Spotted_Dolphin/90028009.wav",
+      "labels": "Pantropical_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Pantropical_Spotted_Dolphin/6400501C.wav",
+      "labels": "Pantropical_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Pantropical_Spotted_Dolphin/9400800V.wav",
+      "labels": "Pantropical_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Pantropical_Spotted_Dolphin/9004401V.wav",
+      "labels": "Pantropical_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Pantropical_Spotted_Dolphin/64005019.wav",
+      "labels": "Pantropical_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Pantropical_Spotted_Dolphin/64005018.wav",
+      "labels": "Pantropical_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Pantropical_Spotted_Dolphin/9300100D.wav",
+      "labels": "Pantropical_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Pantropical_Spotted_Dolphin/9004400Y.wav",
+      "labels": "Pantropical_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Pantropical_Spotted_Dolphin/9004400O.wav",
+      "labels": "Pantropical_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Pantropical_Spotted_Dolphin/9400801I.wav",
+      "labels": "Pantropical_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Pantropical_Spotted_Dolphin/9004401Y.wav",
+      "labels": "Pantropical_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Pantropical_Spotted_Dolphin/94008085.wav",
+      "labels": "Pantropical_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Pantropical_Spotted_Dolphin/94008081.wav",
+      "labels": "Pantropical_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Pantropical_Spotted_Dolphin/9400807Y.wav",
+      "labels": "Pantropical_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Pantropical_Spotted_Dolphin/9400807V.wav",
+      "labels": "Pantropical_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Pantropical_Spotted_Dolphin/6400500D.wav",
+      "labels": "Pantropical_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Pantropical_Spotted_Dolphin/94008087.wav",
+      "labels": "Pantropical_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Pantropical_Spotted_Dolphin/94006004.wav",
+      "labels": "Pantropical_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Pantropical_Spotted_Dolphin/9400807Q.wav",
+      "labels": "Pantropical_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Pantropical_Spotted_Dolphin/90058068.wav",
+      "labels": "Pantropical_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Pantropical_Spotted_Dolphin/93001008.wav",
+      "labels": "Pantropical_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Pantropical_Spotted_Dolphin/94008010.wav",
+      "labels": "Pantropical_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Pantropical_Spotted_Dolphin/9004401W.wav",
+      "labels": "Pantropical_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Pantropical_Spotted_Dolphin/90028007.wav",
+      "labels": "Pantropical_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Pantropical_Spotted_Dolphin/64005016.wav",
+      "labels": "Pantropical_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Pantropical_Spotted_Dolphin/9004401S.wav",
+      "labels": "Pantropical_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Pantropical_Spotted_Dolphin/6400501D.wav",
+      "labels": "Pantropical_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Pantropical_Spotted_Dolphin/9400807R.wav",
+      "labels": "Pantropical_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Pantropical_Spotted_Dolphin/94008011.wav",
+      "labels": "Pantropical_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Pantropical_Spotted_Dolphin/94008017.wav",
+      "labels": "Pantropical_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Pantropical_Spotted_Dolphin/9400801H.wav",
+      "labels": "Pantropical_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Pantropical_Spotted_Dolphin/6400501B.wav",
+      "labels": "Pantropical_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Pantropical_Spotted_Dolphin/9400800W.wav",
+      "labels": "Pantropical_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Pantropical_Spotted_Dolphin/9005807O.wav",
+      "labels": "Pantropical_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Pantropical_Spotted_Dolphin/94008060.wav",
+      "labels": "Pantropical_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Pantropical_Spotted_Dolphin/9400807X.wav",
+      "labels": "Pantropical_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Pantropical_Spotted_Dolphin/94008006.wav",
+      "labels": "Pantropical_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Pantropical_Spotted_Dolphin/9004401U.wav",
+      "labels": "Pantropical_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Pantropical_Spotted_Dolphin/9005807N.wav",
+      "labels": "Pantropical_Spotted_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Short-Finned_Pacific_Pilot_Whale/9100501T.wav",
+      "labels": "Short-Finned_Pacific_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Short-Finned_Pacific_Pilot_Whale/81037005.wav",
+      "labels": "Short-Finned_Pacific_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Short-Finned_Pacific_Pilot_Whale/5702100E.wav",
+      "labels": "Short-Finned_Pacific_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Short-Finned_Pacific_Pilot_Whale/5702100A.wav",
+      "labels": "Short-Finned_Pacific_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Short-Finned_Pacific_Pilot_Whale/57021009.wav",
+      "labels": "Short-Finned_Pacific_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Short-Finned_Pacific_Pilot_Whale/8103700F.wav",
+      "labels": "Short-Finned_Pacific_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Short-Finned_Pacific_Pilot_Whale/9100503J.wav",
+      "labels": "Short-Finned_Pacific_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Short-Finned_Pacific_Pilot_Whale/91005006.wav",
+      "labels": "Short-Finned_Pacific_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Short-Finned_Pacific_Pilot_Whale/81037004.wav",
+      "labels": "Short-Finned_Pacific_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Short-Finned_Pacific_Pilot_Whale/81037002.wav",
+      "labels": "Short-Finned_Pacific_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Short-Finned_Pacific_Pilot_Whale/57021001.wav",
+      "labels": "Short-Finned_Pacific_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Short-Finned_Pacific_Pilot_Whale/5702100H.wav",
+      "labels": "Short-Finned_Pacific_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Short-Finned_Pacific_Pilot_Whale/91005010.wav",
+      "labels": "Short-Finned_Pacific_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Short-Finned_Pacific_Pilot_Whale/91005015.wav",
+      "labels": "Short-Finned_Pacific_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Short-Finned_Pacific_Pilot_Whale/5702100C.wav",
+      "labels": "Short-Finned_Pacific_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Short-Finned_Pacific_Pilot_Whale/57021003.wav",
+      "labels": "Short-Finned_Pacific_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Short-Finned_Pacific_Pilot_Whale/5702100K.wav",
+      "labels": "Short-Finned_Pacific_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Short-Finned_Pacific_Pilot_Whale/8103700G.wav",
+      "labels": "Short-Finned_Pacific_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Short-Finned_Pacific_Pilot_Whale/91005014.wav",
+      "labels": "Short-Finned_Pacific_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Short-Finned_Pacific_Pilot_Whale/8103700E.wav",
+      "labels": "Short-Finned_Pacific_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Short-Finned_Pacific_Pilot_Whale/8401600B.wav",
+      "labels": "Short-Finned_Pacific_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Short-Finned_Pacific_Pilot_Whale/57021007.wav",
+      "labels": "Short-Finned_Pacific_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Short-Finned_Pacific_Pilot_Whale/9100500N.wav",
+      "labels": "Short-Finned_Pacific_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Short-Finned_Pacific_Pilot_Whale/91005039.wav",
+      "labels": "Short-Finned_Pacific_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Short-Finned_Pacific_Pilot_Whale/5702100J.wav",
+      "labels": "Short-Finned_Pacific_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Short-Finned_Pacific_Pilot_Whale/91005036.wav",
+      "labels": "Short-Finned_Pacific_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Short-Finned_Pacific_Pilot_Whale/91005020.wav",
+      "labels": "Short-Finned_Pacific_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Short-Finned_Pacific_Pilot_Whale/8103700H.wav",
+      "labels": "Short-Finned_Pacific_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Short-Finned_Pacific_Pilot_Whale/81037001.wav",
+      "labels": "Short-Finned_Pacific_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Short-Finned_Pacific_Pilot_Whale/9100500Y.wav",
+      "labels": "Short-Finned_Pacific_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Short-Finned_Pacific_Pilot_Whale/8103700B.wav",
+      "labels": "Short-Finned_Pacific_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Short-Finned_Pacific_Pilot_Whale/9100502F.wav",
+      "labels": "Short-Finned_Pacific_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Short-Finned_Pacific_Pilot_Whale/9100501V.wav",
+      "labels": "Short-Finned_Pacific_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Short-Finned_Pacific_Pilot_Whale/8103700L.wav",
+      "labels": "Short-Finned_Pacific_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Short-Finned_Pacific_Pilot_Whale/5702100F.wav",
+      "labels": "Short-Finned_Pacific_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Short-Finned_Pacific_Pilot_Whale/9100502M.wav",
+      "labels": "Short-Finned_Pacific_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Short-Finned_Pacific_Pilot_Whale/8103700P.wav",
+      "labels": "Short-Finned_Pacific_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Short-Finned_Pacific_Pilot_Whale/8103700A.wav",
+      "labels": "Short-Finned_Pacific_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Short-Finned_Pacific_Pilot_Whale/9100501S.wav",
+      "labels": "Short-Finned_Pacific_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Short-Finned_Pacific_Pilot_Whale/8103700C.wav",
+      "labels": "Short-Finned_Pacific_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bowhead_Whale/8800602T.wav",
+      "labels": "Bowhead_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bowhead_Whale/8800600J.wav",
+      "labels": "Bowhead_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bowhead_Whale/8800600Y.wav",
+      "labels": "Bowhead_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bowhead_Whale/7202100Q.wav",
+      "labels": "Bowhead_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bowhead_Whale/88006034.wav",
+      "labels": "Bowhead_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bowhead_Whale/8800600E.wav",
+      "labels": "Bowhead_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bowhead_Whale/88006017.wav",
+      "labels": "Bowhead_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bowhead_Whale/8800600O.wav",
+      "labels": "Bowhead_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bowhead_Whale/8800600Z.wav",
+      "labels": "Bowhead_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bowhead_Whale/8800600H.wav",
+      "labels": "Bowhead_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bowhead_Whale/8800602S.wav",
+      "labels": "Bowhead_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bowhead_Whale/88006003.wav",
+      "labels": "Bowhead_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bowhead_Whale/8800600S.wav",
+      "labels": "Bowhead_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bowhead_Whale/8800602Q.wav",
+      "labels": "Bowhead_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bowhead_Whale/72021005.wav",
+      "labels": "Bowhead_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bowhead_Whale/7801800J.wav",
+      "labels": "Bowhead_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bowhead_Whale/8800600R.wav",
+      "labels": "Bowhead_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bowhead_Whale/88006038.wav",
+      "labels": "Bowhead_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bowhead_Whale/7202100V.wav",
+      "labels": "Bowhead_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bowhead_Whale/88006006.wav",
+      "labels": "Bowhead_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bowhead_Whale/7801800B.wav",
+      "labels": "Bowhead_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bowhead_Whale/88006031.wav",
+      "labels": "Bowhead_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bowhead_Whale/88006008.wav",
+      "labels": "Bowhead_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bowhead_Whale/7801800H.wav",
+      "labels": "Bowhead_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bowhead_Whale/88006005.wav",
+      "labels": "Bowhead_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bowhead_Whale/8800600I.wav",
+      "labels": "Bowhead_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bowhead_Whale/88006033.wav",
+      "labels": "Bowhead_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bowhead_Whale/88006013.wav",
+      "labels": "Bowhead_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bowhead_Whale/8800601B.wav",
+      "labels": "Bowhead_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bowhead_Whale/8800600F.wav",
+      "labels": "Bowhead_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bowhead_Whale/78018002.wav",
+      "labels": "Bowhead_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bowhead_Whale/88006037.wav",
+      "labels": "Bowhead_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bowhead_Whale/7202100Z.wav",
+      "labels": "Bowhead_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bowhead_Whale/7801800D.wav",
+      "labels": "Bowhead_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bowhead_Whale/8800600W.wav",
+      "labels": "Bowhead_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Bowhead_Whale/88006030.wav",
+      "labels": "Bowhead_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/False_Killer_Whale/61023002.wav",
+      "labels": "False_Killer_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/False_Killer_Whale/61023001.wav",
+      "labels": "False_Killer_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/False_Killer_Whale/95003006.wav",
+      "labels": "False_Killer_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/False_Killer_Whale/61023008.wav",
+      "labels": "False_Killer_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/False_Killer_Whale/6102100P.wav",
+      "labels": "False_Killer_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/False_Killer_Whale/6102300H.wav",
+      "labels": "False_Killer_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/False_Killer_Whale/95003003.wav",
+      "labels": "False_Killer_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/False_Killer_Whale/6102101B.wav",
+      "labels": "False_Killer_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/False_Killer_Whale/6102300X.wav",
+      "labels": "False_Killer_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/False_Killer_Whale/61021019.wav",
+      "labels": "False_Killer_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/False_Killer_Whale/6102101U.wav",
+      "labels": "False_Killer_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/False_Killer_Whale/61023018.wav",
+      "labels": "False_Killer_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/False_Killer_Whale/6102300Z.wav",
+      "labels": "False_Killer_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/False_Killer_Whale/6102300R.wav",
+      "labels": "False_Killer_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/False_Killer_Whale/6102300J.wav",
+      "labels": "False_Killer_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/False_Killer_Whale/6102100X.wav",
+      "labels": "False_Killer_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/False_Killer_Whale/95003002.wav",
+      "labels": "False_Killer_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/False_Killer_Whale/6102301B.wav",
+      "labels": "False_Killer_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/False_Killer_Whale/6102100W.wav",
+      "labels": "False_Killer_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/False_Killer_Whale/6102300P.wav",
+      "labels": "False_Killer_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/False_Killer_Whale/6102301E.wav",
+      "labels": "False_Killer_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/False_Killer_Whale/9500300B.wav",
+      "labels": "False_Killer_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/False_Killer_Whale/95003008.wav",
+      "labels": "False_Killer_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/False_Killer_Whale/6102300I.wav",
+      "labels": "False_Killer_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/False_Killer_Whale/61023019.wav",
+      "labels": "False_Killer_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/False_Killer_Whale/6102300D.wav",
+      "labels": "False_Killer_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/False_Killer_Whale/6102301J.wav",
+      "labels": "False_Killer_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/False_Killer_Whale/61023016.wav",
+      "labels": "False_Killer_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/False_Killer_Whale/61023009.wav",
+      "labels": "False_Killer_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/False_Killer_Whale/6102101C.wav",
+      "labels": "False_Killer_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/False_Killer_Whale/95003001.wav",
+      "labels": "False_Killer_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/False_Killer_Whale/6102300C.wav",
+      "labels": "False_Killer_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/False_Killer_Whale/6102300A.wav",
+      "labels": "False_Killer_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/False_Killer_Whale/6102100Y.wav",
+      "labels": "False_Killer_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/False_Killer_Whale/6102300F.wav",
+      "labels": "False_Killer_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Melon_Headed_Whale/91012040.wav",
+      "labels": "Melon_Headed_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Melon_Headed_Whale/9101203D.wav",
+      "labels": "Melon_Headed_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Melon_Headed_Whale/9101202S.wav",
+      "labels": "Melon_Headed_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Melon_Headed_Whale/91012042.wav",
+      "labels": "Melon_Headed_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Melon_Headed_Whale/9101201Z.wav",
+      "labels": "Melon_Headed_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Melon_Headed_Whale/9101202R.wav",
+      "labels": "Melon_Headed_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Melon_Headed_Whale/9101203V.wav",
+      "labels": "Melon_Headed_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Melon_Headed_Whale/9101204O.wav",
+      "labels": "Melon_Headed_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Melon_Headed_Whale/9101200C.wav",
+      "labels": "Melon_Headed_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Melon_Headed_Whale/91012003.wav",
+      "labels": "Melon_Headed_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Melon_Headed_Whale/9101204L.wav",
+      "labels": "Melon_Headed_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Melon_Headed_Whale/9101202B.wav",
+      "labels": "Melon_Headed_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Melon_Headed_Whale/9101201C.wav",
+      "labels": "Melon_Headed_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Melon_Headed_Whale/9101204F.wav",
+      "labels": "Melon_Headed_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Melon_Headed_Whale/9101201I.wav",
+      "labels": "Melon_Headed_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Melon_Headed_Whale/91012049.wav",
+      "labels": "Melon_Headed_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Melon_Headed_Whale/9101203S.wav",
+      "labels": "Melon_Headed_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Melon_Headed_Whale/91012045.wav",
+      "labels": "Melon_Headed_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Melon_Headed_Whale/9101204J.wav",
+      "labels": "Melon_Headed_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Melon_Headed_Whale/9101201E.wav",
+      "labels": "Melon_Headed_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Melon_Headed_Whale/91012026.wav",
+      "labels": "Melon_Headed_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Melon_Headed_Whale/9101204N.wav",
+      "labels": "Melon_Headed_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Melon_Headed_Whale/91012016.wav",
+      "labels": "Melon_Headed_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Melon_Headed_Whale/91012048.wav",
+      "labels": "Melon_Headed_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Melon_Headed_Whale/9101202U.wav",
+      "labels": "Melon_Headed_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Melon_Headed_Whale/9101204A.wav",
+      "labels": "Melon_Headed_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Melon_Headed_Whale/9101204C.wav",
+      "labels": "Melon_Headed_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Melon_Headed_Whale/9101200K.wav",
+      "labels": "Melon_Headed_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Melon_Headed_Whale/9101203J.wav",
+      "labels": "Melon_Headed_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Melon_Headed_Whale/91012024.wav",
+      "labels": "Melon_Headed_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Melon_Headed_Whale/9101201L.wav",
+      "labels": "Melon_Headed_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Melon_Headed_Whale/91012037.wav",
+      "labels": "Melon_Headed_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Melon_Headed_Whale/9101203X.wav",
+      "labels": "Melon_Headed_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Melon_Headed_Whale/9101203I.wav",
+      "labels": "Melon_Headed_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Melon_Headed_Whale/9101204M.wav",
+      "labels": "Melon_Headed_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Melon_Headed_Whale/91012044.wav",
+      "labels": "Melon_Headed_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Melon_Headed_Whale/91012006.wav",
+      "labels": "Melon_Headed_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Melon_Headed_Whale/9101201F.wav",
+      "labels": "Melon_Headed_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Long-Finned_Pilot_Whale/7702800X.wav",
+      "labels": "Long-Finned_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Long-Finned_Pilot_Whale/77028017.wav",
+      "labels": "Long-Finned_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Long-Finned_Pilot_Whale/7500402O.wav",
+      "labels": "Long-Finned_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Long-Finned_Pilot_Whale/75004025.wav",
+      "labels": "Long-Finned_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Long-Finned_Pilot_Whale/7703400L.wav",
+      "labels": "Long-Finned_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Long-Finned_Pilot_Whale/54024007.wav",
+      "labels": "Long-Finned_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Long-Finned_Pilot_Whale/7500502Z.wav",
+      "labels": "Long-Finned_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Long-Finned_Pilot_Whale/7703400D.wav",
+      "labels": "Long-Finned_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Long-Finned_Pilot_Whale/7703400U.wav",
+      "labels": "Long-Finned_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Long-Finned_Pilot_Whale/77028010.wav",
+      "labels": "Long-Finned_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Long-Finned_Pilot_Whale/77028018.wav",
+      "labels": "Long-Finned_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Long-Finned_Pilot_Whale/7703400H.wav",
+      "labels": "Long-Finned_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Long-Finned_Pilot_Whale/5402400B.wav",
+      "labels": "Long-Finned_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Long-Finned_Pilot_Whale/54024002.wav",
+      "labels": "Long-Finned_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Long-Finned_Pilot_Whale/77034009.wav",
+      "labels": "Long-Finned_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Long-Finned_Pilot_Whale/7500502V.wav",
+      "labels": "Long-Finned_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Long-Finned_Pilot_Whale/7500502Q.wav",
+      "labels": "Long-Finned_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Long-Finned_Pilot_Whale/5402400A.wav",
+      "labels": "Long-Finned_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Long-Finned_Pilot_Whale/5402400C.wav",
+      "labels": "Long-Finned_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Long-Finned_Pilot_Whale/7500502X.wav",
+      "labels": "Long-Finned_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Long-Finned_Pilot_Whale/7702801L.wav",
+      "labels": "Long-Finned_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Long-Finned_Pilot_Whale/7500502J.wav",
+      "labels": "Long-Finned_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Long-Finned_Pilot_Whale/7500403N.wav",
+      "labels": "Long-Finned_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Long-Finned_Pilot_Whale/7500401F.wav",
+      "labels": "Long-Finned_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Long-Finned_Pilot_Whale/7500400U.wav",
+      "labels": "Long-Finned_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Long-Finned_Pilot_Whale/7703400M.wav",
+      "labels": "Long-Finned_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Long-Finned_Pilot_Whale/7703400S.wav",
+      "labels": "Long-Finned_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Long-Finned_Pilot_Whale/7500403J.wav",
+      "labels": "Long-Finned_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Long-Finned_Pilot_Whale/7702800V.wav",
+      "labels": "Long-Finned_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Long-Finned_Pilot_Whale/7500502U.wav",
+      "labels": "Long-Finned_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Long-Finned_Pilot_Whale/75005039.wav",
+      "labels": "Long-Finned_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Long-Finned_Pilot_Whale/54024003.wav",
+      "labels": "Long-Finned_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Long-Finned_Pilot_Whale/54024001.wav",
+      "labels": "Long-Finned_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Long-Finned_Pilot_Whale/7500402F.wav",
+      "labels": "Long-Finned_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Long-Finned_Pilot_Whale/7703400Q.wav",
+      "labels": "Long-Finned_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Long-Finned_Pilot_Whale/7500503L.wav",
+      "labels": "Long-Finned_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Long-Finned_Pilot_Whale/77034006.wav",
+      "labels": "Long-Finned_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Long-Finned_Pilot_Whale/7500502S.wav",
+      "labels": "Long-Finned_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Long-Finned_Pilot_Whale/77028009.wav",
+      "labels": "Long-Finned_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Long-Finned_Pilot_Whale/7702801K.wav",
+      "labels": "Long-Finned_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Long-Finned_Pilot_Whale/75005031.wav",
+      "labels": "Long-Finned_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Long-Finned_Pilot_Whale/7702801F.wav",
+      "labels": "Long-Finned_Pilot_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Striped_Dolphin/85009011.wav",
+      "labels": "Striped_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Striped_Dolphin/75003010.wav",
+      "labels": "Striped_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Striped_Dolphin/8500701A.wav",
+      "labels": "Striped_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Striped_Dolphin/7500300P.wav",
+      "labels": "Striped_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Striped_Dolphin/5801100I.wav",
+      "labels": "Striped_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Striped_Dolphin/72007037.wav",
+      "labels": "Striped_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Striped_Dolphin/75003014.wav",
+      "labels": "Striped_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Striped_Dolphin/7500300M.wav",
+      "labels": "Striped_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Striped_Dolphin/8500701F.wav",
+      "labels": "Striped_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Striped_Dolphin/5801100Z.wav",
+      "labels": "Striped_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Striped_Dolphin/5801100A.wav",
+      "labels": "Striped_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Striped_Dolphin/58011009.wav",
+      "labels": "Striped_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Striped_Dolphin/8500701I.wav",
+      "labels": "Striped_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Striped_Dolphin/75003009.wav",
+      "labels": "Striped_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Striped_Dolphin/72007035.wav",
+      "labels": "Striped_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Striped_Dolphin/8500701C.wav",
+      "labels": "Striped_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Striped_Dolphin/7500301P.wav",
+      "labels": "Striped_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Striped_Dolphin/7500301H.wav",
+      "labels": "Striped_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Striped_Dolphin/7200703B.wav",
+      "labels": "Striped_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Striped_Dolphin/8500701G.wav",
+      "labels": "Striped_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Striped_Dolphin/7200703A.wav",
+      "labels": "Striped_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Striped_Dolphin/75003061.wav",
+      "labels": "Striped_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Striped_Dolphin/5801100U.wav",
+      "labels": "Striped_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Striped_Dolphin/5801100N.wav",
+      "labels": "Striped_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Striped_Dolphin/5801100Y.wav",
+      "labels": "Striped_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Striped_Dolphin/7500300H.wav",
+      "labels": "Striped_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Striped_Dolphin/72007039.wav",
+      "labels": "Striped_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Striped_Dolphin/5801100X.wav",
+      "labels": "Striped_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Striped_Dolphin/8500701B.wav",
+      "labels": "Striped_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Striped_Dolphin/5801100O.wav",
+      "labels": "Striped_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Striped_Dolphin/5801100Q.wav",
+      "labels": "Striped_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Striped_Dolphin/7500300V.wav",
+      "labels": "Striped_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Striped_Dolphin/75003002.wav",
+      "labels": "Striped_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Striped_Dolphin/8500701H.wav",
+      "labels": "Striped_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Striped_Dolphin/7500300Z.wav",
+      "labels": "Striped_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Striped_Dolphin/5801100G.wav",
+      "labels": "Striped_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Striped_Dolphin/5801100C.wav",
+      "labels": "Striped_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Striped_Dolphin/5801100P.wav",
+      "labels": "Striped_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Striped_Dolphin/75003005.wav",
+      "labels": "Striped_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Striped_Dolphin/75003011.wav",
+      "labels": "Striped_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Striped_Dolphin/5801101J.wav",
+      "labels": "Striped_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Striped_Dolphin/5801100S.wav",
+      "labels": "Striped_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Striped_Dolphin/7500300Q.wav",
+      "labels": "Striped_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Striped_Dolphin/7500305Z.wav",
+      "labels": "Striped_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Striped_Dolphin/5801101L.wav",
+      "labels": "Striped_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Striped_Dolphin/5801100W.wav",
+      "labels": "Striped_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Striped_Dolphin/75003016.wav",
+      "labels": "Striped_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Striped_Dolphin/5801100V.wav",
+      "labels": "Striped_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Striped_Dolphin/5801100T.wav",
+      "labels": "Striped_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Leopard_Seal/6608400J.wav",
+      "labels": "Leopard_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Leopard_Seal/6608400P.wav",
+      "labels": "Leopard_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Leopard_Seal/66084013.wav",
+      "labels": "Leopard_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Leopard_Seal/6608400I.wav",
+      "labels": "Leopard_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Leopard_Seal/6608400N.wav",
+      "labels": "Leopard_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Leopard_Seal/6608400R.wav",
+      "labels": "Leopard_Seal"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Walrus/72019009.wav",
+      "labels": "Walrus"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Walrus/7200200B.wav",
+      "labels": "Walrus"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Walrus/72019003.wav",
+      "labels": "Walrus"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Walrus/72020008.wav",
+      "labels": "Walrus"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Walrus/7202000A.wav",
+      "labels": "Walrus"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Walrus/7200200F.wav",
+      "labels": "Walrus"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Walrus/72002004.wav",
+      "labels": "Walrus"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Walrus/72019008.wav",
+      "labels": "Walrus"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Walrus/72019002.wav",
+      "labels": "Walrus"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Walrus/72020006.wav",
+      "labels": "Walrus"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Walrus/72019007.wav",
+      "labels": "Walrus"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Walrus/7200200M.wav",
+      "labels": "Walrus"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Walrus/72014004.wav",
+      "labels": "Walrus"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Walrus/72014002.wav",
+      "labels": "Walrus"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Walrus/72019004.wav",
+      "labels": "Walrus"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Walrus/72019005.wav",
+      "labels": "Walrus"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Walrus/66006005.wav",
+      "labels": "Walrus"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Walrus/7200200E.wav",
+      "labels": "Walrus"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Walrus/72014003.wav",
+      "labels": "Walrus"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Walrus/7200200K.wav",
+      "labels": "Walrus"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Walrus/72014006.wav",
+      "labels": "Walrus"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Walrus/72002002.wav",
+      "labels": "Walrus"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Walrus/7200200L.wav",
+      "labels": "Walrus"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Sperm_Whale/91012009.wav",
+      "labels": "Sperm_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Sperm_Whale/72009003.wav",
+      "labels": "Sperm_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Sperm_Whale/91003003.wav",
+      "labels": "Sperm_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Sperm_Whale/7702801M.wav",
+      "labels": "Sperm_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Sperm_Whale/7702800U.wav",
+      "labels": "Sperm_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Sperm_Whale/83019001.wav",
+      "labels": "Sperm_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Sperm_Whale/8301900C.wav",
+      "labels": "Sperm_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Sperm_Whale/7200900E.wav",
+      "labels": "Sperm_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Sperm_Whale/8800201N.wav",
+      "labels": "Sperm_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Sperm_Whale/8401400A.wav",
+      "labels": "Sperm_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Sperm_Whale/9357000A.wav",
+      "labels": "Sperm_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Sperm_Whale/85004001.wav",
+      "labels": "Sperm_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Sperm_Whale/9357000P.wav",
+      "labels": "Sperm_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Sperm_Whale/85004002.wav",
+      "labels": "Sperm_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Sperm_Whale/85004003.wav",
+      "labels": "Sperm_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Sperm_Whale/91003001.wav",
+      "labels": "Sperm_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Sperm_Whale/9357000C.wav",
+      "labels": "Sperm_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Sperm_Whale/7200900P.wav",
+      "labels": "Sperm_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Sperm_Whale/85004004.wav",
+      "labels": "Sperm_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Sperm_Whale/85005003.wav",
+      "labels": "Sperm_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Sperm_Whale/72009001.wav",
+      "labels": "Sperm_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Sperm_Whale/85005004.wav",
+      "labels": "Sperm_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Sperm_Whale/87017003.wav",
+      "labels": "Sperm_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Sperm_Whale/8800201M.wav",
+      "labels": "Sperm_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Sperm_Whale/85004005.wav",
+      "labels": "Sperm_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Sperm_Whale/93570007.wav",
+      "labels": "Sperm_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Sperm_Whale/93570008.wav",
+      "labels": "Sperm_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Sperm_Whale/91012048.wav",
+      "labels": "Sperm_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Sperm_Whale/72009006.wav",
+      "labels": "Sperm_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Sperm_Whale/87017004.wav",
+      "labels": "Sperm_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Sperm_Whale/85004006.wav",
+      "labels": "Sperm_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Sperm_Whale/7200900F.wav",
+      "labels": "Sperm_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Sperm_Whale/72009005.wav",
+      "labels": "Sperm_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Sperm_Whale/8401600B.wav",
+      "labels": "Sperm_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Sperm_Whale/87017002.wav",
+      "labels": "Sperm_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Sperm_Whale/7702800V.wav",
+      "labels": "Sperm_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Sperm_Whale/9400400C.wav",
+      "labels": "Sperm_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Sperm_Whale/72009002.wav",
+      "labels": "Sperm_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Sperm_Whale/84020001.wav",
+      "labels": "Sperm_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Sperm_Whale/93570006.wav",
+      "labels": "Sperm_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Sperm_Whale/85005002.wav",
+      "labels": "Sperm_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Sperm_Whale/91003005.wav",
+      "labels": "Sperm_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Sperm_Whale/9357000E.wav",
+      "labels": "Sperm_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Sperm_Whale/85004007.wav",
+      "labels": "Sperm_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Sperm_Whale/90039006.wav",
+      "labels": "Sperm_Whale"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Common_Dolphin/7500303Q.wav",
+      "labels": "Common_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Common_Dolphin/7500305D.wav",
+      "labels": "Common_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Common_Dolphin/75003043.wav",
+      "labels": "Common_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Common_Dolphin/7500304O.wav",
+      "labels": "Common_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Common_Dolphin/58014014.wav",
+      "labels": "Common_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Common_Dolphin/7500305I.wav",
+      "labels": "Common_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Common_Dolphin/7500304G.wav",
+      "labels": "Common_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Common_Dolphin/58014036.wav",
+      "labels": "Common_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Common_Dolphin/7500304Q.wav",
+      "labels": "Common_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Common_Dolphin/5801404R.wav",
+      "labels": "Common_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Common_Dolphin/75003058.wav",
+      "labels": "Common_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Common_Dolphin/7500305C.wav",
+      "labels": "Common_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Common_Dolphin/5801404D.wav",
+      "labels": "Common_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Common_Dolphin/75003044.wav",
+      "labels": "Common_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Common_Dolphin/7500304M.wav",
+      "labels": "Common_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Common_Dolphin/75003052.wav",
+      "labels": "Common_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Common_Dolphin/75003057.wav",
+      "labels": "Common_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Common_Dolphin/5801404T.wav",
+      "labels": "Common_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Common_Dolphin/7500305M.wav",
+      "labels": "Common_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Common_Dolphin/7500304I.wav",
+      "labels": "Common_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Common_Dolphin/75003051.wav",
+      "labels": "Common_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Common_Dolphin/7500303Z.wav",
+      "labels": "Common_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Common_Dolphin/7500304K.wav",
+      "labels": "Common_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Common_Dolphin/5801402C.wav",
+      "labels": "Common_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Common_Dolphin/7500304H.wav",
+      "labels": "Common_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Common_Dolphin/7500303M.wav",
+      "labels": "Common_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Common_Dolphin/58014028.wav",
+      "labels": "Common_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Common_Dolphin/7500303Y.wav",
+      "labels": "Common_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Common_Dolphin/87003006.wav",
+      "labels": "Common_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Common_Dolphin/58014015.wav",
+      "labels": "Common_Dolphin"
+    },
+    {
+      "wav": "/mnt/data/tungtran/beans/data/watkins_16bit/Common_Dolphin/87003005.wav",
+      "labels": "Common_Dolphin"
+    }
+  ]
+}

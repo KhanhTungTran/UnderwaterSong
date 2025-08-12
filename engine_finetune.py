@@ -370,6 +370,7 @@ def evaluate(data_loader, model, device):
         targets_one_hot = np.zeros((targets.shape[0], outputs.shape[1]))
         targets_one_hot[np.arange(targets.shape[0]), targets] = 1
         targets = targets_one_hot
+    import pdb; pdb.set_trace()
     stats = calculate_stats(outputs, targets)
     AP = [stat['AP'] for stat in stats]
     mAP = np.mean([stat['AP'] for stat in stats])
